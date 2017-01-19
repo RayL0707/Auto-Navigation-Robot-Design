@@ -1,0 +1,1676 @@
+
+# 1 "test1.c"
+
+# 19 "C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h"
+volatile unsigned char INDF @ 0x00;
+volatile unsigned char TMR0 @ 0x01;
+volatile unsigned char PCL @ 0x02;
+volatile unsigned char STATUS @ 0x03;
+unsigned char FSR @ 0x04;
+volatile unsigned char PORTA @ 0x05;
+volatile unsigned char PORTB @ 0x06;
+volatile unsigned char PORTC @ 0x07;
+
+volatile unsigned char PORTD @ 0x08;
+volatile unsigned char PORTE @ 0x09;
+
+unsigned char PCLATH @ 0x0A;
+volatile unsigned char INTCON @ 0x0B;
+volatile unsigned char PIR1 @ 0x0C;
+volatile unsigned char PIR2 @ 0x0D;
+volatile unsigned char TMR1L @ 0x0E;
+volatile unsigned char TMR1H @ 0x0F;
+volatile unsigned char T1CON @ 0x10;
+volatile unsigned char TMR2 @ 0x11;
+volatile unsigned char T2CON @ 0x12;
+volatile unsigned char SSPBUF @ 0x13;
+volatile unsigned char SSPCON @ 0x14;
+volatile unsigned char CCPR1L @ 0x15;
+volatile unsigned char CCPR1H @ 0x16;
+volatile unsigned char CCP1CON @ 0x17;
+volatile unsigned char RCSTA @ 0x18;
+volatile unsigned char TXREG @ 0x19;
+volatile unsigned char RCREG @ 0x1A;
+volatile unsigned char CCPR2L @ 0x1B;
+volatile unsigned char CCPR2H @ 0x1C;
+volatile unsigned char CCP2CON @ 0x1D;
+volatile unsigned char ADRESH @ 0x1E;
+volatile unsigned char ADCON0 @ 0x1F;
+
+
+unsigned char OPTION @ 0x81;
+volatile unsigned char TRISA @ 0x85;
+volatile unsigned char TRISB @ 0x86;
+volatile unsigned char TRISC @ 0x87;
+
+volatile unsigned char TRISD @ 0x88;
+volatile unsigned char TRISE @ 0x89;
+
+volatile unsigned char PIE1 @ 0x8C;
+volatile unsigned char PIE2 @ 0x8D;
+volatile unsigned char PCON @ 0x8E;
+volatile unsigned char SSPCON2 @ 0x91;
+volatile unsigned char PR2 @ 0x92;
+volatile unsigned char SSPADD @ 0x93;
+volatile unsigned char SSPSTAT @ 0x94;
+volatile unsigned char TXSTA @ 0x98;
+volatile unsigned char SPBRG @ 0x99;
+volatile unsigned char CMCON @ 0x9C;
+volatile unsigned char CVRCON @ 0x9D;
+volatile unsigned char ADRESL @ 0x9E;
+volatile unsigned char ADCON1 @ 0x9F;
+
+
+volatile unsigned char EEDATA @ 0x10C;
+volatile unsigned char EEADR @ 0x10D;
+
+volatile unsigned char EEADRL @ 0x10D;
+volatile unsigned char EEDATH @ 0x10E;
+volatile unsigned char EEADRH @ 0x10F;
+
+
+volatile unsigned char EECON1 @ 0x18C;
+volatile unsigned char EECON2 @ 0x18D;
+
+
+volatile bit IRP @ (unsigned)&STATUS*8+7;
+volatile bit RP1 @ (unsigned)&STATUS*8+6;
+volatile bit RP0 @ (unsigned)&STATUS*8+5;
+volatile bit TO @ (unsigned)&STATUS*8+4;
+volatile bit PD @ (unsigned)&STATUS*8+3;
+volatile bit ZERO @ (unsigned)&STATUS*8+2;
+volatile bit DC @ (unsigned)&STATUS*8+1;
+volatile bit CARRY @ (unsigned)&STATUS*8+0;
+
+
+volatile bit RA5 @ (unsigned)&PORTA*8+5;
+volatile bit RA4 @ (unsigned)&PORTA*8+4;
+volatile bit RA3 @ (unsigned)&PORTA*8+3;
+volatile bit RA2 @ (unsigned)&PORTA*8+2;
+volatile bit RA1 @ (unsigned)&PORTA*8+1;
+volatile bit RA0 @ (unsigned)&PORTA*8+0;
+
+
+volatile bit RB7 @ (unsigned)&PORTB*8+7;
+volatile bit RB6 @ (unsigned)&PORTB*8+6;
+volatile bit RB5 @ (unsigned)&PORTB*8+5;
+volatile bit RB4 @ (unsigned)&PORTB*8+4;
+volatile bit RB3 @ (unsigned)&PORTB*8+3;
+volatile bit RB2 @ (unsigned)&PORTB*8+2;
+volatile bit RB1 @ (unsigned)&PORTB*8+1;
+volatile bit RB0 @ (unsigned)&PORTB*8+0;
+
+
+volatile bit RC7 @ (unsigned)&PORTC*8+7;
+volatile bit RC6 @ (unsigned)&PORTC*8+6;
+volatile bit RC5 @ (unsigned)&PORTC*8+5;
+volatile bit RC4 @ (unsigned)&PORTC*8+4;
+volatile bit RC3 @ (unsigned)&PORTC*8+3;
+volatile bit RC2 @ (unsigned)&PORTC*8+2;
+volatile bit RC1 @ (unsigned)&PORTC*8+1;
+volatile bit RC0 @ (unsigned)&PORTC*8+0;
+
+
+
+volatile bit RD7 @ (unsigned)&PORTD*8+7;
+volatile bit RD6 @ (unsigned)&PORTD*8+6;
+volatile bit RD5 @ (unsigned)&PORTD*8+5;
+volatile bit RD4 @ (unsigned)&PORTD*8+4;
+volatile bit RD3 @ (unsigned)&PORTD*8+3;
+volatile bit RD2 @ (unsigned)&PORTD*8+2;
+volatile bit RD1 @ (unsigned)&PORTD*8+1;
+volatile bit RD0 @ (unsigned)&PORTD*8+0;
+
+
+volatile bit RE2 @ (unsigned)&PORTE*8+2;
+volatile bit RE1 @ (unsigned)&PORTE*8+1;
+volatile bit RE0 @ (unsigned)&PORTE*8+0;
+
+
+
+volatile bit GIE @ (unsigned)&INTCON*8+7;
+volatile bit PEIE @ (unsigned)&INTCON*8+6;
+volatile bit T0IE @ (unsigned)&INTCON*8+5;
+volatile bit INTE @ (unsigned)&INTCON*8+4;
+volatile bit RBIE @ (unsigned)&INTCON*8+3;
+volatile bit T0IF @ (unsigned)&INTCON*8+2;
+volatile bit INTF @ (unsigned)&INTCON*8+1;
+volatile bit RBIF @ (unsigned)&INTCON*8+0;
+
+volatile bit TMR0IE @ (unsigned)&INTCON*8+5;
+volatile bit TMR0IF @ (unsigned)&INTCON*8+2;
+
+
+
+volatile bit PSPIF @ (unsigned)&PIR1*8+7;
+
+volatile bit ADIF @ (unsigned)&PIR1*8+6;
+volatile bit RCIF @ (unsigned)&PIR1*8+5;
+volatile bit TXIF @ (unsigned)&PIR1*8+4;
+volatile bit SSPIF @ (unsigned)&PIR1*8+3;
+volatile bit CCP1IF @ (unsigned)&PIR1*8+2;
+volatile bit TMR2IF @ (unsigned)&PIR1*8+1;
+volatile bit TMR1IF @ (unsigned)&PIR1*8+0;
+
+
+volatile bit CMIF @ (unsigned)&PIR2*8+6;
+volatile bit EEIF @ (unsigned)&PIR2*8+4;
+volatile bit BCLIF @ (unsigned)&PIR2*8+3;
+volatile bit CCP2IF @ (unsigned)&PIR2*8+0;
+
+
+volatile bit T1CKPS1 @ (unsigned)&T1CON*8+5;
+volatile bit T1CKPS0 @ (unsigned)&T1CON*8+4;
+volatile bit T1OSCEN @ (unsigned)&T1CON*8+3;
+volatile bit T1SYNC @ (unsigned)&T1CON*8+2;
+volatile bit TMR1CS @ (unsigned)&T1CON*8+1;
+volatile bit TMR1ON @ (unsigned)&T1CON*8+0;
+
+
+volatile bit TOUTPS3 @ (unsigned)&T2CON*8+6;
+volatile bit TOUTPS2 @ (unsigned)&T2CON*8+5;
+volatile bit TOUTPS1 @ (unsigned)&T2CON*8+4;
+volatile bit TOUTPS0 @ (unsigned)&T2CON*8+3;
+volatile bit TMR2ON @ (unsigned)&T2CON*8+2;
+volatile bit T2CKPS1 @ (unsigned)&T2CON*8+1;
+volatile bit T2CKPS0 @ (unsigned)&T2CON*8+0;
+
+
+volatile bit WCOL @ (unsigned)&SSPCON*8+7;
+volatile bit SSPOV @ (unsigned)&SSPCON*8+6;
+volatile bit SSPEN @ (unsigned)&SSPCON*8+5;
+volatile bit CKP @ (unsigned)&SSPCON*8+4;
+volatile bit SSPM3 @ (unsigned)&SSPCON*8+3;
+volatile bit SSPM2 @ (unsigned)&SSPCON*8+2;
+volatile bit SSPM1 @ (unsigned)&SSPCON*8+1;
+volatile bit SSPM0 @ (unsigned)&SSPCON*8+0;
+
+
+volatile bit CCP1X @ (unsigned)&CCP1CON*8+5;
+volatile bit CCP1Y @ (unsigned)&CCP1CON*8+4;
+volatile bit CCP1M3 @ (unsigned)&CCP1CON*8+3;
+volatile bit CCP1M2 @ (unsigned)&CCP1CON*8+2;
+volatile bit CCP1M1 @ (unsigned)&CCP1CON*8+1;
+volatile bit CCP1M0 @ (unsigned)&CCP1CON*8+0;
+
+
+volatile bit SPEN @ (unsigned)&RCSTA*8+7;
+volatile bit RX9 @ (unsigned)&RCSTA*8+6;
+volatile bit SREN @ (unsigned)&RCSTA*8+5;
+volatile bit CREN @ (unsigned)&RCSTA*8+4;
+volatile bit ADDEN @ (unsigned)&RCSTA*8+3;
+volatile bit FERR @ (unsigned)&RCSTA*8+2;
+volatile bit OERR @ (unsigned)&RCSTA*8+1;
+volatile bit RX9D @ (unsigned)&RCSTA*8+0;
+
+
+volatile bit CCP2X @ (unsigned)&CCP2CON*8+5;
+volatile bit CCP2Y @ (unsigned)&CCP2CON*8+4;
+volatile bit CCP2M3 @ (unsigned)&CCP2CON*8+3;
+volatile bit CCP2M2 @ (unsigned)&CCP2CON*8+2;
+volatile bit CCP2M1 @ (unsigned)&CCP2CON*8+1;
+volatile bit CCP2M0 @ (unsigned)&CCP2CON*8+0;
+
+
+volatile bit ADCS1 @ (unsigned)&ADCON0*8+7;
+volatile bit ADCS0 @ (unsigned)&ADCON0*8+6;
+volatile bit CHS2 @ (unsigned)&ADCON0*8+5;
+volatile bit CHS1 @ (unsigned)&ADCON0*8+4;
+volatile bit CHS0 @ (unsigned)&ADCON0*8+3;
+volatile bit ADGO @ (unsigned)&ADCON0*8+2;
+
+volatile bit GODONE @ (unsigned)&ADCON0*8+2;
+volatile bit ADON @ (unsigned)&ADCON0*8+0;
+
+
+bit RBPU @ (unsigned)&OPTION*8+7;
+bit INTEDG @ (unsigned)&OPTION*8+6;
+bit T0CS @ (unsigned)&OPTION*8+5;
+bit T0SE @ (unsigned)&OPTION*8+4;
+bit PSA @ (unsigned)&OPTION*8+3;
+bit PS2 @ (unsigned)&OPTION*8+2;
+bit PS1 @ (unsigned)&OPTION*8+1;
+bit PS0 @ (unsigned)&OPTION*8+0;
+
+
+volatile bit TRISA5 @ (unsigned)&TRISA*8+5;
+volatile bit TRISA4 @ (unsigned)&TRISA*8+4;
+volatile bit TRISA3 @ (unsigned)&TRISA*8+3;
+volatile bit TRISA2 @ (unsigned)&TRISA*8+2;
+volatile bit TRISA1 @ (unsigned)&TRISA*8+1;
+volatile bit TRISA0 @ (unsigned)&TRISA*8+0;
+
+
+volatile bit TRISB7 @ (unsigned)&TRISB*8+7;
+volatile bit TRISB6 @ (unsigned)&TRISB*8+6;
+volatile bit TRISB5 @ (unsigned)&TRISB*8+5;
+volatile bit TRISB4 @ (unsigned)&TRISB*8+4;
+volatile bit TRISB3 @ (unsigned)&TRISB*8+3;
+volatile bit TRISB2 @ (unsigned)&TRISB*8+2;
+volatile bit TRISB1 @ (unsigned)&TRISB*8+1;
+volatile bit TRISB0 @ (unsigned)&TRISB*8+0;
+
+
+volatile bit TRISC7 @ (unsigned)&TRISC*8+7;
+volatile bit TRISC6 @ (unsigned)&TRISC*8+6;
+volatile bit TRISC5 @ (unsigned)&TRISC*8+5;
+volatile bit TRISC4 @ (unsigned)&TRISC*8+4;
+volatile bit TRISC3 @ (unsigned)&TRISC*8+3;
+volatile bit TRISC2 @ (unsigned)&TRISC*8+2;
+volatile bit TRISC1 @ (unsigned)&TRISC*8+1;
+volatile bit TRISC0 @ (unsigned)&TRISC*8+0;
+
+
+
+volatile bit TRISD7 @ (unsigned)&TRISD*8+7;
+volatile bit TRISD6 @ (unsigned)&TRISD*8+6;
+volatile bit TRISD5 @ (unsigned)&TRISD*8+5;
+volatile bit TRISD4 @ (unsigned)&TRISD*8+4;
+volatile bit TRISD3 @ (unsigned)&TRISD*8+3;
+volatile bit TRISD2 @ (unsigned)&TRISD*8+2;
+volatile bit TRISD1 @ (unsigned)&TRISD*8+1;
+volatile bit TRISD0 @ (unsigned)&TRISD*8+0;
+
+
+volatile bit IBF @ (unsigned)&TRISE*8+7;
+volatile bit OBF @ (unsigned)&TRISE*8+6;
+volatile bit IBOV @ (unsigned)&TRISE*8+5;
+volatile bit PSPMODE @ (unsigned)&TRISE*8+4;
+
+volatile bit TRISE2 @ (unsigned)&TRISE*8+2;
+volatile bit TRISE1 @ (unsigned)&TRISE*8+1;
+volatile bit TRISE0 @ (unsigned)&TRISE*8+0;
+
+
+
+
+volatile bit PSPIE @ (unsigned)&PIE1*8+7;
+
+volatile bit ADIE @ (unsigned)&PIE1*8+6;
+volatile bit RCIE @ (unsigned)&PIE1*8+5;
+volatile bit TXIE @ (unsigned)&PIE1*8+4;
+volatile bit SSPIE @ (unsigned)&PIE1*8+3;
+volatile bit CCP1IE @ (unsigned)&PIE1*8+2;
+volatile bit TMR2IE @ (unsigned)&PIE1*8+1;
+volatile bit TMR1IE @ (unsigned)&PIE1*8+0;
+
+
+volatile bit CMIE @ (unsigned)&PIE2*8+6;
+volatile bit EEIE @ (unsigned)&PIE2*8+4;
+volatile bit BCLIE @ (unsigned)&PIE2*8+3;
+volatile bit CCP2IE @ (unsigned)&PIE2*8+0;
+
+
+volatile bit POR @ (unsigned)&PCON*8+1;
+volatile bit BOR @ (unsigned)&PCON*8+0;
+
+
+volatile bit GCEN @ (unsigned)&SSPCON2*8+7;
+volatile bit ACKSTAT @ (unsigned)&SSPCON2*8+6;
+volatile bit ACKDT @ (unsigned)&SSPCON2*8+5;
+volatile bit ACKEN @ (unsigned)&SSPCON2*8+4;
+volatile bit RCEN @ (unsigned)&SSPCON2*8+3;
+volatile bit PEN @ (unsigned)&SSPCON2*8+2;
+volatile bit RSEN @ (unsigned)&SSPCON2*8+1;
+volatile bit SEN @ (unsigned)&SSPCON2*8+0;
+
+
+volatile bit SMP @ (unsigned)&SSPSTAT*8+7;
+volatile bit CKE @ (unsigned)&SSPSTAT*8+6;
+volatile bit DA @ (unsigned)&SSPSTAT*8+5;
+volatile bit STOP @ (unsigned)&SSPSTAT*8+4;
+volatile bit START @ (unsigned)&SSPSTAT*8+3;
+volatile bit RW @ (unsigned)&SSPSTAT*8+2;
+volatile bit UA @ (unsigned)&SSPSTAT*8+1;
+volatile bit BF @ (unsigned)&SSPSTAT*8+0;
+
+# 352
+volatile bit CSRC @ (unsigned)&TXSTA*8+7;
+volatile bit TX9 @ (unsigned)&TXSTA*8+6;
+volatile bit TXEN @ (unsigned)&TXSTA*8+5;
+volatile bit SYNC @ (unsigned)&TXSTA*8+4;
+volatile bit BRGH @ (unsigned)&TXSTA*8+2;
+volatile bit TRMT @ (unsigned)&TXSTA*8+1;
+volatile bit TX9D @ (unsigned)&TXSTA*8+0;
+
+
+volatile bit C2OUT @ (unsigned)&CMCON*8+7;
+volatile bit C1OUT @ (unsigned)&CMCON*8+6;
+volatile bit C2INV @ (unsigned)&CMCON*8+5;
+volatile bit C1INV @ (unsigned)&CMCON*8+4;
+volatile bit CIS @ (unsigned)&CMCON*8+3;
+volatile bit CM2 @ (unsigned)&CMCON*8+2;
+volatile bit CM1 @ (unsigned)&CMCON*8+1;
+volatile bit CM0 @ (unsigned)&CMCON*8+0;
+
+
+volatile bit CVREN @ (unsigned)&CVRCON*8+7;
+volatile bit CVROE @ (unsigned)&CVRCON*8+6;
+volatile bit CVRR @ (unsigned)&CVRCON*8+5;
+volatile bit CVR3 @ (unsigned)&CVRCON*8+3;
+volatile bit CVR2 @ (unsigned)&CVRCON*8+2;
+volatile bit CVR1 @ (unsigned)&CVRCON*8+1;
+volatile bit CVR0 @ (unsigned)&CVRCON*8+0;
+
+
+volatile bit ADFM @ (unsigned)&ADCON1*8+7;
+volatile bit ADCS2 @ (unsigned)&ADCON1*8+6;
+volatile bit PCFG3 @ (unsigned)&ADCON1*8+3;
+volatile bit PCFG2 @ (unsigned)&ADCON1*8+2;
+volatile bit PCFG1 @ (unsigned)&ADCON1*8+1;
+volatile bit PCFG0 @ (unsigned)&ADCON1*8+0;
+
+
+volatile bit EEPGD @ (unsigned)&EECON1*8+7;
+volatile bit WRERR @ (unsigned)&EECON1*8+3;
+volatile bit WREN @ (unsigned)&EECON1*8+2;
+volatile bit WR @ (unsigned)&EECON1*8+1;
+volatile bit RD @ (unsigned)&EECON1*8+0;
+
+# 332 "C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic.h"
+extern unsigned int flash_read(unsigned short addr);
+
+# 41 "C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\eeprom_routines.h"
+extern void eeprom_write(unsigned char addr, unsigned char value);
+extern unsigned char eeprom_read(unsigned char addr);
+
+
+# 405 "C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic.h"
+#pragma inline(_delay)
+extern void _delay(unsigned long);
+
+
+# 18 "C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h"
+#asm
+
+;These bit masks are used by functions output_low(), output_high() and read_input() to
+;determine which port/bit combinations are valid for the requested action. Invalid
+;combinations will set a bit in the cInputErr flag and then return with no I/O action. Additionally,
+;read_input will return an 0xFF. The bit masks can be changed to accommodate different PIC chip applications.
+
+;***Masks for output_low(),output_high()
+                        ;76543210 0=Disallowed(Error), 1=Allowed
+     MASK_OUT_PORTA EQU 00010000B ;bits 6,7 do not exist, bits 0-3,5 are analog inputs
+     MASK_OUT_PORTB EQU 11111111B
+     MASK_OUT_PORTC EQU 00111001B ;bit 6=TX, 7=RX (RS-232), bits 1,2 are used for motor PWM
+     MASK_OUT_PORTD EQU 11111111B
+     MASK_OUT_PORTE EQU 00000100B ;bits 3 to 7 do not exist, bits 0,1 are digital inputs
+
+;***Masks for read_input()
+                        ;76543210 0=Disallowed(Error), 1=Allowed
+     MASK_IN_PORTA EQU 00000000B ;bits 6,7 do not exist, rest are all outputs
+     MASK_IN_PORTB EQU 11111111B
+     MASK_IN_PORTC EQU 00000000B ;bit 6=TX, 7=RX (RS-232), rest are all outputs
+     MASK_IN_PORTD EQU 11111111B
+     MASK_IN_PORTE EQU 00000011B ;bits 3 to 7 do not exist, bit 2 is an output
+
+;Registers used in assembly but never in 0x00 code, must be defined for assembler
+  TXREG EQU 19h
+  INTCON EQU 0Bh
+  PORTA EQU 05h
+  PORTB EQU 06h
+  PORTC EQU 07h
+  PORTD EQU 08h
+  PORTE EQU 09h
+
+#endasm 
+# 55
+    unsigned int rt_clock @ 0x5D;
+char rt_toggle @ 0x5F;
+char save1 @ 0x60;
+char save2 @ 0x61;
+char save3 @ 0x62;
+char save4 @ 0x63;
+char save5 @ 0x64;
+char save6 @ 0x65;
+char save7 @ 0x66;
+char save8 @ 0x67;
+char save9 @ 0x68;
+char save10 @ 0x69;
+char save11 @ 0x6A;
+char save12 @ 0x6B;
+char save13 @ 0x6C;
+char save14 @ 0x6D;
+char save15 @ 0x6E;
+char save16 @ 0x6F;
+char cPortTmp @ 0x70;
+char g_cTmp1 @ 0x70;
+char cBitTmp @ 0x71;
+char g_cTmp2 @ 0x71;
+char cBitPat @ 0x72;
+char g_cTmp3 @ 0x72;
+char cStatusR @ 0x73;
+
+unsigned int g_iArg @ 0x74;
+unsigned int g_iTmp @ 0x76;
+char isr_active @ 0x78;
+char cInputErr @ 0x79;
+
+# 92
+char g_cSpeedMotor1 = 0;
+char g_cSpeedMotor2 = 0;
+
+const char * ver = "v11F-01 Timer-beta";
+
+
+
+
+void configurePIC();
+void motorspeed (char motornum, char speed);
+void output_high (char Port, char Bit);
+void output_low (char Port, char Bit);
+char read_input (char Port, char Bit);
+unsigned int read_adc (char channel);
+void pause (unsigned int time);
+void putdata (unsigned int data);
+void putchar (char data);
+char save_data();
+void restore_data();
+
+void version ();
+
+# 54 "C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\delay.h"
+extern void DelayMs(unsigned char);
+
+# 54
+extern void DelayMs(unsigned char);
+
+# 10 "C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\delay.c"
+void
+DelayMs(unsigned char cnt)
+{
+
+# 20
+unsigned char i;
+do {
+i = 4;
+do {
+{ unsigned char _dcnt; _dcnt = (250)/((36*1000L)/(4*1000L))|1; while(--_dcnt != 0) continue; };
+} while(--i);
+} while(--cnt);
+
+}
+
+# 17 "C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.c"
+void configurePIC()
+
+# 29
+{
+
+ADCON1 = 0b11000010;
+ADCON0 = 0b01000001;
+PORTA = 0b00010000;
+TRISA = 0b00101111;
+PORTB = 0b00000000;
+TRISB = 0b11111111;
+PORTC = 0b00000000;
+TRISC = 0b11000000;
+
+PORTD = 0b00000000;
+TRISD = 0b11111111;
+PORTE = 0b00000100;
+TRISE = 0b00000011;
+OPTION = 0b10000111;
+
+TMR0 = 0b00000000;
+SPBRG = 12;
+TXSTA = 0b00100100;
+RCSTA = 0b10010000;
+
+# 55
+output_low ('c', 0);
+output_high ('a', 4);
+g_cTmp1=read_input ('e', 0);
+g_iTmp=read_adc (0);
+putdata (0);
+motorspeed (1, 100);
+motorspeed (2, 100);
+pause(250);
+version();
+
+cInputErr=0;
+rt_toggle=0;
+rt_clock=0;
+isr_active=0;
+return;
+}
+
+
+
+#pragma interrupt_level 1
+void motorspeed (char motornum, char speed)
+
+# 86
+{
+if ((speed < 30) || (speed > 100))
+{ cInputErr |= 0b00010000 ;
+return;
+}
+
+INTE=0;
+
+
+PR2=103;
+
+if (motornum == 1)
+{
+if (speed == g_cSpeedMotor1)
+{INTE=1; return;}
+g_cSpeedMotor1 = speed;
+CCP1CON=0x00;
+CCPR1L=(speed+5);
+TRISC2=0;
+CCP1CON=0x0c;
+T2CON=0x06;
+}
+else if (motornum == 2)
+{
+if (speed == g_cSpeedMotor2)
+{INTE=1; return;}
+g_cSpeedMotor2 = speed;
+CCP2CON=0x00;
+CCPR2L=(speed+5);
+TRISC1=0;
+CCP2CON=0x0c;
+T2CON=0x06;
+}
+else
+{
+cInputErr |= 0b00010000 ;
+}
+INTE=1;
+return;
+}
+
+
+
+#pragma interrupt_level 1
+void output_high(char Port, char Bit)
+
+# 140
+{
+INTE=0;
+
+
+
+cPortTmp = Port;
+cBitTmp = Bit;
+cBitPat = 0b00000001;
+INTE=1;
+
+
+# 154
+#asm
+  movf _cPortTmp,w ;move Port value to W, ASCII letter value
+         ;'A'=0x41, 'a'=0x61, ..., 'E'=0x45, 'e'=0x65
+         ; 7654 3210 7654 3210
+            ; 'A'=0100 0001 'E'=0100 0101
+         ; 'a'=0110 0001 'e'=0110 0101
+  andlw 11011000B ; 1101 1000 1s = positions we want to check
+  xorlw 01000000B ; 01 0 0 insure ANDed bits = these values
+         ;if bits are expected values, W=0--> 0x02 flag=0 (Good!)
+  btfss status, 0x02 ;skip if Zero flag clear, Error
+  goto $+10 ;Error so exit >>>
+  movf _cPortTmp,w ;Get original port
+  andlw 00000111B
+  btfsc status, 0x02 ;Check for invalid ascii port 0, -->0x02 flag=0 (Bad!)
+  goto $+6 ;Error so exit >>>
+  movwf _cPortTmp ;_cPortTmp can now only be in range of 1-7
+  movlw 06h ;check to elimate ports 6 & 7, i.e. must be 1-5
+  subwf _cPortTmp,w
+  btfss status, 0x00 ;Carry clear means a borrow occurred, so Port <6 (Good!)
+  goto $+3 ;Carry set means Error
+  bsf _cInputErr, 0 ;set error bit, bit 0 for output_high()
+  return ;Error so exit >>>
+
+    ;******** If we get here, _cPortTmp holds valid port# in the range of 1-5 (A-E or a-e)
+  ;******** Now check if Bit range is 0-7
+  movf _cBitTmp,w ;First check Bit is in the Range 0-7
+  btfsc status, 0x02 ;If 0x02 bit set, Bit =0 and CBitPat already initialized to 00000001B
+  goto $+10 ;Done (Good!)
+  andlw 11111000B ;Now check that Bit is in the range of 1-7 (already checked for 0)
+  btfss status, 0x02 ;Zero flag set means Bit is in range 1-7 (Good!)
+  goto $-7 ;Error so exit >>>
+  movf _cBitTmp,w ;Now generate binary bit pattern associated with numeric Bit (1-7)
+  clrc
+  rlf _cBitPat,f ;Rotate bit pattern in cBitPat one to the left
+  addlw 0xFF ;Decrement Bit being held in w
+  btfss status, 0x02 ;If 0x02 bit set-done, cBitPatx has been rotated to the correct pattern
+  goto $-4 ;ie 00000010, 00000100, 00001000, ...
+
+    ;******** Now check if requested bit is allowed for Port using bit masks
+  movf _cPortTmp,w ;move Port value (1-5) to W
+     movwf _cBitTmp ;A=001, B=010, 0x00=011, D=100, E=101
+     movf _cBitPat, w ;W=00000001, 00000010, 00000100, ...requested bit
+                              ;W will be And'd with only one mask below
+  decfsz _cBitTmp, f ;_cPortTmp = 0 if 'A' or 'a'
+  goto $+2
+     andlw MASK_OUT_PORTA ;mask for PortA
+     decfsz _cBitTmp, f ;_cPortTmp = 0 if 'B' or 'b'
+     goto $+2
+     andlw MASK_OUT_PORTB ;mask for PortB
+     decfsz _cBitTmp, f ;_cPortTmp = 0 if 'C' or 'c'
+     goto $+2
+     andlw MASK_OUT_PORTC ;mask for PortC
+     decfsz _cBitTmp, f ;_cPortTmp = 0 if 'D' or 'd'
+     goto $+2
+     andlw MASK_OUT_PORTD ;mask for PortD
+     decfsz _cBitTmp, f ;_cPortTmp = 0 if 'E' or 'e'
+     goto $+2
+     andlw MASK_OUT_PORTE ;mask for PortE
+     andlw 11111111B ;if W = 0, there was a bit mismatch
+  btfss status, 0x02 ;if Zero flag clear, means check passed
+  goto $+3
+  bsf _cInputErr, 0 ;set error bit, bit 0 for output_high()
+  return ;Error so exit >>>
+
+    ;******* If we get here, cPortTmp and cBitPat are valid, ie, Port/Bit combo are valid
+  ;******* Now update associated PORT and TRIS registers
+  bcf INTCON, 4 ;Disable RB0 interrupt to allow hardware to finish
+         ;reconfiguring without interruption
+  movf status, w ;save Status Register for restore before exiting
+  movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code
+
+    movf _cPortTmp,w ;Now holds valid port number 1-5 for ports a-e
+  addlw 04h ;Add 4 to _cPortTmp to calculate PORT SFR address
+         ;PORTA=05h, PORTB=06h, PORTC=07h, etc
+  movwf fsr ;FSR = 05h to 09h, points to PORTx
+  bcf status, 0x07 ;Clear 0x07 for indirect addressing to data Bank 0,1
+         ;PORTx, TRISx, ... using fsr as pointer
+         ;set PORTx pin state
+  movf indf, w ;read PORTx and move value to W
+  iorwf _cBitPat,w ;Or with bit pattern, ie 00000001, 00000010, ...
+         ;to set pin to 1, others pins won't change
+  movwf indf ;write W back to PORTx
+         ;set PORTx pin to an output, Bit must be cleared
+  comf _cBitPat,f ;complement Bit Pattern
+         ; _cBitPat is now 11111110, 11111101, ...
+         ;add 0x80 to FSR so it now points to TRISx
+  bsf fsr, 7 ;setting bit 7 performs +0x80
+         ;fsr = 85h, 86h, 87h, 88h, 89h, points to TRISx
+  movf indf, w ;move TRISx value to W
+  andwf _cBitPat,w ;AND with bit pattern, ie 11111110, 11111101,...
+         ; to clear TRISx bit, other bit won't change
+  movwf indf ;write W to TRISx
+
+    movf _cStatusR,w ;restore original Status Register before exiting
+  movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code
+#endasm 
+  INTE=1;
+return;
+}
+
+
+
+#pragma interrupt_level 1
+void output_low(char Port, char Bit)
+
+# 267
+{
+INTE=0;
+
+
+
+cPortTmp = Port;
+cBitTmp = Bit;
+cBitPat = 0b00000001;
+INTE=1;
+
+
+# 281
+#asm
+  movf _cPortTmp,w ;move Port value to W, ASCII letter value
+         ;'A'=0x41, 'a'=0x61, ..., 'E'=0x45, 'e'=0x65
+         ; 7654 3210 7654 3210
+            ; 'A'=0100 0001 'E'=0100 0101
+         ; 'a'=0110 0001 'e'=0110 0101
+  andlw 11011000B ; 1101 1000 1s = positions we want to check
+  xorlw 01000000B ; 01 0 0 insure ANDed bits = these values
+         ;if bits are expected values, W=0--> 0x02 flag=0 (Good!)
+  btfss status, 0x02 ;skip if Zero flag clear, Error
+  goto $+10 ;Error so exit >>>
+  movf _cPortTmp,w ;Get original port
+  andlw 00000111B
+  btfsc status, 0x02 ;Check for invalid ascii port 0, -->0x02 flag=0 (Bad!)
+  goto $+6 ;Error so exit >>>
+  movwf _cPortTmp ;_cPortTmp can now only be in range of 1-7
+  movlw 06h ;check to elimate ports 6 & 7, i.e. must be 1-5
+  subwf _cPortTmp,w
+  btfss status, 0x00 ;Carry clear means a borrow occurred, so Port <6 (Good!)
+  goto $+3 ;Carry set means Error
+  bsf _cInputErr, 1 ;set error bit, bit 1 for output_low()
+  return ;Error so exit >>>
+
+    ;******** If we get here, _cPortTmp holds valid port# in the range of 1-5 (A-E or a-e)
+  ;******** Now check if Bit range is 0-7
+  movf _cBitTmp,w ;First check Bit is in the Range 0-7
+  btfsc status, 0x02 ;If 0x02 bit set, Bit =0 and CBitPat already initialized to 00000001B
+  goto $+10 ;Done (Good!)
+  andlw 11111000B ;Now check that Bit is in the range of 1-7 (already checked for 0)
+  btfss status, 0x02 ;Zero flag set means Bit is in range 1-7 (Good!)
+  goto $-7 ;Error so exit >>>
+  movf _cBitTmp,w ;Now generate binary bit pattern associated with numeric Bit (1-7)
+  clrc
+  rlf _cBitPat,f ;Rotate bit pattern in cBitPat one to the left
+  addlw 0xFF ;Decrement Bit being held in w
+  btfss status, 0x02 ;If 0x02 bit set-done, cBitPatx has been rotated to the correct pattern
+  goto $-4 ;ie 00000010, 00000100, 00001000, ...
+
+    ;******** Now check if requested bit is allowed for Port using bit masks
+  movf _cPortTmp,w ;move Port value (1-5) to W
+     movwf _cBitTmp ;A=001, B=010, 0x00=011, D=100, E=101
+        movf _cBitPat, w ;W=00000001, 00000010, 00000100, ...requested bit
+                              ;W will be And'd with only one mask below
+  decfsz _cBitTmp, f ;_cPortTmp = 0 if 'A' or 'a'
+  goto $+2
+        andlw MASK_OUT_PORTA ;mask for PortA
+        decfsz _cBitTmp, f ;_cPortTmp = 0 if 'B' or 'b'
+        goto $+2
+        andlw MASK_OUT_PORTB ;mask for PortB
+        decfsz _cBitTmp, f ;_cPortTmp = 0 if 'C' or 'c'
+        goto $+2
+        andlw MASK_OUT_PORTC ;mask for PortC
+        decfsz _cBitTmp, f ;_cPortTmp = 0 if 'D' or 'd'
+        goto $+2
+        andlw MASK_OUT_PORTD ;mask for PortD
+        decfsz _cBitTmp, f ;_cPortTmp = 0 if 'E' or 'e'
+        goto $+2
+        andlw MASK_OUT_PORTE ;mask for PortE
+     andlw 11111111B ;check W, if = 0, there was a bit mismatch
+  btfss status, 0x02 ;if Zero flag clear, means check passed
+  goto $+3
+  bsf _cInputErr, 1 ;set error bit, bit 1 for output_low()
+  return ;Error so exit >>>
+
+    ;******* If we get here, cPortTmp and cBitPat are valid, ie, Port/Bit combo are valid
+  ;******* Now update associated PORT and TRIS registers
+  bcf INTCON, 4 ;Disable RB0 interrupt to allow hardware to finish
+         ;reconfiguring without interruption
+  movf status, w ;save Status Register for restore before exiting
+  movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code
+  comf _cBitPat,f ;complement bit pattern. Bit of interest will now be zero
+         ;ie, _cBitPat is now 11111110, 11111101, ...
+  movf _cPortTmp,w ;Now holds valid portnumber 1-5 for ports A-E
+  addlw 04h ;Add 4 to _cPortTmp to calculate PORT SFR address
+         ;PORTA=05h, PORTB=06h, PORTC=07h, etc
+  movwf fsr ;FSR = 05h to 09h, points to PORTx
+  bcf status, 0x07 ;Clear 0x07 for indirect addressing to data Bank 0,1
+         ;set PORTx pin state
+  movf indf, w ;read PORTx and move value to W
+  andwf _cBitPat,w ;AND with bit pattern, ie 11111110, 11111101, ...
+         ;bit of interest will be set to 0 (off), others bits won't change
+  movwf indf ;write W back to PORTx
+         ;set PORTx pin to an output via TRIS register, Bit must be cleared
+  bsf fsr, 7 ;add 0x80 to FSR so it now points to TRISx, ie set bit 7
+         ;fsr = 85h, 86h, 87h, 88h, 89h, points to TRISx
+  movf indf, w ;read TRISx and move value to W
+  andwf _cBitPat,w ;AND with already complemented bit pattern,ie 11111110, 11111101,...
+         ;to clear TRISx bit, other bits won't change
+  movwf indf ;write W to TRISx
+  movf _cStatusR,w ;restore original Status Register before exiting
+  movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code
+#endasm 
+  INTE=1;
+return;
+}
+
+
+
+#pragma interrupt_level 1
+char read_input(char Port, char Bit)
+
+# 391
+{
+INTE=0;
+
+
+
+cPortTmp = Port;
+cBitTmp = Bit;
+cBitPat = 0b00000001;
+INTE=1;
+
+
+# 405
+#asm
+  movf _cPortTmp,w ;move Port value to W, ASCII letter value
+         ;'A'=0x41, 'a'=0x61, ..., 'E'=0x45, 'e'=0x65
+         ; 7654 3210 7654 3210
+            ; 'A'=0100 0001 'E'=0100 0101
+         ; 'a'=0110 0001 'e'=0110 0101
+  andlw 11011000B ; 1101 1000 1s = positions we want to check
+  xorlw 01000000B ; 01 0 0 insure ANDed bits = these values
+         ;if bits are expected values, W=0--> 0x02 flag=0 (Good!)
+  btfss status, 0x02 ;skip if Zero flag clear, Error
+  goto $+10 ;Error so exit >>>
+  movf _cPortTmp,w ;Get original port
+  andlw 00000111B
+  btfsc status, 0x02 ;Check for invalid ascii port 0, -->0x02 flag=0 (Bad!)
+  goto $+6 ;Error so exit >>>
+  movwf _cPortTmp ;_cPortTmp can now only be in range of 1-7
+  movlw 06h ;check to elimate ports 6 & 7, i.e. must be 1-5
+  subwf _cPortTmp,w
+  btfss status, 0x00 ;Carry clear means a borrow occurred, so Port <6 (Good!)
+  goto $+3 ;Carry set means Error
+  bsf _cInputErr, 2 ;set error bit, bit 2 for read_input()
+  retlw 0xFF ;Error so exit >>>
+
+    ;******** If we get here, _cPortTmp holds valid port# in the range of 1-5 (A-E or a-e)
+  ;******** Now check if Bit range is 0-7
+  movf _cBitTmp,w ;First check Bit is in the Range 0-7
+  btfsc status, 0x02 ;If 0x02 bit set, Bit =0 and CBitPat already initialized to 00000001B
+  goto $+10 ;Done (Good!)
+  andlw 11111000B ;Now check that Bit is in the range of 1-7 (already checked for 0)
+  btfss status, 0x02 ;Zero flag set means Bit is in range 1-7 (Good!)
+  goto $-7 ;Error so exit >>>
+  movf _cBitTmp,w ;Now generate binary bit pattern associated with numeric Bit (1-7)
+  clrc
+  rlf _cBitPat,f ;Rotate bit pattern in cBitPat one to the left
+  addlw 0xFF ;Decrement Bit being held in w
+  btfss status, 0x02 ;If 0x02 bit set-done, cBitPatx has been rotated to the correct pattern
+  goto $-4 ;ie 00000010, 00000100, 00001000, ...
+
+    ;******** Now check if requested bit is allowed for Port using bit masks
+  movf _cPortTmp,w ;move Port value (1-5) to W
+  movwf _cBitTmp ;A=001, B=010, 0x00=011, D=100, E=101
+    movf _cBitPat, w ;W=00000001, 00000010, 00000100, ...requested bit
+                              ;W will be And'd with only one mask below
+  decfsz _cBitTmp, f ;_cPortTmp = 0 if 'A' or 'a'
+  goto $+2
+  andlw MASK_IN_PORTA ;mask for PortA
+   decfsz _cBitTmp, f ;_cPortTmp = 0 if 'B' or 'b'
+    goto $+2
+   andlw MASK_IN_PORTB ;mask for PortB
+   decfsz _cBitTmp, f ;_cPortTmp = 0 if 'C' or 'c'
+    goto $+2
+    andlw MASK_IN_PORTC ;mask for PortC
+     decfsz _cBitTmp, f ;_cPortTmp = 0 if 'D' or 'd'
+    goto $+2
+     andlw MASK_IN_PORTD ;mask for PortD
+     decfsz _cBitTmp, f ;_cPortTmp = 0 if 'E' or 'e'
+   goto $+2
+     andlw MASK_IN_PORTE ;mask for PortE
+  andlw 11111111B ;if W = 0, there was a bit mismatch
+  btfss status, 0x02 ;if Zero flag clear, means check passed
+  goto $+3
+  bsf _cInputErr, 2 ;set error bit, bit 2 for read_input()
+  retlw 0xFF ;Error so exit >>>
+
+    ;******* If we get here, cPortTmp and cBitPat are valid, ie, Port/Bit combo are valid
+  ;******* Now update associated TRIS register and read PORT
+  bcf INTCON, 4 ;Disable RB0 interrupt to allow hardware to finish
+         ;reconfiguring and get data without interruption
+  movf status, w ;save Status Register for restore before exiting
+  movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code
+  movf _cPortTmp,w ;Now holds valid port number 1-5 for ports A-E
+  addlw 04h ;Add 4 to _cPortTmp to calculate PORT SFR address
+         ;PORTA=05h, PORTB=06h, PORTC=07h, etc
+  movwf fsr ;FSR = 05h to 09h, points to PORTx
+  bcf status, 0x07 ;Clear 0x07 for indirect addressing to data bank 0,1
+         ;set PORTx pin to an input via TRIS register, Bit must be set
+  bsf fsr, 7 ;add 0x80 to FSR so it now points to TRISx, ie set bit 7
+         ;fsr = 85h, 86h, 87h, 88h, 89h, points to TRISx
+  movf indf, w ;Read TRISx and move value to W
+  iorwf _cBitPat,w ;Or with bit pattern, ie 00000001, 00000010, ...
+         ;to set bit to 1 (input), other bits won't change
+  movwf indf ;write W to TRISx
+  movlw 50 ;Implement 200 us delay for input capacitance
+  addlw 0xFF ;decrement W, FFh is 2's complement of -1
+  btfss status, 0x02 ;Bit Test 0x02 Flag Skip if Zero flag Set
+  goto $-2 ;jump to continue loop count down
+         ;read PORTx pin state
+  bcf fsr, 7 ;clearing bit 7 performs fsr = fsr - 0x80
+         ;fsr now points to PORTx = 05h, 06h, 07h, 08h, 09h
+  clrf _cBitTmp
+  movf indf, w ;read PORTx and store value to W
+  andwf _cBitPat ;AND with bit of interest, bit pattern, ie 00000001, 00000010, ...
+         ;if pin is logic 0 (0V), W will be 00000000
+  btfss status, 0x02 ;skip is Zero flag clear, pin was 0
+  bsf _cBitTmp,0 ;set bit 0, _cBitTmp=1
+  movf _cStatusR,w ;restore original Status Register before exiting
+  movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code
+#endasm 
+  INTE=1;
+return(cBitTmp);
+}
+
+
+
+#pragma interrupt_level 1
+void putdata (unsigned int data)
+
+# 519
+{
+INTE=0;
+g_iArg = data;
+
+
+# 523
+#asm
+        movf status, w ;save Status to restore before exiting
+        movwf _cStatusR ;possible need to preserve Bank bits for 0x00 code
+
+        clrf _g_cTmp3 ;flag used to supress leading zeros
+        clrf _g_cTmp1
+        bsf _g_cTmp1, 0 ;00000001
+
+
+        movlw 0x10 ;low byte of 10000
+        movwf _g_iTmp
+        movlw 0x27 ;high byte of 10000
+        movwf _g_iTmp+1
+
+                            ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OUTER LOOP
+        btfss _g_cTmp1, 1 ;if bit 1 = 1
+        goto $+5
+        movlw 0xE8 ;low byte of 1000
+        movwf _g_iTmp
+        movlw 0x03 ;high byte of 1000
+        movwf _g_iTmp+1
+
+        btfss _g_cTmp1, 2 ;if bit 2 = 1
+        goto $+5
+        movlw 0x64 ;low byte of 100
+        movwf _g_iTmp
+        movlw 0x00 ;high byte of 100
+        movwf _g_iTmp+1
+
+        btfss _g_cTmp1, 3 ;if bit 3 = 1
+        goto $+5
+        movlw 0x0A ;low byte of 10
+        movwf _g_iTmp
+        movlw 0x00 ;high byte of 10
+        movwf _g_iTmp+1
+
+        btfss _g_cTmp1, 4 ;if bit 4 = 1
+        goto $+5
+        movlw 0x01 ;low byte of 1
+        movwf _g_iTmp
+        movlw 0x00 ;high byte of 1
+        movwf _g_iTmp+1
+
+        clrf _g_cTmp2 ;clear digit value counter
+                            ;each loop iteration will subtract a value of
+                            ; 10000, 1000, 1000, 100, 10 until the value
+                            ; becomes negative
+                            ; digit value counter will inc. each iteration
+        incf _g_cTmp2, f ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~INNER LOOP
+        movf _g_iTmp, w ;low of 10000, 1000, 1000
+        subwf _g_iArg, w ;
+        movwf _g_iArg
+        movf _g_iTmp+1, w ;high of 10000, 1000, 1000
+        btfss status, 0x00 ;Carry, skip if carry
+        incf _g_iTmp+1, w
+        subwf _g_iArg+1, w
+        movwf _g_iArg+1
+        btfsc status, 0x00 ;Carry, skip if carry
+        goto $-10 ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~INNER LOOP
+
+                            ;need to add subtraction value back to
+        movf _g_iTmp, w ; correct for rollover
+        addwf _g_iArg, f
+        movf _g_iTmp+1, w
+        btfsc status, 0x00 ;Carry, skip if no carry
+        addlw 1
+        addwf _g_iArg+1, f
+
+                bcf status, 0x07 ;Clear 0x07 for indirect addressing to data Bank 0,1
+        movlw 98h ;8 bit indirect address for TXSTA
+        movwf fsr
+        btfss indf, 1 ;1=Transmit Shift Reg Status, 1=TSR empty
+        goto $-1 ;Loop until xmit shift register empty
+        movlw 19h ;8 bit indirect address for TXREG
+        movwf fsr
+        movf _g_cTmp2, w
+        addlw 47 ;convert value to Ascii char (47 = '0' - 1)
+             ;w holds ASCII character ready to send
+        bcf status, 0x00 ;insure carry bit is clear for rotate
+        rlf _g_cTmp1, f ;00000010, 00000100, 00001000, 00010000, 00100000
+        btfsc _g_cTmp1, 5 ;if bit 5 set -->this is last (or only) character to send
+        goto $+8 ;goto output the character (allow a zero to pass)
+             ;i.e., do not check for leading zero suppression
+        btfsc _g_cTmp3, 0 ;check leading zero suppression bit flag
+        goto $+6 ;if bit flag=0, keep supressing
+        movwf _g_cTmp2 ;save ASCII character
+        andlw 0x0F ;check for zero character
+        btfsc status, 0x02
+        goto $+4
+        movf _g_cTmp2, w ;if here, its not a leading zero, reload character and
+        movwf indf ;output the character
+        bsf _g_cTmp3, 0 ;set leading zero suppression flag-->we have output a
+             ;non-zero character, or a final character = 0 volts
+        btfss _g_cTmp1, 5 ;check if this was the last character
+        goto $-65 ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OUTER LOOP
+
+        movlw ' ' ;send trailing space
+        bsf status, 5 ;RP0=1, select bank1 for direct addressing
+        bcf status, 6 ;RP1=0, select bank1
+        btfss 0x18, 1 ;18h is 7 bit address of TXSTA (on Bank1)
+             ;1=Transmit Shift Reg Status, 1=TSR empty
+        goto $-1 ;Loop until xmit shift register empty
+        bcf status, 5 ;RP0=0, select bank0 for TXREG (on Bank0)
+        movwf TXREG ;UART Transmit Reg, send byte
+
+        movf _cStatusR, w ;restore original Status before exiting
+        movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code
+#endasm 
+    INTE=1;
+return;
+}
+
+
+
+void putchar (char data)
+
+# 648
+{
+INTE=0;
+
+
+while (TRMT==0)continue;
+TXREG = data;
+INTE=1;
+return;
+}
+
+
+
+unsigned int read_adc (char channel)
+
+# 669
+{
+unsigned int iVoltsSum=0, iADout=0;
+char i=0;
+
+if (channel>5)
+{
+cInputErr |= 0b00001000;
+return (0xFFFF);
+}
+else
+{
+if (channel == 5)
+{channel = 4;}
+}
+INTE=0;
+
+g_cTmp1 = channel;
+
+
+# 687
+#asm
+   movf status, w ;save Status to restore before exiting
+   movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code
+   bsf status, 5 ;RP0=1, select bank1 for direct addressing
+   bcf status, 6 ;RP1=0, select bank1
+   movlw 0xC2 ;configure A/D port
+   movwf 0x1F ;1Fh is 7 bit address of ADCON1 on Bank1
+   clrc
+   rlf _g_cTmp1, f ;variable g_cTmp1 (location 70h) can be accessed regardless
+   rlf _g_cTmp1, f ;of bank selected. Rotate channel (0-4) to be in position
+   rlf _g_cTmp1, f ;required by register ADCON0
+   movlw 0x41
+   iorwf _g_cTmp1, w
+   bcf status, 5 ;RP0=0, select Bank0 for direct addressing
+   movwf _ADCON0 ;ADCON0 is on Bank0
+   movlw 0xff ;implements 2 millisecond delay
+   addlw 0xff ;to allow for acquisition time
+   nop ;0xff (255)* 8us = 2.04ms
+   nop
+   nop
+   nop
+   btfss status, 0x02
+   goto $-6
+   bsf _ADCON0, 2 ;start A/D convesion (We are on Bank 0)
+   btfsc _ADCON0, 2
+   goto $-1 ;wait for conversion to complete
+   movf _cStatusR, w ;restore original Status before exiting
+   movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code
+#endasm 
+
+  iADout=(ADRESH<<8)+ADRESL;
+
+for (i=1; i <=49; i++)
+{iVoltsSum=iVoltsSum + iADout;}
+INTE=1;
+return iVoltsSum;
+
+}
+
+
+
+void pause (unsigned int time)
+
+# 736
+{
+char cTimeTmp;
+
+while (time != 0)
+{
+if (time <= 255){
+cTimeTmp = time;}
+else{
+cTimeTmp = 0xFF;}
+time = time - cTimeTmp;
+
+while (cTimeTmp != 0)
+{
+
+# 749
+#asm
+    btfss _isr_active, 0 ;Check if pause is operating in the ISR
+    goto $+21 ;If interrupts not enabled, bypass TMR0 check
+    btfsc INTCON, 5 ;check if TMR0 interrupt enabled, 1=yes
+    btfss INTCON, 2 ;check if TMR0 interrupt occurred, 1=yes
+    goto $+18 ;TMR0 not enabled OR TMR0 interrupt did not occur, bypass servicing TMR0
+    ;**********If here, must be executing in the interrupt and TMR0 needs servicing
+    movf status, w ;save Status to restore before exiting
+    movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code
+    bcf status, 5 ;RP0=0, select bank0 for direct addressing
+    bcf status, 6 ;RP1=0, bank0
+    btfss _rt_toggle, 0 ;Check if rt_clock should be incremented
+    goto $+6
+    incfsz _rt_clock ;Increment rt_clock on every other 50msec interrupt (i.e. 1/10 second)
+    goto $+2
+    incf _rt_clock+1 ;increment second byte on overflow- 2 byte counter
+    clrf _rt_toggle
+    goto $+2
+    bsf _rt_toggle, 0
+    movlw 0x3D ;Reload TMR0 for 50msec countdown, assumes 4Mhz clock
+    movwf _TMR0
+    bcf INTCON, 2
+    movf _cStatusR, w ;restore original Status before exiting
+    movwf status ;possible need to preserve Bank & 0x07 bits for 0x00
+    ;***********Done with TMR0 servicing, continue with pause
+    movlw 0xf8 ;<-implements 1 msec delay, loop counter
+    addlw 0xff ;<-accounts for code overhead
+    btfss status, 0x02 ;<-assumes a 4 Mhz clock
+    goto $-2 ;<-
+#endasm 
+   cTimeTmp-- ;
+}
+}
+return;
+
+}
+
+
+
+char save_data ()
+
+# 798
+{
+
+# 799
+#asm
+; First check and service Timer0 interrupt if required
+ bcf status, 5 ;RP0=0, select bank0 for direct addressing
+ bcf status, 6 ;RP1=0, Bank change needed for both TMR0 and RB0 interrupts
+ btfsc INTCON, 5 ;check if TMR0 interrupt enabled, 1=yes
+ btfss INTCON, 2 ;check if TMR0 interrupt occurred, 1=yes
+ goto $+14 ;TMR0 not enabled OR TMR0 interrupt did not occur, must be RBO interrupt
+ btfss _rt_toggle, 0 ;TMR0 interrupt occurred
+ goto $+6
+ incfsz _rt_clock ;Increment rt_clock on every other 50msec interrupt (i.e. 1/10 second)
+ goto $+2
+ incf _rt_clock+1 ;increment second byte on overflow- 2 byte counter
+ clrf _rt_toggle
+ goto $+2
+ bsf _rt_toggle, 0
+ movlw 0x3D ;Reload TMR0 for 50msec countdown, assumes 4Mhz clock
+ movwf _TMR0
+ bcf INTCON, 2 ;Clear TMR0 interrupt flag
+ btfss INTCON, 1 ;Now see if RB0 needs to be processed
+ retlw 0 ;Return 0 to indicate TMR0 interrupt was serviced and no function data was saved
+; Service RB0 interrupt
+ bsf _isr_active, 0 ;Set flag for pause() to know ISR is executing
+ movf _cPortTmp,w ;save global variables. Still need to be on Bank 0
+ movwf _save1
+ movf _cBitTmp,w
+ movwf _save2
+ movf _cBitPat,w
+ movwf _save3
+ movf _cStatusR,w
+ movwf _save4
+;Due to forced early compile, these function variables are on bank0- Consider using BANSELECT with newer compiler
+ movf _pause_time, w ;Save variable for pause function
+ movwf _save5
+ movf _pause_time+1, w ;time is 2 bytes long
+ movwf _save6
+ movf _pause_cTimeTmp, w
+ movwf _save7
+ movf _read_adc_channel, w ;Save variable for read_adc function;
+ movwf _save8
+ movf _output_low_Port, w ;Save variables for output_low function
+ movwf _save9
+ movf _output_low_Bit, w
+ movwf _save10
+ movf _output_high_Port, w ;Save variables for output_high function
+ movwf _save11
+ movf _output_high_Bit, w
+ movwf _save12
+ movf _read_input_Port, w ;Save variables for read_input function
+ movwf _save13
+ movf _read_input_Bit, w
+ movwf _save14
+ movf _motorspeed_motornum, w ;Save variables for motorspeed function
+ movwf _save15
+ movf _motorspeed_speed, w
+ movwf _save16
+ retlw 1 ;Return 1 to indicate RBO interrupt occurred and function data was saved
+#endasm 
+return 0;
+}
+
+
+
+void restore_data ()
+
+# 867
+{
+
+# 868
+#asm
+ bcf status, 5 ;RP0=0, select bank0 for direct addressing
+ bcf status, 6 ;RP1=0, select bank0
+ movf _save1, w ;restore global variables
+ movwf _cPortTmp
+ movf _save2, w
+ movwf _cBitTmp
+ movf _save3, w
+ movwf _cBitPat
+ movf _save4, w
+ movwf _cStatusR
+ movf _save5, w ;Restore variables for pause function
+ movwf _pause_time
+ movf _save6, w ;time is 2 bytes long
+ movwf _pause_time+1
+ movf _save7, w
+ movwf _pause_cTimeTmp
+ movf _save8, w ;Restore variable for read_adc function
+ movwf _read_adc_channel
+ movf _save9, w ;Restore variables for output_low function
+ movwf _output_low_Port
+ movf _save10, w
+ movwf _output_low_Bit
+ movf _save11, w ;Restore variables for output_high function
+ movwf _output_high_Port
+ movf _save12, w
+ movwf _output_high_Bit
+ movf _save13, w ;Restore variables for read_input function
+ movwf _read_input_Port
+ movf _save14, w
+ movwf _read_input_Bit
+ movf _save15, w ;Restore variables for motorspeed function
+ movwf _motorspeed_motornum
+ movf _save16, w
+ movwf _motorspeed_speed
+ clrf _isr_active ;reset flag used by pause()
+#endasm 
+
+return;
+}
+
+
+void version ()
+
+
+
+{
+char i=0;
+while (ver[i] != 0)
+{
+putchar (ver[i]);
+i++;
+}
+putchar(13);
+return;
+}
+
+# 7 "test1.c"
+void motorsoff();
+void forward();
+void backward();
+void pivotleft();
+void pivotright();
+void target();
+void navigation();
+void test(int x);
+
+unsigned int sensor0[5],sensor1=0,sensor2[5],sensor3=0,sensor5=0,sensor=0,floor,color,i,sum=0,average,a,b=0;
+main()
+{
+
+configurePIC();
+INTE = 1;
+GIE = 1;
+motorspeed(1,93);
+motorspeed(2,100);
+output_high('a',4);
+output_high('e',2);
+
+
+output_high('d',0);
+sensor1=read_adc(1);
+pause(100);
+output_low('d',0);
+if(sensor1<20000)
+floor=0;
+else
+floor=1;
+
+while(1)
+{
+output_high('d',0);
+sensor1=read_adc(1);
+pause(100);
+output_low('d',0);
+if(sensor1<20000)
+color=0;
+else
+color=1;
+
+if(color==floor)
+navigation();
+else
+target();
+forward();
+pause(2800);
+motorsoff();
+
+# 66
+}
+}
+
+void test(int x)
+{
+int y=0;
+sensor3 = read_adc (3);
+sensor5 = read_adc (5);
+
+sensor0[0]=read_adc(0);
+sensor=sensor0[0];
+
+while(y<x)
+{
+sensor=sensor0[0];
+if(sensor3<sensor5)
+pivotleft();
+else
+pivotright();
+pause(90);
+
+sensor0[0]=read_adc(0);
+y++;
+}
+
+motorsoff();
+return;
+}
+void motorsoff()
+{
+output_low('C',0);
+output_low('C',5);
+output_low('C',3);
+output_low('C',4);
+return;
+}
+
+void forward()
+{
+output_low('C',5);
+output_low('C',3);
+output_high('C',4);
+output_high('C',0);
+return;
+}
+
+void backward()
+{
+output_low('C',0);
+output_high('C',5);
+output_low('C',4);
+output_high('C',3);
+return;
+}
+
+void pivotleft()
+{
+output_low('C',5);
+output_low('C',4);
+output_high('C',3);
+output_high('C',0);
+
+return;
+}
+
+void pivotright()
+{
+output_low('C',0);
+output_low('C',3);
+output_high('C',4);
+output_high('C',5);
+
+return;
+}
+
+void target()
+{
+a=0;
+sensor3 = read_adc (3);
+sensor5 = read_adc (5);
+sensor0[0]=read_adc(0);
+sensor2[0]=read_adc(2);
+sensor=sensor2[0];
+
+while(sensor>12000||sensor0[0]<12000)
+{if(a>23)
+{forward();break;}
+sensor=sensor2[0];
+if(sensor3<sensor5)
+pivotleft();
+else
+pivotright();
+pause(90);
+
+sensor2[0]=read_adc(2);
+a++;
+sensor0[0]=read_adc(0);
+}
+motorsoff();
+motorspeed(1,50);
+motorspeed(2,70);
+for(i=0,sum=0;i<5;i++)
+{
+sensor2[i]=read_adc(2);
+sum+=sensor2[i];
+}
+average=sum/5;
+sensor2[0]=average;
+sensor=sensor2[0];
+
+sensor3 = read_adc (3);
+sensor5 = read_adc (5);
+
+while(sensor2[0]<=sensor)
+{
+sensor=sensor2[0];
+if(sensor3<sensor5)
+
+pivotleft();
+
+
+else
+pivotright();
+pause(90);
+for(i=0,sum=0;i<5;i++)
+{
+sensor2[i]=read_adc(2);
+sum+=sensor2[i];
+}
+average=sum/5;
+sensor2[0]=average;
+}
+motorsoff();
+pause(100);
+motorspeed(1,93);
+motorspeed(2,100);
+forward();
+return;
+
+
+
+
+}
+
+void navigation()
+{
+b=0;
+sensor3 = read_adc (3);
+sensor5 = read_adc (5);
+
+sensor0[0]=read_adc(0);
+sensor=sensor0[0];
+
+while(sensor>10000)
+{if(b>23)
+{forward();break;}
+sensor=sensor0[0];
+if(sensor3<sensor5)
+pivotleft();
+else
+pivotright();
+pause(90);
+
+sensor0[0]=read_adc(0);
+b++;
+}
+motorsoff();
+pause(500);
+motorspeed(1,50);
+motorspeed(2,70);
+for(i=0,sum=0;i<5;i++)
+{
+sensor0[i]=read_adc(0);
+sum+=sensor0[i];
+}
+average=sum/5;
+sensor0[0]=average;
+sensor=sensor0[0];
+
+sensor3 = read_adc (3);
+sensor5 = read_adc (5);
+
+while(sensor0[0]<=sensor)
+{
+sensor=sensor0[0];
+if(sensor3<sensor5)
+
+pivotleft();
+
+
+else
+pivotright();
+pause(90);
+for(i=0,sum=0;i<5;i++)
+{
+sensor0[i]=read_adc(0);
+sum+=sensor0[i];
+}
+average=sum/5;
+sensor0[0]=average;
+
+}
+motorsoff();
+pause(500);
+motorspeed(1,93);
+motorspeed(2,100);
+forward();
+return;
+
+
+
+}
+
+void interrupt isr (void)
+{
+if (save_data ( ) ==0)
+{return;}
+
+
+pause (5);
+if ((PORTB & 0x01) == 1)
+{
+INTF = 0;
+restore_data ( );
+return;
+}
+output_low ('c', 0);
+output_low ('c', 5);
+output_low ('c', 3);
+output_low ('c', 4);
+pause (50);
+
+if ((read_input ('E', 0)) == 0&&read_input('E',1)!=0)
+{
+output_high ('E', 2);
+output_low ('A', 4);
+
+backward();
+pause(425);
+motorsoff();
+pivotleft();
+pause(125);
+motorsoff();
+forward();
+}
+else if ((read_input ('E', 1)) == 0&&read_input('E',0)!=0)
+{
+output_high ('A', 4);
+output_low ('E', 2);
+
+backward();
+pause(425);
+motorsoff();
+pivotright();
+pause(125);
+motorsoff();
+forward();
+}
+else if ((read_input ('E', 1)) == 0&&read_input('E',0)==0)
+{
+output_low ('A', 4);
+output_low ('E', 2);
+
+
+sensor3=read_adc(3);
+sensor5=read_adc(5);
+backward();
+pause(425);
+motorsoff();
+if(sensor3<sensor5)
+{
+pivotleft();
+pause(125);
+motorsoff();
+
+}
+else
+{
+pivotright();
+pause(125);
+motorsoff();
+}
+forward();
+}
+
+
+if ((PORTB & 0x01) == 1)
+{
+INTF = 0;
+output_high ('A', 4);
+output_high ('E', 2);
+}
+restore_data ( );
+return;
+}

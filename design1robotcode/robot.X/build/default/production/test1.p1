@@ -1,0 +1,3804 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"19 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _INDF `Vuc 1 e@0 ]
+"20 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR0 `Vuc 1 e@1 ]
+"21 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PCL `Vuc 1 e@2 ]
+"22 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _STATUS `Vuc 1 e@3 ]
+"23 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _FSR `uc 1 e@4 ]
+"24 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PORTA `Vuc 1 e@5 ]
+"25 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PORTB `Vuc 1 e@6 ]
+"26 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PORTC `Vuc 1 e@7 ]
+"28 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PORTD `Vuc 1 e@8 ]
+"29 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PORTE `Vuc 1 e@9 ]
+"31 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PCLATH `uc 1 e@10 ]
+"32 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _INTCON `Vuc 1 e@11 ]
+"33 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PIR1 `Vuc 1 e@12 ]
+"34 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PIR2 `Vuc 1 e@13 ]
+"35 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR1L `Vuc 1 e@14 ]
+"36 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR1H `Vuc 1 e@15 ]
+"37 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T1CON `Vuc 1 e@16 ]
+"38 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR2 `Vuc 1 e@17 ]
+"39 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T2CON `Vuc 1 e@18 ]
+"40 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPBUF `Vuc 1 e@19 ]
+"41 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPCON `Vuc 1 e@20 ]
+"42 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCPR1L `Vuc 1 e@21 ]
+"43 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCPR1H `Vuc 1 e@22 ]
+"44 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1CON `Vuc 1 e@23 ]
+"45 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RCSTA `Vuc 1 e@24 ]
+"46 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TXREG `Vuc 1 e@25 ]
+"47 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RCREG `Vuc 1 e@26 ]
+"48 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCPR2L `Vuc 1 e@27 ]
+"49 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCPR2H `Vuc 1 e@28 ]
+"50 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2CON `Vuc 1 e@29 ]
+"51 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADRESH `Vuc 1 e@30 ]
+"52 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADCON0 `Vuc 1 e@31 ]
+"55 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _OPTION `uc 1 e@129 ]
+"56 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISA `Vuc 1 e@133 ]
+"57 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB `Vuc 1 e@134 ]
+"58 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC `Vuc 1 e@135 ]
+"60 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD `Vuc 1 e@136 ]
+"61 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISE `Vuc 1 e@137 ]
+"63 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PIE1 `Vuc 1 e@140 ]
+"64 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PIE2 `Vuc 1 e@141 ]
+"65 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PCON `Vuc 1 e@142 ]
+"66 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPCON2 `Vuc 1 e@145 ]
+"67 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PR2 `Vuc 1 e@146 ]
+"68 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPADD `Vuc 1 e@147 ]
+"69 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPSTAT `Vuc 1 e@148 ]
+"70 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TXSTA `Vuc 1 e@152 ]
+"71 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SPBRG `Vuc 1 e@153 ]
+"72 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CMCON `Vuc 1 e@156 ]
+"73 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CVRCON `Vuc 1 e@157 ]
+"74 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADRESL `Vuc 1 e@158 ]
+"75 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADCON1 `Vuc 1 e@159 ]
+"78 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EEDATA `Vuc 1 e@268 ]
+"79 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EEADR `Vuc 1 e@269 ]
+"81 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EEADRL `Vuc 1 e@269 ]
+"82 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EEDATH `Vuc 1 e@270 ]
+"83 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EEADRH `Vuc 1 e@271 ]
+"86 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EECON1 `Vuc 1 e@396 ]
+"87 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EECON2 `Vuc 1 e@397 ]
+"90 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _IRP `Vb 1 e@31 ]
+"91 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RP1 `Vb 1 e@30 ]
+"92 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RP0 `Vb 1 e@29 ]
+"93 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TO `Vb 1 e@28 ]
+"94 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PD `Vb 1 e@27 ]
+"95 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ZERO `Vb 1 e@26 ]
+"96 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _DC `Vb 1 e@25 ]
+"97 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CARRY `Vb 1 e@24 ]
+"100 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RA5 `Vb 1 e@45 ]
+"101 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RA4 `Vb 1 e@44 ]
+"102 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RA3 `Vb 1 e@43 ]
+"103 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RA2 `Vb 1 e@42 ]
+"104 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RA1 `Vb 1 e@41 ]
+"105 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RA0 `Vb 1 e@40 ]
+"108 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RB7 `Vb 1 e@55 ]
+"109 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RB6 `Vb 1 e@54 ]
+"110 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RB5 `Vb 1 e@53 ]
+"111 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RB4 `Vb 1 e@52 ]
+"112 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RB3 `Vb 1 e@51 ]
+"113 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RB2 `Vb 1 e@50 ]
+"114 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RB1 `Vb 1 e@49 ]
+"115 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RB0 `Vb 1 e@48 ]
+"118 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RC7 `Vb 1 e@63 ]
+"119 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RC6 `Vb 1 e@62 ]
+"120 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RC5 `Vb 1 e@61 ]
+"121 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RC4 `Vb 1 e@60 ]
+"122 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RC3 `Vb 1 e@59 ]
+"123 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RC2 `Vb 1 e@58 ]
+"124 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RC1 `Vb 1 e@57 ]
+"125 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RC0 `Vb 1 e@56 ]
+"129 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD7 `Vb 1 e@71 ]
+"130 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD6 `Vb 1 e@70 ]
+"131 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD5 `Vb 1 e@69 ]
+"132 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD4 `Vb 1 e@68 ]
+"133 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD3 `Vb 1 e@67 ]
+"134 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD2 `Vb 1 e@66 ]
+"135 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD1 `Vb 1 e@65 ]
+"136 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD0 `Vb 1 e@64 ]
+"139 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RE2 `Vb 1 e@74 ]
+"140 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RE1 `Vb 1 e@73 ]
+"141 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RE0 `Vb 1 e@72 ]
+"145 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _GIE `Vb 1 e@95 ]
+"146 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PEIE `Vb 1 e@94 ]
+"147 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T0IE `Vb 1 e@93 ]
+"148 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _INTE `Vb 1 e@92 ]
+"149 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RBIE `Vb 1 e@91 ]
+"150 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T0IF `Vb 1 e@90 ]
+"151 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _INTF `Vb 1 e@89 ]
+"152 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RBIF `Vb 1 e@88 ]
+"154 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR0IE `Vb 1 e@93 ]
+"155 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR0IF `Vb 1 e@90 ]
+"159 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PSPIF `Vb 1 e@103 ]
+"161 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADIF `Vb 1 e@102 ]
+"162 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RCIF `Vb 1 e@101 ]
+"163 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TXIF `Vb 1 e@100 ]
+"164 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPIF `Vb 1 e@99 ]
+"165 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1IF `Vb 1 e@98 ]
+"166 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR2IF `Vb 1 e@97 ]
+"167 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR1IF `Vb 1 e@96 ]
+"170 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CMIF `Vb 1 e@110 ]
+"171 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EEIF `Vb 1 e@108 ]
+"172 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _BCLIF `Vb 1 e@107 ]
+"173 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2IF `Vb 1 e@104 ]
+"176 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T1CKPS1 `Vb 1 e@133 ]
+"177 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T1CKPS0 `Vb 1 e@132 ]
+"178 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T1OSCEN `Vb 1 e@131 ]
+"179 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T1SYNC `Vb 1 e@130 ]
+"180 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR1CS `Vb 1 e@129 ]
+"181 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR1ON `Vb 1 e@128 ]
+"184 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TOUTPS3 `Vb 1 e@150 ]
+"185 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TOUTPS2 `Vb 1 e@149 ]
+"186 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TOUTPS1 `Vb 1 e@148 ]
+"187 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TOUTPS0 `Vb 1 e@147 ]
+"188 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR2ON `Vb 1 e@146 ]
+"189 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T2CKPS1 `Vb 1 e@145 ]
+"190 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T2CKPS0 `Vb 1 e@144 ]
+"193 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _WCOL `Vb 1 e@167 ]
+"194 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPOV `Vb 1 e@166 ]
+"195 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPEN `Vb 1 e@165 ]
+"196 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CKP `Vb 1 e@164 ]
+"197 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPM3 `Vb 1 e@163 ]
+"198 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPM2 `Vb 1 e@162 ]
+"199 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPM1 `Vb 1 e@161 ]
+"200 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPM0 `Vb 1 e@160 ]
+"203 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1X `Vb 1 e@189 ]
+"204 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1Y `Vb 1 e@188 ]
+"205 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1M3 `Vb 1 e@187 ]
+"206 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1M2 `Vb 1 e@186 ]
+"207 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1M1 `Vb 1 e@185 ]
+"208 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1M0 `Vb 1 e@184 ]
+"211 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SPEN `Vb 1 e@199 ]
+"212 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RX9 `Vb 1 e@198 ]
+"213 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SREN `Vb 1 e@197 ]
+"214 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CREN `Vb 1 e@196 ]
+"215 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADDEN `Vb 1 e@195 ]
+"216 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _FERR `Vb 1 e@194 ]
+"217 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _OERR `Vb 1 e@193 ]
+"218 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RX9D `Vb 1 e@192 ]
+"221 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2X `Vb 1 e@237 ]
+"222 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2Y `Vb 1 e@236 ]
+"223 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2M3 `Vb 1 e@235 ]
+"224 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2M2 `Vb 1 e@234 ]
+"225 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2M1 `Vb 1 e@233 ]
+"226 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2M0 `Vb 1 e@232 ]
+"229 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADCS1 `Vb 1 e@255 ]
+"230 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADCS0 `Vb 1 e@254 ]
+"231 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CHS2 `Vb 1 e@253 ]
+"232 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CHS1 `Vb 1 e@252 ]
+"233 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CHS0 `Vb 1 e@251 ]
+"234 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADGO `Vb 1 e@250 ]
+"236 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _GODONE `Vb 1 e@250 ]
+"237 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADON `Vb 1 e@248 ]
+"240 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RBPU `b 1 e@1039 ]
+"241 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _INTEDG `b 1 e@1038 ]
+"242 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T0CS `b 1 e@1037 ]
+"243 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _T0SE `b 1 e@1036 ]
+"244 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PSA `b 1 e@1035 ]
+"245 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PS2 `b 1 e@1034 ]
+"246 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PS1 `b 1 e@1033 ]
+"247 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PS0 `b 1 e@1032 ]
+"250 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISA5 `Vb 1 e@1069 ]
+"251 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISA4 `Vb 1 e@1068 ]
+"252 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISA3 `Vb 1 e@1067 ]
+"253 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISA2 `Vb 1 e@1066 ]
+"254 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISA1 `Vb 1 e@1065 ]
+"255 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISA0 `Vb 1 e@1064 ]
+"258 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB7 `Vb 1 e@1079 ]
+"259 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB6 `Vb 1 e@1078 ]
+"260 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB5 `Vb 1 e@1077 ]
+"261 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB4 `Vb 1 e@1076 ]
+"262 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB3 `Vb 1 e@1075 ]
+"263 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB2 `Vb 1 e@1074 ]
+"264 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB1 `Vb 1 e@1073 ]
+"265 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISB0 `Vb 1 e@1072 ]
+"268 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC7 `Vb 1 e@1087 ]
+"269 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC6 `Vb 1 e@1086 ]
+"270 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC5 `Vb 1 e@1085 ]
+"271 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC4 `Vb 1 e@1084 ]
+"272 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC3 `Vb 1 e@1083 ]
+"273 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC2 `Vb 1 e@1082 ]
+"274 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC1 `Vb 1 e@1081 ]
+"275 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISC0 `Vb 1 e@1080 ]
+"279 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD7 `Vb 1 e@1095 ]
+"280 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD6 `Vb 1 e@1094 ]
+"281 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD5 `Vb 1 e@1093 ]
+"282 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD4 `Vb 1 e@1092 ]
+"283 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD3 `Vb 1 e@1091 ]
+"284 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD2 `Vb 1 e@1090 ]
+"285 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD1 `Vb 1 e@1089 ]
+"286 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISD0 `Vb 1 e@1088 ]
+"289 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _IBF `Vb 1 e@1103 ]
+"290 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _OBF `Vb 1 e@1102 ]
+"291 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _IBOV `Vb 1 e@1101 ]
+"292 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PSPMODE `Vb 1 e@1100 ]
+"294 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISE2 `Vb 1 e@1098 ]
+"295 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISE1 `Vb 1 e@1097 ]
+"296 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRISE0 `Vb 1 e@1096 ]
+"301 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PSPIE `Vb 1 e@1127 ]
+"303 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADIE `Vb 1 e@1126 ]
+"304 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RCIE `Vb 1 e@1125 ]
+"305 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TXIE `Vb 1 e@1124 ]
+"306 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SSPIE `Vb 1 e@1123 ]
+"307 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP1IE `Vb 1 e@1122 ]
+"308 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR2IE `Vb 1 e@1121 ]
+"309 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TMR1IE `Vb 1 e@1120 ]
+"312 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CMIE `Vb 1 e@1134 ]
+"313 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EEIE `Vb 1 e@1132 ]
+"314 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _BCLIE `Vb 1 e@1131 ]
+"315 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CCP2IE `Vb 1 e@1128 ]
+"318 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _POR `Vb 1 e@1137 ]
+"319 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _BOR `Vb 1 e@1136 ]
+"322 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _GCEN `Vb 1 e@1167 ]
+"323 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ACKSTAT `Vb 1 e@1166 ]
+"324 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ACKDT `Vb 1 e@1165 ]
+"325 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ACKEN `Vb 1 e@1164 ]
+"326 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RCEN `Vb 1 e@1163 ]
+"327 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PEN `Vb 1 e@1162 ]
+"328 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RSEN `Vb 1 e@1161 ]
+"329 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SEN `Vb 1 e@1160 ]
+"332 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SMP `Vb 1 e@1191 ]
+"333 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CKE `Vb 1 e@1190 ]
+"334 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _DA `Vb 1 e@1189 ]
+"335 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _STOP `Vb 1 e@1188 ]
+"336 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _START `Vb 1 e@1187 ]
+"337 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RW `Vb 1 e@1186 ]
+"338 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _UA `Vb 1 e@1185 ]
+"339 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _BF `Vb 1 e@1184 ]
+"352 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CSRC `Vb 1 e@1223 ]
+"353 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TX9 `Vb 1 e@1222 ]
+"354 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TXEN `Vb 1 e@1221 ]
+"355 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _SYNC `Vb 1 e@1220 ]
+"356 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _BRGH `Vb 1 e@1218 ]
+"357 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TRMT `Vb 1 e@1217 ]
+"358 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _TX9D `Vb 1 e@1216 ]
+"361 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _C2OUT `Vb 1 e@1255 ]
+"362 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _C1OUT `Vb 1 e@1254 ]
+"363 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _C2INV `Vb 1 e@1253 ]
+"364 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _C1INV `Vb 1 e@1252 ]
+"365 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CIS `Vb 1 e@1251 ]
+"366 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CM2 `Vb 1 e@1250 ]
+"367 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CM1 `Vb 1 e@1249 ]
+"368 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CM0 `Vb 1 e@1248 ]
+"371 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CVREN `Vb 1 e@1263 ]
+"372 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CVROE `Vb 1 e@1262 ]
+"373 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CVRR `Vb 1 e@1261 ]
+"374 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CVR3 `Vb 1 e@1259 ]
+"375 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CVR2 `Vb 1 e@1258 ]
+"376 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CVR1 `Vb 1 e@1257 ]
+"377 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _CVR0 `Vb 1 e@1256 ]
+"380 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADFM `Vb 1 e@1279 ]
+"381 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _ADCS2 `Vb 1 e@1278 ]
+"382 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PCFG3 `Vb 1 e@1275 ]
+"383 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PCFG2 `Vb 1 e@1274 ]
+"384 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PCFG1 `Vb 1 e@1273 ]
+"385 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _PCFG0 `Vb 1 e@1272 ]
+"388 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _EEPGD `Vb 1 e@3175 ]
+"389 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _WRERR `Vb 1 e@3171 ]
+"390 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _WREN `Vb 1 e@3170 ]
+"391 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _WR `Vb 1 e@3169 ]
+"392 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\pic168xa.h
+[v _RD `Vb 1 e@3168 ]
+"55 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _rt_clock `ui 1 e@93 ]
+"56 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _rt_toggle `uc 1 e@95 ]
+"57 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save1 `uc 1 e@96 ]
+"58 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save2 `uc 1 e@97 ]
+"59 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save3 `uc 1 e@98 ]
+"60 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save4 `uc 1 e@99 ]
+"61 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save5 `uc 1 e@100 ]
+"62 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save6 `uc 1 e@101 ]
+"63 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save7 `uc 1 e@102 ]
+"64 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save8 `uc 1 e@103 ]
+"65 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save9 `uc 1 e@104 ]
+"66 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save10 `uc 1 e@105 ]
+"67 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save11 `uc 1 e@106 ]
+"68 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save12 `uc 1 e@107 ]
+"69 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save13 `uc 1 e@108 ]
+"70 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save14 `uc 1 e@109 ]
+"71 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save15 `uc 1 e@110 ]
+"72 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _save16 `uc 1 e@111 ]
+"73 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _cPortTmp `uc 1 e@112 ]
+"74 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _g_cTmp1 `uc 1 e@112 ]
+"75 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _cBitTmp `uc 1 e@113 ]
+"76 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _g_cTmp2 `uc 1 e@113 ]
+"77 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _cBitPat `uc 1 e@114 ]
+"78 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _g_cTmp3 `uc 1 e@114 ]
+"79 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _cStatusR `uc 1 e@115 ]
+"81 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _g_iArg `ui 1 e@116 ]
+"82 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _g_iTmp `ui 1 e@118 ]
+"83 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _isr_active `uc 1 e@120 ]
+"84 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _cInputErr `uc 1 e@121 ]
+"92 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _g_cSpeedMotor1 `uc 1 e ]
+"93 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _g_cSpeedMotor2 `uc 1 e ]
+"95 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _ver `*Cuc 1 e ]
+"103 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _output_low `(v 0 ef2`uc`uc ]
+"102 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _output_high `(v 0 ef2`uc`uc ]
+"104 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _read_input `(uc 0 ef2`uc`uc ]
+"105 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _read_adc `(ui 0 ef1`uc ]
+"107 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _putdata `(v 0 ef1`ui ]
+"101 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _motorspeed `(v 0 ef2`uc`uc ]
+"106 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _pause `(v 0 ef1`ui ]
+"112 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+[v _version `(v 0 ef ]
+"16 test1.c
+[v _sensor0 `ui -> 5 `i e ]
+"16 test1.c
+[v _sensor1 `ui 1 e ]
+"16 test1.c
+[v _sensor2 `ui -> 5 `i e ]
+"16 test1.c
+[v _sensor3 `ui 1 e ]
+"16 test1.c
+[v _sensor5 `ui 1 e ]
+"16 test1.c
+[v _sensor `ui 1 e ]
+"16 test1.c
+[v _floor `ui 1 e ]
+"16 test1.c
+[v _color `ui 1 e ]
+"16 test1.c
+[v _i `ui 1 e ]
+"16 test1.c
+[v _sum `ui 1 e ]
+"16 test1.c
+[v _average `ui 1 e ]
+"16 test1.c
+[v _a `ui 1 e ]
+"16 test1.c
+[v _b `ui 1 e ]
+[p mainexit ]
+"13 test1.c
+[v _navigation `(v 0 ef ]
+"12 test1.c
+[v _target `(v 0 ef ]
+"8 test1.c
+[v _forward `(v 0 ef ]
+"7 test1.c
+[v _motorsoff `(v 0 ef ]
+"10 test1.c
+[v _pivotleft `(v 0 ef ]
+"11 test1.c
+[v _pivotright `(v 0 ef ]
+[; ;pic168xa.h: 19: volatile unsigned char INDF @ 0x00;
+[; ;pic168xa.h: 20: volatile unsigned char TMR0 @ 0x01;
+[; ;pic168xa.h: 21: volatile unsigned char PCL @ 0x02;
+[; ;pic168xa.h: 22: volatile unsigned char STATUS @ 0x03;
+[; ;pic168xa.h: 23: unsigned char FSR @ 0x04;
+[; ;pic168xa.h: 24: volatile unsigned char PORTA @ 0x05;
+[; ;pic168xa.h: 25: volatile unsigned char PORTB @ 0x06;
+[; ;pic168xa.h: 26: volatile unsigned char PORTC @ 0x07;
+[; ;pic168xa.h: 28: volatile unsigned char PORTD @ 0x08;
+[; ;pic168xa.h: 29: volatile unsigned char PORTE @ 0x09;
+[; ;pic168xa.h: 31: unsigned char PCLATH @ 0x0A;
+[; ;pic168xa.h: 32: volatile unsigned char INTCON @ 0x0B;
+[; ;pic168xa.h: 33: volatile unsigned char PIR1 @ 0x0C;
+[; ;pic168xa.h: 34: volatile unsigned char PIR2 @ 0x0D;
+[; ;pic168xa.h: 35: volatile unsigned char TMR1L @ 0x0E;
+[; ;pic168xa.h: 36: volatile unsigned char TMR1H @ 0x0F;
+[; ;pic168xa.h: 37: volatile unsigned char T1CON @ 0x10;
+[; ;pic168xa.h: 38: volatile unsigned char TMR2 @ 0x11;
+[; ;pic168xa.h: 39: volatile unsigned char T2CON @ 0x12;
+[; ;pic168xa.h: 40: volatile unsigned char SSPBUF @ 0x13;
+[; ;pic168xa.h: 41: volatile unsigned char SSPCON @ 0x14;
+[; ;pic168xa.h: 42: volatile unsigned char CCPR1L @ 0x15;
+[; ;pic168xa.h: 43: volatile unsigned char CCPR1H @ 0x16;
+[; ;pic168xa.h: 44: volatile unsigned char CCP1CON @ 0x17;
+[; ;pic168xa.h: 45: volatile unsigned char RCSTA @ 0x18;
+[; ;pic168xa.h: 46: volatile unsigned char TXREG @ 0x19;
+[; ;pic168xa.h: 47: volatile unsigned char RCREG @ 0x1A;
+[; ;pic168xa.h: 48: volatile unsigned char CCPR2L @ 0x1B;
+[; ;pic168xa.h: 49: volatile unsigned char CCPR2H @ 0x1C;
+[; ;pic168xa.h: 50: volatile unsigned char CCP2CON @ 0x1D;
+[; ;pic168xa.h: 51: volatile unsigned char ADRESH @ 0x1E;
+[; ;pic168xa.h: 52: volatile unsigned char ADCON0 @ 0x1F;
+[; ;pic168xa.h: 55: unsigned char OPTION @ 0x81;
+[; ;pic168xa.h: 56: volatile unsigned char TRISA @ 0x85;
+[; ;pic168xa.h: 57: volatile unsigned char TRISB @ 0x86;
+[; ;pic168xa.h: 58: volatile unsigned char TRISC @ 0x87;
+[; ;pic168xa.h: 60: volatile unsigned char TRISD @ 0x88;
+[; ;pic168xa.h: 61: volatile unsigned char TRISE @ 0x89;
+[; ;pic168xa.h: 63: volatile unsigned char PIE1 @ 0x8C;
+[; ;pic168xa.h: 64: volatile unsigned char PIE2 @ 0x8D;
+[; ;pic168xa.h: 65: volatile unsigned char PCON @ 0x8E;
+[; ;pic168xa.h: 66: volatile unsigned char SSPCON2 @ 0x91;
+[; ;pic168xa.h: 67: volatile unsigned char PR2 @ 0x92;
+[; ;pic168xa.h: 68: volatile unsigned char SSPADD @ 0x93;
+[; ;pic168xa.h: 69: volatile unsigned char SSPSTAT @ 0x94;
+[; ;pic168xa.h: 70: volatile unsigned char TXSTA @ 0x98;
+[; ;pic168xa.h: 71: volatile unsigned char SPBRG @ 0x99;
+[; ;pic168xa.h: 72: volatile unsigned char CMCON @ 0x9C;
+[; ;pic168xa.h: 73: volatile unsigned char CVRCON @ 0x9D;
+[; ;pic168xa.h: 74: volatile unsigned char ADRESL @ 0x9E;
+[; ;pic168xa.h: 75: volatile unsigned char ADCON1 @ 0x9F;
+[; ;pic168xa.h: 78: volatile unsigned char EEDATA @ 0x10C;
+[; ;pic168xa.h: 79: volatile unsigned char EEADR @ 0x10D;
+[; ;pic168xa.h: 81: volatile unsigned char EEADRL @ 0x10D;
+[; ;pic168xa.h: 82: volatile unsigned char EEDATH @ 0x10E;
+[; ;pic168xa.h: 83: volatile unsigned char EEADRH @ 0x10F;
+[; ;pic168xa.h: 86: volatile unsigned char EECON1 @ 0x18C;
+[; ;pic168xa.h: 87: volatile unsigned char EECON2 @ 0x18D;
+[; ;pic168xa.h: 90: volatile bit IRP @ (unsigned)&STATUS*8+7;
+[; ;pic168xa.h: 91: volatile bit RP1 @ (unsigned)&STATUS*8+6;
+[; ;pic168xa.h: 92: volatile bit RP0 @ (unsigned)&STATUS*8+5;
+[; ;pic168xa.h: 93: volatile bit TO @ (unsigned)&STATUS*8+4;
+[; ;pic168xa.h: 94: volatile bit PD @ (unsigned)&STATUS*8+3;
+[; ;pic168xa.h: 95: volatile bit ZERO @ (unsigned)&STATUS*8+2;
+[; ;pic168xa.h: 96: volatile bit DC @ (unsigned)&STATUS*8+1;
+[; ;pic168xa.h: 97: volatile bit CARRY @ (unsigned)&STATUS*8+0;
+[; ;pic168xa.h: 100: volatile bit RA5 @ (unsigned)&PORTA*8+5;
+[; ;pic168xa.h: 101: volatile bit RA4 @ (unsigned)&PORTA*8+4;
+[; ;pic168xa.h: 102: volatile bit RA3 @ (unsigned)&PORTA*8+3;
+[; ;pic168xa.h: 103: volatile bit RA2 @ (unsigned)&PORTA*8+2;
+[; ;pic168xa.h: 104: volatile bit RA1 @ (unsigned)&PORTA*8+1;
+[; ;pic168xa.h: 105: volatile bit RA0 @ (unsigned)&PORTA*8+0;
+[; ;pic168xa.h: 108: volatile bit RB7 @ (unsigned)&PORTB*8+7;
+[; ;pic168xa.h: 109: volatile bit RB6 @ (unsigned)&PORTB*8+6;
+[; ;pic168xa.h: 110: volatile bit RB5 @ (unsigned)&PORTB*8+5;
+[; ;pic168xa.h: 111: volatile bit RB4 @ (unsigned)&PORTB*8+4;
+[; ;pic168xa.h: 112: volatile bit RB3 @ (unsigned)&PORTB*8+3;
+[; ;pic168xa.h: 113: volatile bit RB2 @ (unsigned)&PORTB*8+2;
+[; ;pic168xa.h: 114: volatile bit RB1 @ (unsigned)&PORTB*8+1;
+[; ;pic168xa.h: 115: volatile bit RB0 @ (unsigned)&PORTB*8+0;
+[; ;pic168xa.h: 118: volatile bit RC7 @ (unsigned)&PORTC*8+7;
+[; ;pic168xa.h: 119: volatile bit RC6 @ (unsigned)&PORTC*8+6;
+[; ;pic168xa.h: 120: volatile bit RC5 @ (unsigned)&PORTC*8+5;
+[; ;pic168xa.h: 121: volatile bit RC4 @ (unsigned)&PORTC*8+4;
+[; ;pic168xa.h: 122: volatile bit RC3 @ (unsigned)&PORTC*8+3;
+[; ;pic168xa.h: 123: volatile bit RC2 @ (unsigned)&PORTC*8+2;
+[; ;pic168xa.h: 124: volatile bit RC1 @ (unsigned)&PORTC*8+1;
+[; ;pic168xa.h: 125: volatile bit RC0 @ (unsigned)&PORTC*8+0;
+[; ;pic168xa.h: 129: volatile bit RD7 @ (unsigned)&PORTD*8+7;
+[; ;pic168xa.h: 130: volatile bit RD6 @ (unsigned)&PORTD*8+6;
+[; ;pic168xa.h: 131: volatile bit RD5 @ (unsigned)&PORTD*8+5;
+[; ;pic168xa.h: 132: volatile bit RD4 @ (unsigned)&PORTD*8+4;
+[; ;pic168xa.h: 133: volatile bit RD3 @ (unsigned)&PORTD*8+3;
+[; ;pic168xa.h: 134: volatile bit RD2 @ (unsigned)&PORTD*8+2;
+[; ;pic168xa.h: 135: volatile bit RD1 @ (unsigned)&PORTD*8+1;
+[; ;pic168xa.h: 136: volatile bit RD0 @ (unsigned)&PORTD*8+0;
+[; ;pic168xa.h: 139: volatile bit RE2 @ (unsigned)&PORTE*8+2;
+[; ;pic168xa.h: 140: volatile bit RE1 @ (unsigned)&PORTE*8+1;
+[; ;pic168xa.h: 141: volatile bit RE0 @ (unsigned)&PORTE*8+0;
+[; ;pic168xa.h: 145: volatile bit GIE @ (unsigned)&INTCON*8+7;
+[; ;pic168xa.h: 146: volatile bit PEIE @ (unsigned)&INTCON*8+6;
+[; ;pic168xa.h: 147: volatile bit T0IE @ (unsigned)&INTCON*8+5;
+[; ;pic168xa.h: 148: volatile bit INTE @ (unsigned)&INTCON*8+4;
+[; ;pic168xa.h: 149: volatile bit RBIE @ (unsigned)&INTCON*8+3;
+[; ;pic168xa.h: 150: volatile bit T0IF @ (unsigned)&INTCON*8+2;
+[; ;pic168xa.h: 151: volatile bit INTF @ (unsigned)&INTCON*8+1;
+[; ;pic168xa.h: 152: volatile bit RBIF @ (unsigned)&INTCON*8+0;
+[; ;pic168xa.h: 154: volatile bit TMR0IE @ (unsigned)&INTCON*8+5;
+[; ;pic168xa.h: 155: volatile bit TMR0IF @ (unsigned)&INTCON*8+2;
+[; ;pic168xa.h: 159: volatile bit PSPIF @ (unsigned)&PIR1*8+7;
+[; ;pic168xa.h: 161: volatile bit ADIF @ (unsigned)&PIR1*8+6;
+[; ;pic168xa.h: 162: volatile bit RCIF @ (unsigned)&PIR1*8+5;
+[; ;pic168xa.h: 163: volatile bit TXIF @ (unsigned)&PIR1*8+4;
+[; ;pic168xa.h: 164: volatile bit SSPIF @ (unsigned)&PIR1*8+3;
+[; ;pic168xa.h: 165: volatile bit CCP1IF @ (unsigned)&PIR1*8+2;
+[; ;pic168xa.h: 166: volatile bit TMR2IF @ (unsigned)&PIR1*8+1;
+[; ;pic168xa.h: 167: volatile bit TMR1IF @ (unsigned)&PIR1*8+0;
+[; ;pic168xa.h: 170: volatile bit CMIF @ (unsigned)&PIR2*8+6;
+[; ;pic168xa.h: 171: volatile bit EEIF @ (unsigned)&PIR2*8+4;
+[; ;pic168xa.h: 172: volatile bit BCLIF @ (unsigned)&PIR2*8+3;
+[; ;pic168xa.h: 173: volatile bit CCP2IF @ (unsigned)&PIR2*8+0;
+[; ;pic168xa.h: 176: volatile bit T1CKPS1 @ (unsigned)&T1CON*8+5;
+[; ;pic168xa.h: 177: volatile bit T1CKPS0 @ (unsigned)&T1CON*8+4;
+[; ;pic168xa.h: 178: volatile bit T1OSCEN @ (unsigned)&T1CON*8+3;
+[; ;pic168xa.h: 179: volatile bit T1SYNC @ (unsigned)&T1CON*8+2;
+[; ;pic168xa.h: 180: volatile bit TMR1CS @ (unsigned)&T1CON*8+1;
+[; ;pic168xa.h: 181: volatile bit TMR1ON @ (unsigned)&T1CON*8+0;
+[; ;pic168xa.h: 184: volatile bit TOUTPS3 @ (unsigned)&T2CON*8+6;
+[; ;pic168xa.h: 185: volatile bit TOUTPS2 @ (unsigned)&T2CON*8+5;
+[; ;pic168xa.h: 186: volatile bit TOUTPS1 @ (unsigned)&T2CON*8+4;
+[; ;pic168xa.h: 187: volatile bit TOUTPS0 @ (unsigned)&T2CON*8+3;
+[; ;pic168xa.h: 188: volatile bit TMR2ON @ (unsigned)&T2CON*8+2;
+[; ;pic168xa.h: 189: volatile bit T2CKPS1 @ (unsigned)&T2CON*8+1;
+[; ;pic168xa.h: 190: volatile bit T2CKPS0 @ (unsigned)&T2CON*8+0;
+[; ;pic168xa.h: 193: volatile bit WCOL @ (unsigned)&SSPCON*8+7;
+[; ;pic168xa.h: 194: volatile bit SSPOV @ (unsigned)&SSPCON*8+6;
+[; ;pic168xa.h: 195: volatile bit SSPEN @ (unsigned)&SSPCON*8+5;
+[; ;pic168xa.h: 196: volatile bit CKP @ (unsigned)&SSPCON*8+4;
+[; ;pic168xa.h: 197: volatile bit SSPM3 @ (unsigned)&SSPCON*8+3;
+[; ;pic168xa.h: 198: volatile bit SSPM2 @ (unsigned)&SSPCON*8+2;
+[; ;pic168xa.h: 199: volatile bit SSPM1 @ (unsigned)&SSPCON*8+1;
+[; ;pic168xa.h: 200: volatile bit SSPM0 @ (unsigned)&SSPCON*8+0;
+[; ;pic168xa.h: 203: volatile bit CCP1X @ (unsigned)&CCP1CON*8+5;
+[; ;pic168xa.h: 204: volatile bit CCP1Y @ (unsigned)&CCP1CON*8+4;
+[; ;pic168xa.h: 205: volatile bit CCP1M3 @ (unsigned)&CCP1CON*8+3;
+[; ;pic168xa.h: 206: volatile bit CCP1M2 @ (unsigned)&CCP1CON*8+2;
+[; ;pic168xa.h: 207: volatile bit CCP1M1 @ (unsigned)&CCP1CON*8+1;
+[; ;pic168xa.h: 208: volatile bit CCP1M0 @ (unsigned)&CCP1CON*8+0;
+[; ;pic168xa.h: 211: volatile bit SPEN @ (unsigned)&RCSTA*8+7;
+[; ;pic168xa.h: 212: volatile bit RX9 @ (unsigned)&RCSTA*8+6;
+[; ;pic168xa.h: 213: volatile bit SREN @ (unsigned)&RCSTA*8+5;
+[; ;pic168xa.h: 214: volatile bit CREN @ (unsigned)&RCSTA*8+4;
+[; ;pic168xa.h: 215: volatile bit ADDEN @ (unsigned)&RCSTA*8+3;
+[; ;pic168xa.h: 216: volatile bit FERR @ (unsigned)&RCSTA*8+2;
+[; ;pic168xa.h: 217: volatile bit OERR @ (unsigned)&RCSTA*8+1;
+[; ;pic168xa.h: 218: volatile bit RX9D @ (unsigned)&RCSTA*8+0;
+[; ;pic168xa.h: 221: volatile bit CCP2X @ (unsigned)&CCP2CON*8+5;
+[; ;pic168xa.h: 222: volatile bit CCP2Y @ (unsigned)&CCP2CON*8+4;
+[; ;pic168xa.h: 223: volatile bit CCP2M3 @ (unsigned)&CCP2CON*8+3;
+[; ;pic168xa.h: 224: volatile bit CCP2M2 @ (unsigned)&CCP2CON*8+2;
+[; ;pic168xa.h: 225: volatile bit CCP2M1 @ (unsigned)&CCP2CON*8+1;
+[; ;pic168xa.h: 226: volatile bit CCP2M0 @ (unsigned)&CCP2CON*8+0;
+[; ;pic168xa.h: 229: volatile bit ADCS1 @ (unsigned)&ADCON0*8+7;
+[; ;pic168xa.h: 230: volatile bit ADCS0 @ (unsigned)&ADCON0*8+6;
+[; ;pic168xa.h: 231: volatile bit CHS2 @ (unsigned)&ADCON0*8+5;
+[; ;pic168xa.h: 232: volatile bit CHS1 @ (unsigned)&ADCON0*8+4;
+[; ;pic168xa.h: 233: volatile bit CHS0 @ (unsigned)&ADCON0*8+3;
+[; ;pic168xa.h: 234: volatile bit ADGO @ (unsigned)&ADCON0*8+2;
+[; ;pic168xa.h: 236: volatile bit GODONE @ (unsigned)&ADCON0*8+2;
+[; ;pic168xa.h: 237: volatile bit ADON @ (unsigned)&ADCON0*8+0;
+[; ;pic168xa.h: 240: bit RBPU @ (unsigned)&OPTION*8+7;
+[; ;pic168xa.h: 241: bit INTEDG @ (unsigned)&OPTION*8+6;
+[; ;pic168xa.h: 242: bit T0CS @ (unsigned)&OPTION*8+5;
+[; ;pic168xa.h: 243: bit T0SE @ (unsigned)&OPTION*8+4;
+[; ;pic168xa.h: 244: bit PSA @ (unsigned)&OPTION*8+3;
+[; ;pic168xa.h: 245: bit PS2 @ (unsigned)&OPTION*8+2;
+[; ;pic168xa.h: 246: bit PS1 @ (unsigned)&OPTION*8+1;
+[; ;pic168xa.h: 247: bit PS0 @ (unsigned)&OPTION*8+0;
+[; ;pic168xa.h: 250: volatile bit TRISA5 @ (unsigned)&TRISA*8+5;
+[; ;pic168xa.h: 251: volatile bit TRISA4 @ (unsigned)&TRISA*8+4;
+[; ;pic168xa.h: 252: volatile bit TRISA3 @ (unsigned)&TRISA*8+3;
+[; ;pic168xa.h: 253: volatile bit TRISA2 @ (unsigned)&TRISA*8+2;
+[; ;pic168xa.h: 254: volatile bit TRISA1 @ (unsigned)&TRISA*8+1;
+[; ;pic168xa.h: 255: volatile bit TRISA0 @ (unsigned)&TRISA*8+0;
+[; ;pic168xa.h: 258: volatile bit TRISB7 @ (unsigned)&TRISB*8+7;
+[; ;pic168xa.h: 259: volatile bit TRISB6 @ (unsigned)&TRISB*8+6;
+[; ;pic168xa.h: 260: volatile bit TRISB5 @ (unsigned)&TRISB*8+5;
+[; ;pic168xa.h: 261: volatile bit TRISB4 @ (unsigned)&TRISB*8+4;
+[; ;pic168xa.h: 262: volatile bit TRISB3 @ (unsigned)&TRISB*8+3;
+[; ;pic168xa.h: 263: volatile bit TRISB2 @ (unsigned)&TRISB*8+2;
+[; ;pic168xa.h: 264: volatile bit TRISB1 @ (unsigned)&TRISB*8+1;
+[; ;pic168xa.h: 265: volatile bit TRISB0 @ (unsigned)&TRISB*8+0;
+[; ;pic168xa.h: 268: volatile bit TRISC7 @ (unsigned)&TRISC*8+7;
+[; ;pic168xa.h: 269: volatile bit TRISC6 @ (unsigned)&TRISC*8+6;
+[; ;pic168xa.h: 270: volatile bit TRISC5 @ (unsigned)&TRISC*8+5;
+[; ;pic168xa.h: 271: volatile bit TRISC4 @ (unsigned)&TRISC*8+4;
+[; ;pic168xa.h: 272: volatile bit TRISC3 @ (unsigned)&TRISC*8+3;
+[; ;pic168xa.h: 273: volatile bit TRISC2 @ (unsigned)&TRISC*8+2;
+[; ;pic168xa.h: 274: volatile bit TRISC1 @ (unsigned)&TRISC*8+1;
+[; ;pic168xa.h: 275: volatile bit TRISC0 @ (unsigned)&TRISC*8+0;
+[; ;pic168xa.h: 279: volatile bit TRISD7 @ (unsigned)&TRISD*8+7;
+[; ;pic168xa.h: 280: volatile bit TRISD6 @ (unsigned)&TRISD*8+6;
+[; ;pic168xa.h: 281: volatile bit TRISD5 @ (unsigned)&TRISD*8+5;
+[; ;pic168xa.h: 282: volatile bit TRISD4 @ (unsigned)&TRISD*8+4;
+[; ;pic168xa.h: 283: volatile bit TRISD3 @ (unsigned)&TRISD*8+3;
+[; ;pic168xa.h: 284: volatile bit TRISD2 @ (unsigned)&TRISD*8+2;
+[; ;pic168xa.h: 285: volatile bit TRISD1 @ (unsigned)&TRISD*8+1;
+[; ;pic168xa.h: 286: volatile bit TRISD0 @ (unsigned)&TRISD*8+0;
+[; ;pic168xa.h: 289: volatile bit IBF @ (unsigned)&TRISE*8+7;
+[; ;pic168xa.h: 290: volatile bit OBF @ (unsigned)&TRISE*8+6;
+[; ;pic168xa.h: 291: volatile bit IBOV @ (unsigned)&TRISE*8+5;
+[; ;pic168xa.h: 292: volatile bit PSPMODE @ (unsigned)&TRISE*8+4;
+[; ;pic168xa.h: 294: volatile bit TRISE2 @ (unsigned)&TRISE*8+2;
+[; ;pic168xa.h: 295: volatile bit TRISE1 @ (unsigned)&TRISE*8+1;
+[; ;pic168xa.h: 296: volatile bit TRISE0 @ (unsigned)&TRISE*8+0;
+[; ;pic168xa.h: 301: volatile bit PSPIE @ (unsigned)&PIE1*8+7;
+[; ;pic168xa.h: 303: volatile bit ADIE @ (unsigned)&PIE1*8+6;
+[; ;pic168xa.h: 304: volatile bit RCIE @ (unsigned)&PIE1*8+5;
+[; ;pic168xa.h: 305: volatile bit TXIE @ (unsigned)&PIE1*8+4;
+[; ;pic168xa.h: 306: volatile bit SSPIE @ (unsigned)&PIE1*8+3;
+[; ;pic168xa.h: 307: volatile bit CCP1IE @ (unsigned)&PIE1*8+2;
+[; ;pic168xa.h: 308: volatile bit TMR2IE @ (unsigned)&PIE1*8+1;
+[; ;pic168xa.h: 309: volatile bit TMR1IE @ (unsigned)&PIE1*8+0;
+[; ;pic168xa.h: 312: volatile bit CMIE @ (unsigned)&PIE2*8+6;
+[; ;pic168xa.h: 313: volatile bit EEIE @ (unsigned)&PIE2*8+4;
+[; ;pic168xa.h: 314: volatile bit BCLIE @ (unsigned)&PIE2*8+3;
+[; ;pic168xa.h: 315: volatile bit CCP2IE @ (unsigned)&PIE2*8+0;
+[; ;pic168xa.h: 318: volatile bit POR @ (unsigned)&PCON*8+1;
+[; ;pic168xa.h: 319: volatile bit BOR @ (unsigned)&PCON*8+0;
+[; ;pic168xa.h: 322: volatile bit GCEN @ (unsigned)&SSPCON2*8+7;
+[; ;pic168xa.h: 323: volatile bit ACKSTAT @ (unsigned)&SSPCON2*8+6;
+[; ;pic168xa.h: 324: volatile bit ACKDT @ (unsigned)&SSPCON2*8+5;
+[; ;pic168xa.h: 325: volatile bit ACKEN @ (unsigned)&SSPCON2*8+4;
+[; ;pic168xa.h: 326: volatile bit RCEN @ (unsigned)&SSPCON2*8+3;
+[; ;pic168xa.h: 327: volatile bit PEN @ (unsigned)&SSPCON2*8+2;
+[; ;pic168xa.h: 328: volatile bit RSEN @ (unsigned)&SSPCON2*8+1;
+[; ;pic168xa.h: 329: volatile bit SEN @ (unsigned)&SSPCON2*8+0;
+[; ;pic168xa.h: 332: volatile bit SMP @ (unsigned)&SSPSTAT*8+7;
+[; ;pic168xa.h: 333: volatile bit CKE @ (unsigned)&SSPSTAT*8+6;
+[; ;pic168xa.h: 334: volatile bit DA @ (unsigned)&SSPSTAT*8+5;
+[; ;pic168xa.h: 335: volatile bit STOP @ (unsigned)&SSPSTAT*8+4;
+[; ;pic168xa.h: 336: volatile bit START @ (unsigned)&SSPSTAT*8+3;
+[; ;pic168xa.h: 337: volatile bit RW @ (unsigned)&SSPSTAT*8+2;
+[; ;pic168xa.h: 338: volatile bit UA @ (unsigned)&SSPSTAT*8+1;
+[; ;pic168xa.h: 339: volatile bit BF @ (unsigned)&SSPSTAT*8+0;
+[; ;pic168xa.h: 352: volatile bit CSRC @ (unsigned)&TXSTA*8+7;
+[; ;pic168xa.h: 353: volatile bit TX9 @ (unsigned)&TXSTA*8+6;
+[; ;pic168xa.h: 354: volatile bit TXEN @ (unsigned)&TXSTA*8+5;
+[; ;pic168xa.h: 355: volatile bit SYNC @ (unsigned)&TXSTA*8+4;
+[; ;pic168xa.h: 356: volatile bit BRGH @ (unsigned)&TXSTA*8+2;
+[; ;pic168xa.h: 357: volatile bit TRMT @ (unsigned)&TXSTA*8+1;
+[; ;pic168xa.h: 358: volatile bit TX9D @ (unsigned)&TXSTA*8+0;
+[; ;pic168xa.h: 361: volatile bit C2OUT @ (unsigned)&CMCON*8+7;
+[; ;pic168xa.h: 362: volatile bit C1OUT @ (unsigned)&CMCON*8+6;
+[; ;pic168xa.h: 363: volatile bit C2INV @ (unsigned)&CMCON*8+5;
+[; ;pic168xa.h: 364: volatile bit C1INV @ (unsigned)&CMCON*8+4;
+[; ;pic168xa.h: 365: volatile bit CIS @ (unsigned)&CMCON*8+3;
+[; ;pic168xa.h: 366: volatile bit CM2 @ (unsigned)&CMCON*8+2;
+[; ;pic168xa.h: 367: volatile bit CM1 @ (unsigned)&CMCON*8+1;
+[; ;pic168xa.h: 368: volatile bit CM0 @ (unsigned)&CMCON*8+0;
+[; ;pic168xa.h: 371: volatile bit CVREN @ (unsigned)&CVRCON*8+7;
+[; ;pic168xa.h: 372: volatile bit CVROE @ (unsigned)&CVRCON*8+6;
+[; ;pic168xa.h: 373: volatile bit CVRR @ (unsigned)&CVRCON*8+5;
+[; ;pic168xa.h: 374: volatile bit CVR3 @ (unsigned)&CVRCON*8+3;
+[; ;pic168xa.h: 375: volatile bit CVR2 @ (unsigned)&CVRCON*8+2;
+[; ;pic168xa.h: 376: volatile bit CVR1 @ (unsigned)&CVRCON*8+1;
+[; ;pic168xa.h: 377: volatile bit CVR0 @ (unsigned)&CVRCON*8+0;
+[; ;pic168xa.h: 380: volatile bit ADFM @ (unsigned)&ADCON1*8+7;
+[; ;pic168xa.h: 381: volatile bit ADCS2 @ (unsigned)&ADCON1*8+6;
+[; ;pic168xa.h: 382: volatile bit PCFG3 @ (unsigned)&ADCON1*8+3;
+[; ;pic168xa.h: 383: volatile bit PCFG2 @ (unsigned)&ADCON1*8+2;
+[; ;pic168xa.h: 384: volatile bit PCFG1 @ (unsigned)&ADCON1*8+1;
+[; ;pic168xa.h: 385: volatile bit PCFG0 @ (unsigned)&ADCON1*8+0;
+[; ;pic168xa.h: 388: volatile bit EEPGD @ (unsigned)&EECON1*8+7;
+[; ;pic168xa.h: 389: volatile bit WRERR @ (unsigned)&EECON1*8+3;
+[; ;pic168xa.h: 390: volatile bit WREN @ (unsigned)&EECON1*8+2;
+[; ;pic168xa.h: 391: volatile bit WR @ (unsigned)&EECON1*8+1;
+[; ;pic168xa.h: 392: volatile bit RD @ (unsigned)&EECON1*8+0;
+[; ;pic.h: 332: extern unsigned int flash_read(unsigned short addr);
+[; ;eeprom_routines.h: 41: extern void eeprom_write(unsigned char addr, unsigned char value);
+[; ;eeprom_routines.h: 42: extern unsigned char eeprom_read(unsigned char addr);
+[; ;pic.h: 406: extern void _delay(unsigned long);
+"19 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.h
+"20
+[; ;These bit masks are used by functions output_low(), output_high() and read_input() to ;#
+"21
+[; ;determine which port/bit combinations are valid for the requested action. Invalid ;#
+"22
+[; ;combinations will set a bit in the cInputErr flag and then return with no I/O action. Additionally, ;#
+"23
+[; ;read_input will return an 0xFF. The bit masks can be changed to accommodate different PIC chip applications. ;#
+"24
+"25
+[; ;***Masks for output_low(),output_high() ;#
+"26
+[;                         ;76543210 0=Disallowed(Error), 1=Allowed ;#
+"27
+[;      MASK_OUT_PORTA EQU 00010000B ;bits 6,7 do not exist, bits 0-3,5 are analog inputs ;#
+"28
+[;      MASK_OUT_PORTB EQU 11111111B ;#
+"29
+[;      MASK_OUT_PORTC EQU 00111001B ;bit 6=TX, 7=RX (RS-232), bits 1,2 are used for motor PWM ;#
+"30
+[;      MASK_OUT_PORTD EQU 11111111B ;#
+"31
+[;      MASK_OUT_PORTE EQU 00000100B ;bits 3 to 7 do not exist, bits 0,1 are digital inputs ;#
+"32
+"33
+[; ;***Masks for read_input() ;#
+"34
+[;                         ;76543210 0=Disallowed(Error), 1=Allowed ;#
+"35
+[;      MASK_IN_PORTA EQU 00000000B ;bits 6,7 do not exist, rest are all outputs ;#
+"36
+[;      MASK_IN_PORTB EQU 11111111B ;#
+"37
+[;      MASK_IN_PORTC EQU 00000000B ;bit 6=TX, 7=RX (RS-232), rest are all outputs ;#
+"38
+[;      MASK_IN_PORTD EQU 11111111B ;#
+"39
+[;      MASK_IN_PORTE EQU 00000011B ;bits 3 to 7 do not exist, bit 2 is an output ;#
+"40
+"41
+[; ;Registers used in assembly but never in 0x00 code, must be defined for assembler ;#
+"42
+[;   TXREG EQU 19h ;#
+"43
+[;   INTCON EQU 0Bh ;#
+"44
+[;   PORTA EQU 05h ;#
+"45
+[;   PORTB EQU 06h ;#
+"46
+[;   PORTC EQU 07h ;#
+"47
+[;   PORTD EQU 08h ;#
+"48
+[;   PORTE EQU 09h ;#
+"49
+[; ;PICinit.h: 55: unsigned int rt_clock @ 0x5D;
+[; ;PICinit.h: 56: char rt_toggle @ 0x5F;
+[; ;PICinit.h: 57: char save1 @ 0x60;
+[; ;PICinit.h: 58: char save2 @ 0x61;
+[; ;PICinit.h: 59: char save3 @ 0x62;
+[; ;PICinit.h: 60: char save4 @ 0x63;
+[; ;PICinit.h: 61: char save5 @ 0x64;
+[; ;PICinit.h: 62: char save6 @ 0x65;
+[; ;PICinit.h: 63: char save7 @ 0x66;
+[; ;PICinit.h: 64: char save8 @ 0x67;
+[; ;PICinit.h: 65: char save9 @ 0x68;
+[; ;PICinit.h: 66: char save10 @ 0x69;
+[; ;PICinit.h: 67: char save11 @ 0x6A;
+[; ;PICinit.h: 68: char save12 @ 0x6B;
+[; ;PICinit.h: 69: char save13 @ 0x6C;
+[; ;PICinit.h: 70: char save14 @ 0x6D;
+[; ;PICinit.h: 71: char save15 @ 0x6E;
+[; ;PICinit.h: 72: char save16 @ 0x6F;
+[; ;PICinit.h: 73: char cPortTmp @ 0x70;
+[; ;PICinit.h: 74: char g_cTmp1 @ 0x70;
+[; ;PICinit.h: 75: char cBitTmp @ 0x71;
+[; ;PICinit.h: 76: char g_cTmp2 @ 0x71;
+[; ;PICinit.h: 77: char cBitPat @ 0x72;
+[; ;PICinit.h: 78: char g_cTmp3 @ 0x72;
+[; ;PICinit.h: 79: char cStatusR @ 0x73;
+[; ;PICinit.h: 81: unsigned int g_iArg @ 0x74;
+[; ;PICinit.h: 82: unsigned int g_iTmp @ 0x76;
+[; ;PICinit.h: 83: char isr_active @ 0x78;
+[; ;PICinit.h: 84: char cInputErr @ 0x79;
+[i _g_cSpeedMotor1
+"92
+-> -> 0 `i `uc
+]
+[; ;PICinit.h: 92: char g_cSpeedMotor1 = 0;
+[i _g_cSpeedMotor2
+"93
+-> -> 0 `i `uc
+]
+[; ;PICinit.h: 93: char g_cSpeedMotor2 = 0;
+[i _ver
+"95
+:s 1C
+]
+[; ;PICinit.h: 95: const char * ver = "v11F-01 Timer-beta";
+[; ;PICinit.h: 100: void configurePIC();
+[; ;PICinit.h: 101: void motorspeed (char motornum, char speed);
+[; ;PICinit.h: 102: void output_high (char Port, char Bit);
+[; ;PICinit.h: 103: void output_low (char Port, char Bit);
+[; ;PICinit.h: 104: char read_input (char Port, char Bit);
+[; ;PICinit.h: 105: unsigned int read_adc (char channel);
+[; ;PICinit.h: 106: void pause (unsigned int time);
+[; ;PICinit.h: 107: void putdata (unsigned int data);
+[; ;PICinit.h: 108: void putchar (char data);
+[; ;PICinit.h: 109: char save_data();
+[; ;PICinit.h: 110: void restore_data();
+[; ;PICinit.h: 112: void version ();
+[; ;delay.h: 54: extern void DelayMs(unsigned char);
+[; ;delay.h: 54: extern void DelayMs(unsigned char);
+"12 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\delay.c
+[v _DelayMs `(v 1 ef1`uc ]
+{
+[; ;delay.c: 10: void
+[; ;delay.c: 11: DelayMs(unsigned char cnt)
+[; ;delay.c: 12: {
+[e :U _DelayMs ]
+[v _cnt `uc 1 r1 ]
+[f ]
+"20
+[v _i `uc 1 a ]
+[; ;delay.c: 20: unsigned char i;
+[; ;delay.c: 21: do {
+"21
+[e :U 4 ]
+{
+[; ;delay.c: 22: i = 4;
+"22
+[e = _i -> -> 4 `i `uc ]
+[; ;delay.c: 23: do {
+"23
+[e :U 7 ]
+{
+[; ;delay.c: 24: { unsigned char _dcnt; _dcnt = (250)/((36*1000L)/(4*1000L))|1; while(--_dcnt != 0) continue; };
+"24
+{
+[v __dcnt `uc 1 a ]
+[e = __dcnt -> | / -> -> 250 `i `l / * -> -> 36 `i `l -> 1000 `l * -> -> 4 `i `l -> 1000 `l -> -> 1 `i `l `uc ]
+[e $U 8  ]
+[e :U 9 ]
+[e $U 8  ]
+[e :U 8 ]
+[e $ != -> =- __dcnt -> -> 1 `i `uc `i -> 0 `i 9  ]
+[e :U 10 ]
+}
+"25
+}
+[; ;delay.c: 25: } while(--i);
+[e $ != -> =- _i -> -> 1 `i `uc `i -> -> -> 0 `i `uc `i 7  ]
+[e :U 6 ]
+"26
+}
+[; ;delay.c: 26: } while(--cnt);
+[e $ != -> =- _cnt -> -> 1 `i `uc `i -> -> -> 0 `i `uc `i 4  ]
+[e :U 3 ]
+[; ;delay.c: 28: }
+"28
+[e :UE 1 ]
+}
+"29 C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\include\PICinit.c
+[v _configurePIC `(v 1 ef ]
+{
+[; ;PICinit.c: 17: void configurePIC()
+[; ;PICinit.c: 29: {
+[e :U _configurePIC ]
+[f ]
+[; ;PICinit.c: 31: ADCON1 = 0b11000010;
+"31
+[e = _ADCON1 -> -> 194 `i `uc ]
+[; ;PICinit.c: 32: ADCON0 = 0b01000001;
+"32
+[e = _ADCON0 -> -> 65 `i `uc ]
+[; ;PICinit.c: 33: PORTA = 0b00010000;
+"33
+[e = _PORTA -> -> 16 `i `uc ]
+[; ;PICinit.c: 34: TRISA = 0b00101111;
+"34
+[e = _TRISA -> -> 47 `i `uc ]
+[; ;PICinit.c: 35: PORTB = 0b00000000;
+"35
+[e = _PORTB -> -> 0 `i `uc ]
+[; ;PICinit.c: 36: TRISB = 0b11111111;
+"36
+[e = _TRISB -> -> 255 `i `uc ]
+[; ;PICinit.c: 37: PORTC = 0b00000000;
+"37
+[e = _PORTC -> -> 0 `i `uc ]
+[; ;PICinit.c: 38: TRISC = 0b11000000;
+"38
+[e = _TRISC -> -> 192 `i `uc ]
+[; ;PICinit.c: 40: PORTD = 0b00000000;
+"40
+[e = _PORTD -> -> 0 `i `uc ]
+[; ;PICinit.c: 41: TRISD = 0b11111111;
+"41
+[e = _TRISD -> -> 255 `i `uc ]
+[; ;PICinit.c: 42: PORTE = 0b00000100;
+"42
+[e = _PORTE -> -> 4 `i `uc ]
+[; ;PICinit.c: 43: TRISE = 0b00000011;
+"43
+[e = _TRISE -> -> 3 `i `uc ]
+[; ;PICinit.c: 44: OPTION = 0b10000111;
+"44
+[e = _OPTION -> -> 135 `i `uc ]
+[; ;PICinit.c: 46: TMR0 = 0b00000000;
+"46
+[e = _TMR0 -> -> 0 `i `uc ]
+[; ;PICinit.c: 47: SPBRG = 12;
+"47
+[e = _SPBRG -> -> 12 `i `uc ]
+[; ;PICinit.c: 48: TXSTA = 0b00100100;
+"48
+[e = _TXSTA -> -> 36 `i `uc ]
+[; ;PICinit.c: 49: RCSTA = 0b10010000;
+"49
+[e = _RCSTA -> -> 144 `i `uc ]
+[; ;PICinit.c: 55: output_low ('c', 0);
+"55
+[e ( _output_low (2 , -> -> 99 `ui `uc -> -> 0 `i `uc ]
+[; ;PICinit.c: 56: output_high ('a', 4);
+"56
+[e ( _output_high (2 , -> -> 97 `ui `uc -> -> 4 `i `uc ]
+[; ;PICinit.c: 57: g_cTmp1=read_input ('e', 0);
+"57
+[e = _g_cTmp1 ( _read_input (2 , -> -> 101 `ui `uc -> -> 0 `i `uc ]
+[; ;PICinit.c: 58: g_iTmp=read_adc (0);
+"58
+[e = _g_iTmp ( _read_adc (1 -> -> 0 `i `uc ]
+[; ;PICinit.c: 59: putdata (0);
+"59
+[e ( _putdata (1 -> -> 0 `i `ui ]
+[; ;PICinit.c: 60: motorspeed (1, 100);
+"60
+[e ( _motorspeed (2 , -> -> 1 `i `uc -> -> 100 `i `uc ]
+[; ;PICinit.c: 61: motorspeed (2, 100);
+"61
+[e ( _motorspeed (2 , -> -> 2 `i `uc -> -> 100 `i `uc ]
+[; ;PICinit.c: 62: pause(250);
+"62
+[e ( _pause (1 -> -> 250 `i `ui ]
+[; ;PICinit.c: 63: version();
+"63
+[e ( _version ..  ]
+[; ;PICinit.c: 65: cInputErr=0;
+"65
+[e = _cInputErr -> -> 0 `i `uc ]
+[; ;PICinit.c: 66: rt_toggle=0;
+"66
+[e = _rt_toggle -> -> 0 `i `uc ]
+[; ;PICinit.c: 67: rt_clock=0;
+"67
+[e = _rt_clock -> -> 0 `i `ui ]
+[; ;PICinit.c: 68: isr_active=0;
+"68
+[e = _isr_active -> -> 0 `i `uc ]
+[; ;PICinit.c: 69: return;
+"69
+[e $UE 11  ]
+[; ;PICinit.c: 70: }
+"70
+[e :UE 11 ]
+}
+"74
+[p l 1 ]
+"86
+[v _motorspeed `(v 1 ef2`uc`uc ]
+{
+[; ;PICinit.c: 75: void motorspeed (char motornum, char speed)
+[; ;PICinit.c: 86: {
+[e :U _motorspeed ]
+[v _motornum `uc 1 r1 ]
+[v _speed `uc 1 r2 ]
+[f ]
+[; ;PICinit.c: 87: if ((speed < 30) || (speed > 100))
+"87
+[e $ ! || < -> _speed `i -> 30 `i > -> _speed `i -> 100 `i 13  ]
+[; ;PICinit.c: 88: { cInputErr |= 0b00010000 ;
+"88
+{
+[e =| _cInputErr -> -> 16 `i `uc ]
+[; ;PICinit.c: 89: return;
+"89
+[e $UE 12  ]
+"90
+}
+[e :U 13 ]
+[; ;PICinit.c: 90: }
+[; ;PICinit.c: 92: INTE=0;
+"92
+[e = _INTE -> -> 0 `i `b ]
+[; ;PICinit.c: 95: PR2=103;
+"95
+[e = _PR2 -> -> 103 `i `uc ]
+[; ;PICinit.c: 97: if (motornum == 1)
+"97
+[e $ ! == -> _motornum `i -> 1 `i 14  ]
+[; ;PICinit.c: 98: {
+"98
+{
+[; ;PICinit.c: 99: if (speed == g_cSpeedMotor1)
+"99
+[e $ ! == -> _speed `i -> _g_cSpeedMotor1 `i 15  ]
+[; ;PICinit.c: 100: {INTE=1; return;}
+"100
+{
+[e = _INTE -> -> 1 `i `b ]
+[e $UE 12  ]
+}
+[e :U 15 ]
+[; ;PICinit.c: 101: g_cSpeedMotor1 = speed;
+"101
+[e = _g_cSpeedMotor1 _speed ]
+[; ;PICinit.c: 102: CCP1CON=0x00;
+"102
+[e = _CCP1CON -> -> 0 `i `uc ]
+[; ;PICinit.c: 103: CCPR1L=(speed+5);
+"103
+[e = _CCPR1L -> + -> _speed `i -> 5 `i `uc ]
+[; ;PICinit.c: 104: TRISC2=0;
+"104
+[e = _TRISC2 -> -> 0 `i `b ]
+[; ;PICinit.c: 105: CCP1CON=0x0c;
+"105
+[e = _CCP1CON -> -> 12 `i `uc ]
+[; ;PICinit.c: 106: T2CON=0x06;
+"106
+[e = _T2CON -> -> 6 `i `uc ]
+"107
+}
+[; ;PICinit.c: 107: }
+[e $U 16  ]
+"108
+[e :U 14 ]
+[; ;PICinit.c: 108: else if (motornum == 2)
+[e $ ! == -> _motornum `i -> 2 `i 17  ]
+[; ;PICinit.c: 109: {
+"109
+{
+[; ;PICinit.c: 110: if (speed == g_cSpeedMotor2)
+"110
+[e $ ! == -> _speed `i -> _g_cSpeedMotor2 `i 18  ]
+[; ;PICinit.c: 111: {INTE=1; return;}
+"111
+{
+[e = _INTE -> -> 1 `i `b ]
+[e $UE 12  ]
+}
+[e :U 18 ]
+[; ;PICinit.c: 112: g_cSpeedMotor2 = speed;
+"112
+[e = _g_cSpeedMotor2 _speed ]
+[; ;PICinit.c: 113: CCP2CON=0x00;
+"113
+[e = _CCP2CON -> -> 0 `i `uc ]
+[; ;PICinit.c: 114: CCPR2L=(speed+5);
+"114
+[e = _CCPR2L -> + -> _speed `i -> 5 `i `uc ]
+[; ;PICinit.c: 115: TRISC1=0;
+"115
+[e = _TRISC1 -> -> 0 `i `b ]
+[; ;PICinit.c: 116: CCP2CON=0x0c;
+"116
+[e = _CCP2CON -> -> 12 `i `uc ]
+[; ;PICinit.c: 117: T2CON=0x06;
+"117
+[e = _T2CON -> -> 6 `i `uc ]
+"118
+}
+[; ;PICinit.c: 118: }
+[e $U 19  ]
+"119
+[e :U 17 ]
+[; ;PICinit.c: 119: else
+[; ;PICinit.c: 120: {
+"120
+{
+[; ;PICinit.c: 121: cInputErr |= 0b00010000 ;
+"121
+[e =| _cInputErr -> -> 16 `i `uc ]
+"122
+}
+[e :U 19 ]
+[e :U 16 ]
+[; ;PICinit.c: 122: }
+[; ;PICinit.c: 123: INTE=1;
+"123
+[e = _INTE -> -> 1 `i `b ]
+[; ;PICinit.c: 124: return;
+"124
+[e $UE 12  ]
+[; ;PICinit.c: 125: }
+"125
+[e :UE 12 ]
+}
+"129
+[p l 1 ]
+"140
+[v _output_high `(v 1 ef2`uc`uc ]
+{
+[; ;PICinit.c: 130: void output_high(char Port, char Bit)
+[; ;PICinit.c: 140: {
+[e :U _output_high ]
+[v _Port `uc 1 r1 ]
+[v _Bit `uc 1 r2 ]
+[f ]
+[; ;PICinit.c: 141: INTE=0;
+"141
+[e = _INTE -> -> 0 `i `b ]
+[; ;PICinit.c: 145: cPortTmp = Port;
+"145
+[e = _cPortTmp _Port ]
+[; ;PICinit.c: 146: cBitTmp = Bit;
+"146
+[e = _cBitTmp _Bit ]
+[; ;PICinit.c: 147: cBitPat = 0b00000001;
+"147
+[e = _cBitPat -> -> 1 `i `uc ]
+[; ;PICinit.c: 148: INTE=1;
+"148
+[e = _INTE -> -> 1 `i `b ]
+"155
+[;   movf _cPortTmp,w ;move Port value to W, ASCII letter value ;#
+"156
+[;          ;'A'=0x41, 'a'=0x61, ..., 'E'=0x45, 'e'=0x65 ;#
+"157
+[;          ; 7654 3210 7654 3210 ;#
+"158
+[;             ; 'A'=0100 0001 'E'=0100 0101 ;#
+"159
+[;          ; 'a'=0110 0001 'e'=0110 0101 ;#
+"160
+[;   andlw 11011000B ; 1101 1000 1s = positions we want to check ;#
+"161
+[;   xorlw 01000000B ; 01 0 0 insure ANDed bits = these values ;#
+"162
+[;          ;if bits are expected values, W=0--> 0x02 flag=0 (Good!) ;#
+"163
+[;   btfss status, 0x02 ;skip if Zero flag clear, Error ;#
+"164
+[;   goto $+10 ;Error so exit >>> ;#
+"165
+[;   movf _cPortTmp,w ;Get original port ;#
+"166
+[;   andlw 00000111B ;#
+"167
+[;   btfsc status, 0x02 ;Check for invalid ascii port 0, -->0x02 flag=0 (Bad!) ;#
+"168
+[;   goto $+6 ;Error so exit >>> ;#
+"169
+[;   movwf _cPortTmp ;_cPortTmp can now only be in range of 1-7 ;#
+"170
+[;   movlw 06h ;check to elimate ports 6 & 7, i.e. must be 1-5 ;#
+"171
+[;   subwf _cPortTmp,w ;#
+"172
+[;   btfss status, 0x00 ;Carry clear means a borrow occurred, so Port <6 (Good!) ;#
+"173
+[;   goto $+3 ;Carry set means Error ;#
+"174
+[;   bsf _cInputErr, 0 ;set error bit, bit 0 for output_high() ;#
+"175
+[;   return ;Error so exit >>> ;#
+"176
+"177
+[;     ;******** If we get here, _cPortTmp holds valid port# in the range of 1-5 (A-E or a-e) ;#
+"178
+[;   ;******** Now check if Bit range is 0-7 ;#
+"179
+[;   movf _cBitTmp,w ;First check Bit is in the Range 0-7 ;#
+"180
+[;   btfsc status, 0x02 ;If 0x02 bit set, Bit =0 and CBitPat already initialized to 00000001B ;#
+"181
+[;   goto $+10 ;Done (Good!) ;#
+"182
+[;   andlw 11111000B ;Now check that Bit is in the range of 1-7 (already checked for 0) ;#
+"183
+[;   btfss status, 0x02 ;Zero flag set means Bit is in range 1-7 (Good!) ;#
+"184
+[;   goto $-7 ;Error so exit >>> ;#
+"185
+[;   movf _cBitTmp,w ;Now generate binary bit pattern associated with numeric Bit (1-7) ;#
+"186
+[;   clrc ;#
+"187
+[;   rlf _cBitPat,f ;Rotate bit pattern in cBitPat one to the left ;#
+"188
+[;   addlw 0xFF ;Decrement Bit being held in w ;#
+"189
+[;   btfss status, 0x02 ;If 0x02 bit set-done, cBitPatx has been rotated to the correct pattern ;#
+"190
+[;   goto $-4 ;ie 00000010, 00000100, 00001000, ... ;#
+"191
+"192
+[;     ;******** Now check if requested bit is allowed for Port using bit masks ;#
+"193
+[;   movf _cPortTmp,w ;move Port value (1-5) to W ;#
+"194
+[;      movwf _cBitTmp ;A=001, B=010, 0x00=011, D=100, E=101 ;#
+"195
+[;      movf _cBitPat, w ;W=00000001, 00000010, 00000100, ...requested bit ;#
+"196
+[;                               ;W will be And'd with only one mask below ;#
+"197
+[;   decfsz _cBitTmp, f ;_cPortTmp = 0 if 'A' or 'a' ;#
+"198
+[;   goto $+2 ;#
+"199
+[;      andlw MASK_OUT_PORTA ;mask for PortA ;#
+"200
+[;      decfsz _cBitTmp, f ;_cPortTmp = 0 if 'B' or 'b' ;#
+"201
+[;      goto $+2 ;#
+"202
+[;      andlw MASK_OUT_PORTB ;mask for PortB ;#
+"203
+[;      decfsz _cBitTmp, f ;_cPortTmp = 0 if 'C' or 'c' ;#
+"204
+[;      goto $+2 ;#
+"205
+[;      andlw MASK_OUT_PORTC ;mask for PortC ;#
+"206
+[;      decfsz _cBitTmp, f ;_cPortTmp = 0 if 'D' or 'd' ;#
+"207
+[;      goto $+2 ;#
+"208
+[;      andlw MASK_OUT_PORTD ;mask for PortD ;#
+"209
+[;      decfsz _cBitTmp, f ;_cPortTmp = 0 if 'E' or 'e' ;#
+"210
+[;      goto $+2 ;#
+"211
+[;      andlw MASK_OUT_PORTE ;mask for PortE ;#
+"212
+[;      andlw 11111111B ;if W = 0, there was a bit mismatch ;#
+"213
+[;   btfss status, 0x02 ;if Zero flag clear, means check passed ;#
+"214
+[;   goto $+3 ;#
+"215
+[;   bsf _cInputErr, 0 ;set error bit, bit 0 for output_high() ;#
+"216
+[;   return ;Error so exit >>> ;#
+"217
+"218
+[;     ;******* If we get here, cPortTmp and cBitPat are valid, ie, Port/Bit combo are valid ;#
+"219
+[;   ;******* Now update associated PORT and TRIS registers ;#
+"220
+[;   bcf INTCON, 4 ;Disable RB0 interrupt to allow hardware to finish ;#
+"221
+[;          ;reconfiguring without interruption ;#
+"222
+[;   movf status, w ;save Status Register for restore before exiting ;#
+"223
+[;   movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+"224
+"225
+[;     movf _cPortTmp,w ;Now holds valid port number 1-5 for ports a-e ;#
+"226
+[;   addlw 04h ;Add 4 to _cPortTmp to calculate PORT SFR address ;#
+"227
+[;          ;PORTA=05h, PORTB=06h, PORTC=07h, etc ;#
+"228
+[;   movwf fsr ;FSR = 05h to 09h, points to PORTx ;#
+"229
+[;   bcf status, 0x07 ;Clear 0x07 for indirect addressing to data Bank 0,1 ;#
+"230
+[;          ;PORTx, TRISx, ... using fsr as pointer ;#
+"231
+[;          ;set PORTx pin state ;#
+"232
+[;   movf indf, w ;read PORTx and move value to W ;#
+"233
+[;   iorwf _cBitPat,w ;Or with bit pattern, ie 00000001, 00000010, ... ;#
+"234
+[;          ;to set pin to 1, others pins won't change ;#
+"235
+[;   movwf indf ;write W back to PORTx ;#
+"236
+[;          ;set PORTx pin to an output, Bit must be cleared ;#
+"237
+[;   comf _cBitPat,f ;complement Bit Pattern ;#
+"238
+[;          ; _cBitPat is now 11111110, 11111101, ... ;#
+"239
+[;          ;add 0x80 to FSR so it now points to TRISx ;#
+"240
+[;   bsf fsr, 7 ;setting bit 7 performs +0x80 ;#
+"241
+[;          ;fsr = 85h, 86h, 87h, 88h, 89h, points to TRISx ;#
+"242
+[;   movf indf, w ;move TRISx value to W ;#
+"243
+[;   andwf _cBitPat,w ;AND with bit pattern, ie 11111110, 11111101,... ;#
+"244
+[;          ; to clear TRISx bit, other bit won't change ;#
+"245
+[;   movwf indf ;write W to TRISx ;#
+"246
+"247
+[;     movf _cStatusR,w ;restore original Status Register before exiting ;#
+"248
+[;   movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+[; ;PICinit.c: 250: INTE=1;
+"250
+[e = _INTE -> -> 1 `i `b ]
+[; ;PICinit.c: 251: return;
+"251
+[e $UE 20  ]
+[; ;PICinit.c: 252: }
+"252
+[e :UE 20 ]
+}
+"256
+[p l 1 ]
+"267
+[v _output_low `(v 1 ef2`uc`uc ]
+{
+[; ;PICinit.c: 257: void output_low(char Port, char Bit)
+[; ;PICinit.c: 267: {
+[e :U _output_low ]
+[v _Port `uc 1 r1 ]
+[v _Bit `uc 1 r2 ]
+[f ]
+[; ;PICinit.c: 268: INTE=0;
+"268
+[e = _INTE -> -> 0 `i `b ]
+[; ;PICinit.c: 272: cPortTmp = Port;
+"272
+[e = _cPortTmp _Port ]
+[; ;PICinit.c: 273: cBitTmp = Bit;
+"273
+[e = _cBitTmp _Bit ]
+[; ;PICinit.c: 274: cBitPat = 0b00000001;
+"274
+[e = _cBitPat -> -> 1 `i `uc ]
+[; ;PICinit.c: 275: INTE=1;
+"275
+[e = _INTE -> -> 1 `i `b ]
+"282
+[;   movf _cPortTmp,w ;move Port value to W, ASCII letter value ;#
+"283
+[;          ;'A'=0x41, 'a'=0x61, ..., 'E'=0x45, 'e'=0x65 ;#
+"284
+[;          ; 7654 3210 7654 3210 ;#
+"285
+[;             ; 'A'=0100 0001 'E'=0100 0101 ;#
+"286
+[;          ; 'a'=0110 0001 'e'=0110 0101 ;#
+"287
+[;   andlw 11011000B ; 1101 1000 1s = positions we want to check ;#
+"288
+[;   xorlw 01000000B ; 01 0 0 insure ANDed bits = these values ;#
+"289
+[;          ;if bits are expected values, W=0--> 0x02 flag=0 (Good!) ;#
+"290
+[;   btfss status, 0x02 ;skip if Zero flag clear, Error ;#
+"291
+[;   goto $+10 ;Error so exit >>> ;#
+"292
+[;   movf _cPortTmp,w ;Get original port ;#
+"293
+[;   andlw 00000111B ;#
+"294
+[;   btfsc status, 0x02 ;Check for invalid ascii port 0, -->0x02 flag=0 (Bad!) ;#
+"295
+[;   goto $+6 ;Error so exit >>> ;#
+"296
+[;   movwf _cPortTmp ;_cPortTmp can now only be in range of 1-7 ;#
+"297
+[;   movlw 06h ;check to elimate ports 6 & 7, i.e. must be 1-5 ;#
+"298
+[;   subwf _cPortTmp,w ;#
+"299
+[;   btfss status, 0x00 ;Carry clear means a borrow occurred, so Port <6 (Good!) ;#
+"300
+[;   goto $+3 ;Carry set means Error ;#
+"301
+[;   bsf _cInputErr, 1 ;set error bit, bit 1 for output_low() ;#
+"302
+[;   return ;Error so exit >>> ;#
+"303
+"304
+[;     ;******** If we get here, _cPortTmp holds valid port# in the range of 1-5 (A-E or a-e) ;#
+"305
+[;   ;******** Now check if Bit range is 0-7 ;#
+"306
+[;   movf _cBitTmp,w ;First check Bit is in the Range 0-7 ;#
+"307
+[;   btfsc status, 0x02 ;If 0x02 bit set, Bit =0 and CBitPat already initialized to 00000001B ;#
+"308
+[;   goto $+10 ;Done (Good!) ;#
+"309
+[;   andlw 11111000B ;Now check that Bit is in the range of 1-7 (already checked for 0) ;#
+"310
+[;   btfss status, 0x02 ;Zero flag set means Bit is in range 1-7 (Good!) ;#
+"311
+[;   goto $-7 ;Error so exit >>> ;#
+"312
+[;   movf _cBitTmp,w ;Now generate binary bit pattern associated with numeric Bit (1-7) ;#
+"313
+[;   clrc ;#
+"314
+[;   rlf _cBitPat,f ;Rotate bit pattern in cBitPat one to the left ;#
+"315
+[;   addlw 0xFF ;Decrement Bit being held in w ;#
+"316
+[;   btfss status, 0x02 ;If 0x02 bit set-done, cBitPatx has been rotated to the correct pattern ;#
+"317
+[;   goto $-4 ;ie 00000010, 00000100, 00001000, ... ;#
+"318
+"319
+[;     ;******** Now check if requested bit is allowed for Port using bit masks ;#
+"320
+[;   movf _cPortTmp,w ;move Port value (1-5) to W ;#
+"321
+[;      movwf _cBitTmp ;A=001, B=010, 0x00=011, D=100, E=101 ;#
+"322
+[;         movf _cBitPat, w ;W=00000001, 00000010, 00000100, ...requested bit ;#
+"323
+[;                               ;W will be And'd with only one mask below ;#
+"324
+[;   decfsz _cBitTmp, f ;_cPortTmp = 0 if 'A' or 'a' ;#
+"325
+[;   goto $+2 ;#
+"326
+[;         andlw MASK_OUT_PORTA ;mask for PortA ;#
+"327
+[;         decfsz _cBitTmp, f ;_cPortTmp = 0 if 'B' or 'b' ;#
+"328
+[;         goto $+2 ;#
+"329
+[;         andlw MASK_OUT_PORTB ;mask for PortB ;#
+"330
+[;         decfsz _cBitTmp, f ;_cPortTmp = 0 if 'C' or 'c' ;#
+"331
+[;         goto $+2 ;#
+"332
+[;         andlw MASK_OUT_PORTC ;mask for PortC ;#
+"333
+[;         decfsz _cBitTmp, f ;_cPortTmp = 0 if 'D' or 'd' ;#
+"334
+[;         goto $+2 ;#
+"335
+[;         andlw MASK_OUT_PORTD ;mask for PortD ;#
+"336
+[;         decfsz _cBitTmp, f ;_cPortTmp = 0 if 'E' or 'e' ;#
+"337
+[;         goto $+2 ;#
+"338
+[;         andlw MASK_OUT_PORTE ;mask for PortE ;#
+"339
+[;      andlw 11111111B ;check W, if = 0, there was a bit mismatch ;#
+"340
+[;   btfss status, 0x02 ;if Zero flag clear, means check passed ;#
+"341
+[;   goto $+3 ;#
+"342
+[;   bsf _cInputErr, 1 ;set error bit, bit 1 for output_low() ;#
+"343
+[;   return ;Error so exit >>> ;#
+"344
+"345
+[;     ;******* If we get here, cPortTmp and cBitPat are valid, ie, Port/Bit combo are valid ;#
+"346
+[;   ;******* Now update associated PORT and TRIS registers ;#
+"347
+[;   bcf INTCON, 4 ;Disable RB0 interrupt to allow hardware to finish ;#
+"348
+[;          ;reconfiguring without interruption ;#
+"349
+[;   movf status, w ;save Status Register for restore before exiting ;#
+"350
+[;   movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+"351
+[;   comf _cBitPat,f ;complement bit pattern. Bit of interest will now be zero ;#
+"352
+[;          ;ie, _cBitPat is now 11111110, 11111101, ... ;#
+"353
+[;   movf _cPortTmp,w ;Now holds valid portnumber 1-5 for ports A-E ;#
+"354
+[;   addlw 04h ;Add 4 to _cPortTmp to calculate PORT SFR address ;#
+"355
+[;          ;PORTA=05h, PORTB=06h, PORTC=07h, etc ;#
+"356
+[;   movwf fsr ;FSR = 05h to 09h, points to PORTx ;#
+"357
+[;   bcf status, 0x07 ;Clear 0x07 for indirect addressing to data Bank 0,1 ;#
+"358
+[;          ;set PORTx pin state ;#
+"359
+[;   movf indf, w ;read PORTx and move value to W ;#
+"360
+[;   andwf _cBitPat,w ;AND with bit pattern, ie 11111110, 11111101, ... ;#
+"361
+[;          ;bit of interest will be set to 0 (off), others bits won't change ;#
+"362
+[;   movwf indf ;write W back to PORTx ;#
+"363
+[;          ;set PORTx pin to an output via TRIS register, Bit must be cleared ;#
+"364
+[;   bsf fsr, 7 ;add 0x80 to FSR so it now points to TRISx, ie set bit 7 ;#
+"365
+[;          ;fsr = 85h, 86h, 87h, 88h, 89h, points to TRISx ;#
+"366
+[;   movf indf, w ;read TRISx and move value to W ;#
+"367
+[;   andwf _cBitPat,w ;AND with already complemented bit pattern,ie 11111110, 11111101,... ;#
+"368
+[;          ;to clear TRISx bit, other bits won't change ;#
+"369
+[;   movwf indf ;write W to TRISx ;#
+"370
+[;   movf _cStatusR,w ;restore original Status Register before exiting ;#
+"371
+[;   movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+[; ;PICinit.c: 373: INTE=1;
+"373
+[e = _INTE -> -> 1 `i `b ]
+[; ;PICinit.c: 374: return;
+"374
+[e $UE 21  ]
+[; ;PICinit.c: 375: }
+"375
+[e :UE 21 ]
+}
+"379
+[p l 1 ]
+"391
+[v _read_input `(uc 1 ef2`uc`uc ]
+{
+[; ;PICinit.c: 380: char read_input(char Port, char Bit)
+[; ;PICinit.c: 391: {
+[e :U _read_input ]
+[v _Port `uc 1 r1 ]
+[v _Bit `uc 1 r2 ]
+[f ]
+[; ;PICinit.c: 392: INTE=0;
+"392
+[e = _INTE -> -> 0 `i `b ]
+[; ;PICinit.c: 396: cPortTmp = Port;
+"396
+[e = _cPortTmp _Port ]
+[; ;PICinit.c: 397: cBitTmp = Bit;
+"397
+[e = _cBitTmp _Bit ]
+[; ;PICinit.c: 398: cBitPat = 0b00000001;
+"398
+[e = _cBitPat -> -> 1 `i `uc ]
+[; ;PICinit.c: 399: INTE=1;
+"399
+[e = _INTE -> -> 1 `i `b ]
+"406
+[;   movf _cPortTmp,w ;move Port value to W, ASCII letter value ;#
+"407
+[;          ;'A'=0x41, 'a'=0x61, ..., 'E'=0x45, 'e'=0x65 ;#
+"408
+[;          ; 7654 3210 7654 3210 ;#
+"409
+[;             ; 'A'=0100 0001 'E'=0100 0101 ;#
+"410
+[;          ; 'a'=0110 0001 'e'=0110 0101 ;#
+"411
+[;   andlw 11011000B ; 1101 1000 1s = positions we want to check ;#
+"412
+[;   xorlw 01000000B ; 01 0 0 insure ANDed bits = these values ;#
+"413
+[;          ;if bits are expected values, W=0--> 0x02 flag=0 (Good!) ;#
+"414
+[;   btfss status, 0x02 ;skip if Zero flag clear, Error ;#
+"415
+[;   goto $+10 ;Error so exit >>> ;#
+"416
+[;   movf _cPortTmp,w ;Get original port ;#
+"417
+[;   andlw 00000111B ;#
+"418
+[;   btfsc status, 0x02 ;Check for invalid ascii port 0, -->0x02 flag=0 (Bad!) ;#
+"419
+[;   goto $+6 ;Error so exit >>> ;#
+"420
+[;   movwf _cPortTmp ;_cPortTmp can now only be in range of 1-7 ;#
+"421
+[;   movlw 06h ;check to elimate ports 6 & 7, i.e. must be 1-5 ;#
+"422
+[;   subwf _cPortTmp,w ;#
+"423
+[;   btfss status, 0x00 ;Carry clear means a borrow occurred, so Port <6 (Good!) ;#
+"424
+[;   goto $+3 ;Carry set means Error ;#
+"425
+[;   bsf _cInputErr, 2 ;set error bit, bit 2 for read_input() ;#
+"426
+[;   retlw 0xFF ;Error so exit >>> ;#
+"427
+"428
+[;     ;******** If we get here, _cPortTmp holds valid port# in the range of 1-5 (A-E or a-e) ;#
+"429
+[;   ;******** Now check if Bit range is 0-7 ;#
+"430
+[;   movf _cBitTmp,w ;First check Bit is in the Range 0-7 ;#
+"431
+[;   btfsc status, 0x02 ;If 0x02 bit set, Bit =0 and CBitPat already initialized to 00000001B ;#
+"432
+[;   goto $+10 ;Done (Good!) ;#
+"433
+[;   andlw 11111000B ;Now check that Bit is in the range of 1-7 (already checked for 0) ;#
+"434
+[;   btfss status, 0x02 ;Zero flag set means Bit is in range 1-7 (Good!) ;#
+"435
+[;   goto $-7 ;Error so exit >>> ;#
+"436
+[;   movf _cBitTmp,w ;Now generate binary bit pattern associated with numeric Bit (1-7) ;#
+"437
+[;   clrc ;#
+"438
+[;   rlf _cBitPat,f ;Rotate bit pattern in cBitPat one to the left ;#
+"439
+[;   addlw 0xFF ;Decrement Bit being held in w ;#
+"440
+[;   btfss status, 0x02 ;If 0x02 bit set-done, cBitPatx has been rotated to the correct pattern ;#
+"441
+[;   goto $-4 ;ie 00000010, 00000100, 00001000, ... ;#
+"442
+"443
+[;     ;******** Now check if requested bit is allowed for Port using bit masks ;#
+"444
+[;   movf _cPortTmp,w ;move Port value (1-5) to W ;#
+"445
+[;   movwf _cBitTmp ;A=001, B=010, 0x00=011, D=100, E=101 ;#
+"446
+[;     movf _cBitPat, w ;W=00000001, 00000010, 00000100, ...requested bit ;#
+"447
+[;                               ;W will be And'd with only one mask below ;#
+"448
+[;   decfsz _cBitTmp, f ;_cPortTmp = 0 if 'A' or 'a' ;#
+"449
+[;   goto $+2 ;#
+"450
+[;   andlw MASK_IN_PORTA ;mask for PortA ;#
+"451
+[;    decfsz _cBitTmp, f ;_cPortTmp = 0 if 'B' or 'b' ;#
+"452
+[;     goto $+2 ;#
+"453
+[;    andlw MASK_IN_PORTB ;mask for PortB ;#
+"454
+[;    decfsz _cBitTmp, f ;_cPortTmp = 0 if 'C' or 'c' ;#
+"455
+[;     goto $+2 ;#
+"456
+[;     andlw MASK_IN_PORTC ;mask for PortC ;#
+"457
+[;      decfsz _cBitTmp, f ;_cPortTmp = 0 if 'D' or 'd' ;#
+"458
+[;     goto $+2 ;#
+"459
+[;      andlw MASK_IN_PORTD ;mask for PortD ;#
+"460
+[;      decfsz _cBitTmp, f ;_cPortTmp = 0 if 'E' or 'e' ;#
+"461
+[;    goto $+2 ;#
+"462
+[;      andlw MASK_IN_PORTE ;mask for PortE ;#
+"463
+[;   andlw 11111111B ;if W = 0, there was a bit mismatch ;#
+"464
+[;   btfss status, 0x02 ;if Zero flag clear, means check passed ;#
+"465
+[;   goto $+3 ;#
+"466
+[;   bsf _cInputErr, 2 ;set error bit, bit 2 for read_input() ;#
+"467
+[;   retlw 0xFF ;Error so exit >>> ;#
+"468
+"469
+[;     ;******* If we get here, cPortTmp and cBitPat are valid, ie, Port/Bit combo are valid ;#
+"470
+[;   ;******* Now update associated TRIS register and read PORT ;#
+"471
+[;   bcf INTCON, 4 ;Disable RB0 interrupt to allow hardware to finish ;#
+"472
+[;          ;reconfiguring and get data without interruption ;#
+"473
+[;   movf status, w ;save Status Register for restore before exiting ;#
+"474
+[;   movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+"475
+[;   movf _cPortTmp,w ;Now holds valid port number 1-5 for ports A-E ;#
+"476
+[;   addlw 04h ;Add 4 to _cPortTmp to calculate PORT SFR address ;#
+"477
+[;          ;PORTA=05h, PORTB=06h, PORTC=07h, etc ;#
+"478
+[;   movwf fsr ;FSR = 05h to 09h, points to PORTx ;#
+"479
+[;   bcf status, 0x07 ;Clear 0x07 for indirect addressing to data bank 0,1 ;#
+"480
+[;          ;set PORTx pin to an input via TRIS register, Bit must be set ;#
+"481
+[;   bsf fsr, 7 ;add 0x80 to FSR so it now points to TRISx, ie set bit 7 ;#
+"482
+[;          ;fsr = 85h, 86h, 87h, 88h, 89h, points to TRISx ;#
+"483
+[;   movf indf, w ;Read TRISx and move value to W ;#
+"484
+[;   iorwf _cBitPat,w ;Or with bit pattern, ie 00000001, 00000010, ... ;#
+"485
+[;          ;to set bit to 1 (input), other bits won't change ;#
+"486
+[;   movwf indf ;write W to TRISx ;#
+"487
+[;   movlw 50 ;Implement 200 us delay for input capacitance ;#
+"488
+[;   addlw 0xFF ;decrement W, FFh is 2's complement of -1 ;#
+"489
+[;   btfss status, 0x02 ;Bit Test 0x02 Flag Skip if Zero flag Set ;#
+"490
+[;   goto $-2 ;jump to continue loop count down ;#
+"491
+[;          ;read PORTx pin state ;#
+"492
+[;   bcf fsr, 7 ;clearing bit 7 performs fsr = fsr - 0x80 ;#
+"493
+[;          ;fsr now points to PORTx = 05h, 06h, 07h, 08h, 09h ;#
+"494
+[;   clrf _cBitTmp ;#
+"495
+[;   movf indf, w ;read PORTx and store value to W ;#
+"496
+[;   andwf _cBitPat ;AND with bit of interest, bit pattern, ie 00000001, 00000010, ... ;#
+"497
+[;          ;if pin is logic 0 (0V), W will be 00000000 ;#
+"498
+[;   btfss status, 0x02 ;skip is Zero flag clear, pin was 0 ;#
+"499
+[;   bsf _cBitTmp,0 ;set bit 0, _cBitTmp=1 ;#
+"500
+[;   movf _cStatusR,w ;restore original Status Register before exiting ;#
+"501
+[;   movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+[; ;PICinit.c: 503: INTE=1;
+"503
+[e = _INTE -> -> 1 `i `b ]
+[; ;PICinit.c: 504: return(cBitTmp);
+"504
+[e ) _cBitTmp ]
+[e $UE 22  ]
+[; ;PICinit.c: 505: }
+"505
+[e :UE 22 ]
+}
+"509
+[p l 1 ]
+"519
+[v _putdata `(v 1 ef1`ui ]
+{
+[; ;PICinit.c: 510: void putdata (unsigned int data)
+[; ;PICinit.c: 519: {
+[e :U _putdata ]
+[v _data `ui 1 r1 ]
+[f ]
+[; ;PICinit.c: 520: INTE=0;
+"520
+[e = _INTE -> -> 0 `i `b ]
+[; ;PICinit.c: 521: g_iArg = data;
+"521
+[e = _g_iArg _data ]
+"524
+[;         movf status, w ;save Status to restore before exiting ;#
+"525
+[;         movwf _cStatusR ;possible need to preserve Bank bits for 0x00 code ;#
+"526
+"527
+[;         clrf _g_cTmp3 ;flag used to supress leading zeros ;#
+"528
+[;         clrf _g_cTmp1 ;#
+"529
+[;         bsf _g_cTmp1, 0 ;00000001 ;#
+"530
+"531
+"532
+[;         movlw 0x10 ;low byte of 10000 ;#
+"533
+[;         movwf _g_iTmp ;#
+"534
+[;         movlw 0x27 ;high byte of 10000 ;#
+"535
+[;         movwf _g_iTmp+1 ;#
+"536
+"537
+[;                             ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OUTER LOOP ;#
+"538
+[;         btfss _g_cTmp1, 1 ;if bit 1 = 1 ;#
+"539
+[;         goto $+5 ;#
+"540
+[;         movlw 0xE8 ;low byte of 1000 ;#
+"541
+[;         movwf _g_iTmp ;#
+"542
+[;         movlw 0x03 ;high byte of 1000 ;#
+"543
+[;         movwf _g_iTmp+1 ;#
+"544
+"545
+[;         btfss _g_cTmp1, 2 ;if bit 2 = 1 ;#
+"546
+[;         goto $+5 ;#
+"547
+[;         movlw 0x64 ;low byte of 100 ;#
+"548
+[;         movwf _g_iTmp ;#
+"549
+[;         movlw 0x00 ;high byte of 100 ;#
+"550
+[;         movwf _g_iTmp+1 ;#
+"551
+"552
+[;         btfss _g_cTmp1, 3 ;if bit 3 = 1 ;#
+"553
+[;         goto $+5 ;#
+"554
+[;         movlw 0x0A ;low byte of 10 ;#
+"555
+[;         movwf _g_iTmp ;#
+"556
+[;         movlw 0x00 ;high byte of 10 ;#
+"557
+[;         movwf _g_iTmp+1 ;#
+"558
+"559
+[;         btfss _g_cTmp1, 4 ;if bit 4 = 1 ;#
+"560
+[;         goto $+5 ;#
+"561
+[;         movlw 0x01 ;low byte of 1 ;#
+"562
+[;         movwf _g_iTmp ;#
+"563
+[;         movlw 0x00 ;high byte of 1 ;#
+"564
+[;         movwf _g_iTmp+1 ;#
+"565
+"566
+[;         clrf _g_cTmp2 ;clear digit value counter ;#
+"567
+[;                             ;each loop iteration will subtract a value of ;#
+"568
+[;                             ; 10000, 1000, 1000, 100, 10 until the value ;#
+"569
+[;                             ; becomes negative ;#
+"570
+[;                             ; digit value counter will inc. each iteration ;#
+"571
+[;         incf _g_cTmp2, f ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~INNER LOOP ;#
+"572
+[;         movf _g_iTmp, w ;low of 10000, 1000, 1000 ;#
+"573
+[;         subwf _g_iArg, w ; ;#
+"574
+[;         movwf _g_iArg ;#
+"575
+[;         movf _g_iTmp+1, w ;high of 10000, 1000, 1000 ;#
+"576
+[;         btfss status, 0x00 ;Carry, skip if carry ;#
+"577
+[;         incf _g_iTmp+1, w ;#
+"578
+[;         subwf _g_iArg+1, w ;#
+"579
+[;         movwf _g_iArg+1 ;#
+"580
+[;         btfsc status, 0x00 ;Carry, skip if carry ;#
+"581
+[;         goto $-10 ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~INNER LOOP ;#
+"582
+"583
+[;                             ;need to add subtraction value back to ;#
+"584
+[;         movf _g_iTmp, w ; correct for rollover ;#
+"585
+[;         addwf _g_iArg, f ;#
+"586
+[;         movf _g_iTmp+1, w ;#
+"587
+[;         btfsc status, 0x00 ;Carry, skip if no carry ;#
+"588
+[;         addlw 1 ;#
+"589
+[;         addwf _g_iArg+1, f ;#
+"590
+"591
+[;                 bcf status, 0x07 ;Clear 0x07 for indirect addressing to data Bank 0,1 ;#
+"592
+[;         movlw 98h ;8 bit indirect address for TXSTA ;#
+"593
+[;         movwf fsr ;#
+"594
+[;         btfss indf, 1 ;1=Transmit Shift Reg Status, 1=TSR empty ;#
+"595
+[;         goto $-1 ;Loop until xmit shift register empty ;#
+"596
+[;         movlw 19h ;8 bit indirect address for TXREG ;#
+"597
+[;         movwf fsr ;#
+"598
+[;         movf _g_cTmp2, w ;#
+"599
+[;         addlw 47 ;convert value to Ascii char (47 = '0' - 1) ;#
+"600
+[;              ;w holds ASCII character ready to send ;#
+"601
+[;         bcf status, 0x00 ;insure carry bit is clear for rotate ;#
+"602
+[;         rlf _g_cTmp1, f ;00000010, 00000100, 00001000, 00010000, 00100000 ;#
+"603
+[;         btfsc _g_cTmp1, 5 ;if bit 5 set -->this is last (or only) character to send ;#
+"604
+[;         goto $+8 ;goto output the character (allow a zero to pass) ;#
+"605
+[;              ;i.e., do not check for leading zero suppression ;#
+"606
+[;         btfsc _g_cTmp3, 0 ;check leading zero suppression bit flag ;#
+"607
+[;         goto $+6 ;if bit flag=0, keep supressing ;#
+"608
+[;         movwf _g_cTmp2 ;save ASCII character ;#
+"609
+[;         andlw 0x0F ;check for zero character ;#
+"610
+[;         btfsc status, 0x02 ;#
+"611
+[;         goto $+4 ;#
+"612
+[;         movf _g_cTmp2, w ;if here, its not a leading zero, reload character and ;#
+"613
+[;         movwf indf ;output the character ;#
+"614
+[;         bsf _g_cTmp3, 0 ;set leading zero suppression flag-->we have output a ;#
+"615
+[;              ;non-zero character, or a final character = 0 volts ;#
+"616
+[;         btfss _g_cTmp1, 5 ;check if this was the last character ;#
+"617
+[;         goto $-65 ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~OUTER LOOP ;#
+"618
+"619
+[;         movlw ' ' ;send trailing space ;#
+"620
+[;         bsf status, 5 ;RP0=1, select bank1 for direct addressing ;#
+"621
+[;         bcf status, 6 ;RP1=0, select bank1 ;#
+"622
+[;         btfss 0x18, 1 ;18h is 7 bit address of TXSTA (on Bank1) ;#
+"623
+[;              ;1=Transmit Shift Reg Status, 1=TSR empty ;#
+"624
+[;         goto $-1 ;Loop until xmit shift register empty ;#
+"625
+[;         bcf status, 5 ;RP0=0, select bank0 for TXREG (on Bank0) ;#
+"626
+[;         movwf TXREG ;UART Transmit Reg, send byte ;#
+"627
+"628
+[;         movf _cStatusR, w ;restore original Status before exiting ;#
+"629
+[;         movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+[; ;PICinit.c: 631: INTE=1;
+"631
+[e = _INTE -> -> 1 `i `b ]
+[; ;PICinit.c: 632: return;
+"632
+[e $UE 23  ]
+[; ;PICinit.c: 633: }
+"633
+[e :UE 23 ]
+}
+"648
+[v _putchar `(v 1 ef1`uc ]
+{
+[; ;PICinit.c: 637: void putchar (char data)
+[; ;PICinit.c: 648: {
+[e :U _putchar ]
+[v _data `uc 1 r1 ]
+[f ]
+[; ;PICinit.c: 649: INTE=0;
+"649
+[e = _INTE -> -> 0 `i `b ]
+[; ;PICinit.c: 652: while (TRMT==0)continue;
+"652
+[e $U 25  ]
+[e :U 26 ]
+[e $U 25  ]
+[e :U 25 ]
+[e $ == -> _TRMT `i -> 0 `i 26  ]
+[e :U 27 ]
+[; ;PICinit.c: 653: TXREG = data;
+"653
+[e = _TXREG _data ]
+[; ;PICinit.c: 654: INTE=1;
+"654
+[e = _INTE -> -> 1 `i `b ]
+[; ;PICinit.c: 655: return;
+"655
+[e $UE 24  ]
+[; ;PICinit.c: 656: }
+"656
+[e :UE 24 ]
+}
+"669
+[v _read_adc `(ui 1 ef1`uc ]
+{
+[; ;PICinit.c: 660: unsigned int read_adc (char channel)
+[; ;PICinit.c: 669: {
+[e :U _read_adc ]
+[v _channel `uc 1 r1 ]
+[f ]
+"670
+[v _iVoltsSum `ui 1 a ]
+[; ;PICinit.c: 670: unsigned int iVoltsSum=0, iADout=0;
+[e = _iVoltsSum -> -> 0 `i `ui ]
+[v _iADout `ui 1 a ]
+[e = _iADout -> -> 0 `i `ui ]
+"671
+[v _i `uc 1 a ]
+[; ;PICinit.c: 671: char i=0;
+[e = _i -> -> 0 `i `uc ]
+[; ;PICinit.c: 673: if (channel>5)
+"673
+[e $ ! > -> _channel `i -> 5 `i 29  ]
+[; ;PICinit.c: 674: {
+"674
+{
+[; ;PICinit.c: 675: cInputErr |= 0b00001000;
+"675
+[e =| _cInputErr -> -> 8 `i `uc ]
+[; ;PICinit.c: 676: return (0xFFFF);
+"676
+[e ) -> 65535 `ui ]
+[e $UE 28  ]
+"677
+}
+[; ;PICinit.c: 677: }
+[e $U 30  ]
+"678
+[e :U 29 ]
+[; ;PICinit.c: 678: else
+[; ;PICinit.c: 679: {
+"679
+{
+[; ;PICinit.c: 680: if (channel == 5)
+"680
+[e $ ! == -> _channel `i -> 5 `i 31  ]
+[; ;PICinit.c: 681: {channel = 4;}
+"681
+{
+[e = _channel -> -> 4 `i `uc ]
+}
+[e :U 31 ]
+"682
+}
+[e :U 30 ]
+[; ;PICinit.c: 682: }
+[; ;PICinit.c: 683: INTE=0;
+"683
+[e = _INTE -> -> 0 `i `b ]
+[; ;PICinit.c: 685: g_cTmp1 = channel;
+"685
+[e = _g_cTmp1 _channel ]
+"688
+[;    movf status, w ;save Status to restore before exiting ;#
+"689
+[;    movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+"690
+[;    bsf status, 5 ;RP0=1, select bank1 for direct addressing ;#
+"691
+[;    bcf status, 6 ;RP1=0, select bank1 ;#
+"692
+[;    movlw 0xC2 ;configure A/D port ;#
+"693
+[;    movwf 0x1F ;1Fh is 7 bit address of ADCON1 on Bank1 ;#
+"694
+[;    clrc ;#
+"695
+[;    rlf _g_cTmp1, f ;variable g_cTmp1 (location 70h) can be accessed regardless ;#
+"696
+[;    rlf _g_cTmp1, f ;of bank selected. Rotate channel (0-4) to be in position ;#
+"697
+[;    rlf _g_cTmp1, f ;required by register ADCON0 ;#
+"698
+[;    movlw 0x41 ;#
+"699
+[;    iorwf _g_cTmp1, w ;#
+"700
+[;    bcf status, 5 ;RP0=0, select Bank0 for direct addressing ;#
+"701
+[;    movwf _ADCON0 ;ADCON0 is on Bank0 ;#
+"702
+[;    movlw 0xff ;implements 2 millisecond delay ;#
+"703
+[;    addlw 0xff ;to allow for acquisition time ;#
+"704
+[;    nop ;0xff (255)* 8us = 2.04ms ;#
+"705
+[;    nop ;#
+"706
+[;    nop ;#
+"707
+[;    nop ;#
+"708
+[;    btfss status, 0x02 ;#
+"709
+[;    goto $-6 ;#
+"710
+[;    bsf _ADCON0, 2 ;start A/D convesion (We are on Bank 0) ;#
+"711
+[;    btfsc _ADCON0, 2 ;#
+"712
+[;    goto $-1 ;wait for conversion to complete ;#
+"713
+[;    movf _cStatusR, w ;restore original Status before exiting ;#
+"714
+[;    movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+[; ;PICinit.c: 717: iADout=(ADRESH<<8)+ADRESL;
+"717
+[e = _iADout -> + << -> _ADRESH `i -> 8 `i -> _ADRESL `i `ui ]
+[; ;PICinit.c: 719: for (i=1; i <=49; i++)
+"719
+{
+[e = _i -> -> 1 `i `uc ]
+[e $ <= -> _i `i -> 49 `i 32  ]
+[e $U 33  ]
+"720
+[e :U 32 ]
+[; ;PICinit.c: 720: {iVoltsSum=iVoltsSum + iADout;}
+{
+[e = _iVoltsSum + _iVoltsSum _iADout ]
+}
+"719
+[e ++ _i -> -> 1 `i `uc ]
+[e $ <= -> _i `i -> 49 `i 32  ]
+[e :U 33 ]
+"720
+}
+[; ;PICinit.c: 721: INTE=1;
+"721
+[e = _INTE -> -> 1 `i `b ]
+[; ;PICinit.c: 722: return iVoltsSum;
+"722
+[e ) _iVoltsSum ]
+[e $UE 28  ]
+[; ;PICinit.c: 724: }
+"724
+[e :UE 28 ]
+}
+"736
+[v _pause `(v 1 ef1`ui ]
+{
+[; ;PICinit.c: 728: void pause (unsigned int time)
+[; ;PICinit.c: 736: {
+[e :U _pause ]
+[v _time `ui 1 r1 ]
+[f ]
+"737
+[v _cTimeTmp `uc 1 a ]
+[; ;PICinit.c: 737: char cTimeTmp;
+[; ;PICinit.c: 739: while (time != 0)
+"739
+[e $U 36  ]
+[e :U 37 ]
+[; ;PICinit.c: 740: {
+"740
+{
+[; ;PICinit.c: 741: if (time <= 255){
+"741
+[e $ ! <= _time -> -> 255 `i `ui 39  ]
+{
+[; ;PICinit.c: 742: cTimeTmp = time;}
+"742
+[e = _cTimeTmp -> _time `uc ]
+}
+[e $U 40  ]
+"743
+[e :U 39 ]
+[; ;PICinit.c: 743: else{
+{
+[; ;PICinit.c: 744: cTimeTmp = 0xFF;}
+"744
+[e = _cTimeTmp -> -> 255 `i `uc ]
+}
+[e :U 40 ]
+[; ;PICinit.c: 745: time = time - cTimeTmp;
+"745
+[e = _time - _time -> _cTimeTmp `ui ]
+[; ;PICinit.c: 747: while (cTimeTmp != 0)
+"747
+[e $U 41  ]
+[e :U 42 ]
+[; ;PICinit.c: 748: {
+"748
+{
+"750
+[;     btfss _isr_active, 0 ;Check if pause is operating in the ISR ;#
+"751
+[;     goto $+21 ;If interrupts not enabled, bypass TMR0 check ;#
+"752
+[;     btfsc INTCON, 5 ;check if TMR0 interrupt enabled, 1=yes ;#
+"753
+[;     btfss INTCON, 2 ;check if TMR0 interrupt occurred, 1=yes ;#
+"754
+[;     goto $+18 ;TMR0 not enabled OR TMR0 interrupt did not occur, bypass servicing TMR0 ;#
+"755
+[;     ;**********If here, must be executing in the interrupt and TMR0 needs servicing ;#
+"756
+[;     movf status, w ;save Status to restore before exiting ;#
+"757
+[;     movwf _cStatusR ;possible need to preserve Bank & 0x07 bits for 0x00 code ;#
+"758
+[;     bcf status, 5 ;RP0=0, select bank0 for direct addressing ;#
+"759
+[;     bcf status, 6 ;RP1=0, bank0 ;#
+"760
+[;     btfss _rt_toggle, 0 ;Check if rt_clock should be incremented ;#
+"761
+[;     goto $+6 ;#
+"762
+[;     incfsz _rt_clock ;Increment rt_clock on every other 50msec interrupt (i.e. 1/10 second) ;#
+"763
+[;     goto $+2 ;#
+"764
+[;     incf _rt_clock+1 ;increment second byte on overflow- 2 byte counter ;#
+"765
+[;     clrf _rt_toggle ;#
+"766
+[;     goto $+2 ;#
+"767
+[;     bsf _rt_toggle, 0 ;#
+"768
+[;     movlw 0x3D ;Reload TMR0 for 50msec countdown, assumes 4Mhz clock ;#
+"769
+[;     movwf _TMR0 ;#
+"770
+[;     bcf INTCON, 2 ;#
+"771
+[;     movf _cStatusR, w ;restore original Status before exiting ;#
+"772
+[;     movwf status ;possible need to preserve Bank & 0x07 bits for 0x00 ;#
+"773
+[;     ;***********Done with TMR0 servicing, continue with pause ;#
+"774
+[;     movlw 0xf8 ;<-implements 1 msec delay, loop counter ;#
+"775
+[;     addlw 0xff ;<-accounts for code overhead ;#
+"776
+[;     btfss status, 0x02 ;<-assumes a 4 Mhz clock ;#
+"777
+[;     goto $-2 ;<- ;#
+[; ;PICinit.c: 779: cTimeTmp-- ;
+"779
+[e -- _cTimeTmp -> -> 1 `i `uc ]
+"780
+}
+[e :U 41 ]
+"747
+[e $ != -> _cTimeTmp `i -> 0 `i 42  ]
+[e :U 43 ]
+"781
+}
+[e :U 36 ]
+"739
+[e $ != _time -> -> 0 `i `ui 37  ]
+[e :U 38 ]
+[; ;PICinit.c: 780: }
+[; ;PICinit.c: 781: }
+[; ;PICinit.c: 782: return;
+"782
+[e $UE 35  ]
+[; ;PICinit.c: 784: }
+"784
+[e :UE 35 ]
+}
+"798
+[v _save_data `(uc 1 ef ]
+{
+[; ;PICinit.c: 788: char save_data ()
+[; ;PICinit.c: 798: {
+[e :U _save_data ]
+[f ]
+"800
+[; ; First check and service Timer0 interrupt if required ;#
+"801
+[;  bcf status, 5 ;RP0=0, select bank0 for direct addressing ;#
+"802
+[;  bcf status, 6 ;RP1=0, Bank change needed for both TMR0 and RB0 interrupts ;#
+"803
+[;  btfsc INTCON, 5 ;check if TMR0 interrupt enabled, 1=yes ;#
+"804
+[;  btfss INTCON, 2 ;check if TMR0 interrupt occurred, 1=yes ;#
+"805
+[;  goto $+14 ;TMR0 not enabled OR TMR0 interrupt did not occur, must be RBO interrupt ;#
+"806
+[;  btfss _rt_toggle, 0 ;TMR0 interrupt occurred ;#
+"807
+[;  goto $+6 ;#
+"808
+[;  incfsz _rt_clock ;Increment rt_clock on every other 50msec interrupt (i.e. 1/10 second) ;#
+"809
+[;  goto $+2 ;#
+"810
+[;  incf _rt_clock+1 ;increment second byte on overflow- 2 byte counter ;#
+"811
+[;  clrf _rt_toggle ;#
+"812
+[;  goto $+2 ;#
+"813
+[;  bsf _rt_toggle, 0 ;#
+"814
+[;  movlw 0x3D ;Reload TMR0 for 50msec countdown, assumes 4Mhz clock ;#
+"815
+[;  movwf _TMR0 ;#
+"816
+[;  bcf INTCON, 2 ;Clear TMR0 interrupt flag ;#
+"817
+[;  btfss INTCON, 1 ;Now see if RB0 needs to be processed ;#
+"818
+[;  retlw 0 ;Return 0 to indicate TMR0 interrupt was serviced and no function data was saved ;#
+"819
+[; ; Service RB0 interrupt ;#
+"820
+[;  bsf _isr_active, 0 ;Set flag for pause() to know ISR is executing ;#
+"821
+[;  movf _cPortTmp,w ;save global variables. Still need to be on Bank 0 ;#
+"822
+[;  movwf _save1 ;#
+"823
+[;  movf _cBitTmp,w ;#
+"824
+[;  movwf _save2 ;#
+"825
+[;  movf _cBitPat,w ;#
+"826
+[;  movwf _save3 ;#
+"827
+[;  movf _cStatusR,w ;#
+"828
+[;  movwf _save4 ;#
+"829
+[; ;Due to forced early compile, these function variables are on bank0- Consider using BANSELECT with newer compiler ;#
+"830
+[;  movf _pause_time, w ;Save variable for pause function ;#
+"831
+[;  movwf _save5 ;#
+"832
+[;  movf _pause_time+1, w ;time is 2 bytes long ;#
+"833
+[;  movwf _save6 ;#
+"834
+[;  movf _pause_cTimeTmp, w ;#
+"835
+[;  movwf _save7 ;#
+"836
+[;  movf _read_adc_channel, w ;Save variable for read_adc function; ;#
+"837
+[;  movwf _save8 ;#
+"838
+[;  movf _output_low_Port, w ;Save variables for output_low function ;#
+"839
+[;  movwf _save9 ;#
+"840
+[;  movf _output_low_Bit, w ;#
+"841
+[;  movwf _save10 ;#
+"842
+[;  movf _output_high_Port, w ;Save variables for output_high function ;#
+"843
+[;  movwf _save11 ;#
+"844
+[;  movf _output_high_Bit, w ;#
+"845
+[;  movwf _save12 ;#
+"846
+[;  movf _read_input_Port, w ;Save variables for read_input function ;#
+"847
+[;  movwf _save13 ;#
+"848
+[;  movf _read_input_Bit, w ;#
+"849
+[;  movwf _save14 ;#
+"850
+[;  movf _motorspeed_motornum, w ;Save variables for motorspeed function ;#
+"851
+[;  movwf _save15 ;#
+"852
+[;  movf _motorspeed_speed, w ;#
+"853
+[;  movwf _save16 ;#
+"854
+[;  retlw 1 ;Return 1 to indicate RBO interrupt occurred and function data was saved ;#
+[; ;PICinit.c: 856: return 0;
+"856
+[e ) -> -> 0 `i `uc ]
+[e $UE 44  ]
+[; ;PICinit.c: 857: }
+"857
+[e :UE 44 ]
+}
+"867
+[v _restore_data `(v 1 ef ]
+{
+[; ;PICinit.c: 861: void restore_data ()
+[; ;PICinit.c: 867: {
+[e :U _restore_data ]
+[f ]
+"869
+[;  bcf status, 5 ;RP0=0, select bank0 for direct addressing ;#
+"870
+[;  bcf status, 6 ;RP1=0, select bank0 ;#
+"871
+[;  movf _save1, w ;restore global variables ;#
+"872
+[;  movwf _cPortTmp ;#
+"873
+[;  movf _save2, w ;#
+"874
+[;  movwf _cBitTmp ;#
+"875
+[;  movf _save3, w ;#
+"876
+[;  movwf _cBitPat ;#
+"877
+[;  movf _save4, w ;#
+"878
+[;  movwf _cStatusR ;#
+"879
+[;  movf _save5, w ;Restore variables for pause function ;#
+"880
+[;  movwf _pause_time ;#
+"881
+[;  movf _save6, w ;time is 2 bytes long ;#
+"882
+[;  movwf _pause_time+1 ;#
+"883
+[;  movf _save7, w ;#
+"884
+[;  movwf _pause_cTimeTmp ;#
+"885
+[;  movf _save8, w ;Restore variable for read_adc function ;#
+"886
+[;  movwf _read_adc_channel ;#
+"887
+[;  movf _save9, w ;Restore variables for output_low function ;#
+"888
+[;  movwf _output_low_Port ;#
+"889
+[;  movf _save10, w ;#
+"890
+[;  movwf _output_low_Bit ;#
+"891
+[;  movf _save11, w ;Restore variables for output_high function ;#
+"892
+[;  movwf _output_high_Port ;#
+"893
+[;  movf _save12, w ;#
+"894
+[;  movwf _output_high_Bit ;#
+"895
+[;  movf _save13, w ;Restore variables for read_input function ;#
+"896
+[;  movwf _read_input_Port ;#
+"897
+[;  movf _save14, w ;#
+"898
+[;  movwf _read_input_Bit ;#
+"899
+[;  movf _save15, w ;Restore variables for motorspeed function ;#
+"900
+[;  movwf _motorspeed_motornum ;#
+"901
+[;  movf _save16, w ;#
+"902
+[;  movwf _motorspeed_speed ;#
+"903
+[;  clrf _isr_active ;reset flag used by pause() ;#
+[; ;PICinit.c: 906: return;
+"906
+[e $UE 45  ]
+[; ;PICinit.c: 907: }
+"907
+[e :UE 45 ]
+}
+"914
+[v _version `(v 1 ef ]
+{
+[; ;PICinit.c: 910: void version ()
+[; ;PICinit.c: 914: {
+[e :U _version ]
+[f ]
+"915
+[v _i `uc 1 a ]
+[; ;PICinit.c: 915: char i=0;
+[e = _i -> -> 0 `i `uc ]
+[; ;PICinit.c: 916: while (ver[i] != 0)
+"916
+[e $U 47  ]
+[e :U 48 ]
+[; ;PICinit.c: 917: {
+"917
+{
+[; ;PICinit.c: 918: putchar (ver[i]);
+"918
+[e ( _putchar (1 *U + _ver * -> _i `ux -> -> # *U _ver `ui `ux ]
+[; ;PICinit.c: 919: i++;
+"919
+[e ++ _i -> -> 1 `i `uc ]
+"920
+}
+[e :U 47 ]
+"916
+[e $ != -> *U + _ver * -> _i `ux -> -> # *U _ver `ui `ux `i -> 0 `i 48  ]
+[e :U 49 ]
+[; ;PICinit.c: 920: }
+[; ;PICinit.c: 921: putchar(13);
+"921
+[e ( _putchar (1 -> -> 13 `i `uc ]
+[; ;PICinit.c: 922: return;
+"922
+[e $UE 46  ]
+[; ;PICinit.c: 923: }
+"923
+[e :UE 46 ]
+}
+[; ;test1.c: 7: void motorsoff();
+[; ;test1.c: 8: void forward();
+[; ;test1.c: 9: void backward();
+[; ;test1.c: 10: void pivotleft();
+[; ;test1.c: 11: void pivotright();
+[; ;test1.c: 12: void target();
+[; ;test1.c: 13: void navigation();
+[; ;test1.c: 14: void test(int x);
+[i _sensor1
+"16 test1.c
+-> -> 0 `i `ui
+]
+[i _sensor3
+-> -> 0 `i `ui
+]
+[i _sensor5
+-> -> 0 `i `ui
+]
+[i _sensor
+-> -> 0 `i `ui
+]
+[i _sum
+-> -> 0 `i `ui
+]
+[i _b
+-> -> 0 `i `ui
+]
+[; ;test1.c: 16: unsigned int sensor0[5],sensor1=0,sensor2[5],sensor3=0,sensor5=0,sensor=0,floor,color,i,sum=0,average,a,b=0;
+"18
+[v _main `(i 1 ef ]
+{
+[; ;test1.c: 17: main()
+[; ;test1.c: 18: {
+[e :U _main ]
+[f ]
+[; ;test1.c: 20: configurePIC();
+"20
+[e ( _configurePIC ..  ]
+[; ;test1.c: 21: INTE = 1;
+"21
+[e = _INTE -> -> 1 `i `b ]
+[; ;test1.c: 22: GIE = 1;
+"22
+[e = _GIE -> -> 1 `i `b ]
+[; ;test1.c: 23: motorspeed(1,93);
+"23
+[e ( _motorspeed (2 , -> -> 1 `i `uc -> -> 93 `i `uc ]
+[; ;test1.c: 24: motorspeed(2,100);
+"24
+[e ( _motorspeed (2 , -> -> 2 `i `uc -> -> 100 `i `uc ]
+[; ;test1.c: 25: output_high('a',4);
+"25
+[e ( _output_high (2 , -> -> 97 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 26: output_high('e',2);
+"26
+[e ( _output_high (2 , -> -> 101 `ui `uc -> -> 2 `i `uc ]
+[; ;test1.c: 29: output_high('d',0);
+"29
+[e ( _output_high (2 , -> -> 100 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 30: sensor1=read_adc(1);
+"30
+[e = _sensor1 ( _read_adc (1 -> -> 1 `i `uc ]
+[; ;test1.c: 31: pause(100);
+"31
+[e ( _pause (1 -> -> 100 `i `ui ]
+[; ;test1.c: 32: output_low('d',0);
+"32
+[e ( _output_low (2 , -> -> 100 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 33: if(sensor1<20000)
+"33
+[e $ ! < _sensor1 -> -> 20000 `i `ui 51  ]
+[; ;test1.c: 34: floor=0;
+"34
+[e = _floor -> -> 0 `i `ui ]
+[e $U 52  ]
+"35
+[e :U 51 ]
+[; ;test1.c: 35: else
+[; ;test1.c: 36: floor=1;
+"36
+[e = _floor -> -> 1 `i `ui ]
+[e :U 52 ]
+[; ;test1.c: 38: while(1)
+"38
+[e :U 54 ]
+[; ;test1.c: 39: {
+"39
+{
+[; ;test1.c: 40: output_high('d',0);
+"40
+[e ( _output_high (2 , -> -> 100 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 41: sensor1=read_adc(1);
+"41
+[e = _sensor1 ( _read_adc (1 -> -> 1 `i `uc ]
+[; ;test1.c: 42: pause(100);
+"42
+[e ( _pause (1 -> -> 100 `i `ui ]
+[; ;test1.c: 43: output_low('d',0);
+"43
+[e ( _output_low (2 , -> -> 100 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 44: if(sensor1<20000)
+"44
+[e $ ! < _sensor1 -> -> 20000 `i `ui 56  ]
+[; ;test1.c: 45: color=0;
+"45
+[e = _color -> -> 0 `i `ui ]
+[e $U 57  ]
+"46
+[e :U 56 ]
+[; ;test1.c: 46: else
+[; ;test1.c: 47: color=1;
+"47
+[e = _color -> -> 1 `i `ui ]
+[e :U 57 ]
+[; ;test1.c: 49: if(color==floor)
+"49
+[e $ ! == _color _floor 58  ]
+[; ;test1.c: 50: navigation();
+"50
+[e ( _navigation ..  ]
+[e $U 59  ]
+"51
+[e :U 58 ]
+[; ;test1.c: 51: else
+[; ;test1.c: 52: target();
+"52
+[e ( _target ..  ]
+[e :U 59 ]
+[; ;test1.c: 53: forward();
+"53
+[e ( _forward ..  ]
+[; ;test1.c: 54: pause(2800);
+"54
+[e ( _pause (1 -> -> 2800 `i `ui ]
+[; ;test1.c: 55: motorsoff();
+"55
+[e ( _motorsoff ..  ]
+"66
+}
+[e :U 53 ]
+"38
+[e $U 54  ]
+[e :U 55 ]
+[; ;test1.c: 66: }
+[; ;test1.c: 67: }
+"67
+[e :UE 50 ]
+}
+"70
+[v _test `(v 1 ef1`i ]
+{
+[; ;test1.c: 69: void test(int x)
+[; ;test1.c: 70: {
+[e :U _test ]
+[v _x `i 1 r1 ]
+[f ]
+"71
+[v _y `i 1 a ]
+[; ;test1.c: 71: int y=0;
+[e = _y -> 0 `i ]
+[; ;test1.c: 72: sensor3 = read_adc (3);
+"72
+[e = _sensor3 ( _read_adc (1 -> -> 3 `i `uc ]
+[; ;test1.c: 73: sensor5 = read_adc (5);
+"73
+[e = _sensor5 ( _read_adc (1 -> -> 5 `i `uc ]
+[; ;test1.c: 75: sensor0[0]=read_adc(0);
+"75
+[e = *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ( _read_adc (1 -> -> 0 `i `uc ]
+[; ;test1.c: 76: sensor=sensor0[0];
+"76
+[e = _sensor *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ]
+[; ;test1.c: 78: while(y<x)
+"78
+[e $U 61  ]
+[e :U 62 ]
+[; ;test1.c: 79: {
+"79
+{
+[; ;test1.c: 80: sensor=sensor0[0];
+"80
+[e = _sensor *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ]
+[; ;test1.c: 81: if(sensor3<sensor5)
+"81
+[e $ ! < _sensor3 _sensor5 64  ]
+[; ;test1.c: 82: pivotleft();
+"82
+[e ( _pivotleft ..  ]
+[e $U 65  ]
+"83
+[e :U 64 ]
+[; ;test1.c: 83: else
+[; ;test1.c: 84: pivotright();
+"84
+[e ( _pivotright ..  ]
+[e :U 65 ]
+[; ;test1.c: 85: pause(90);
+"85
+[e ( _pause (1 -> -> 90 `i `ui ]
+[; ;test1.c: 87: sensor0[0]=read_adc(0);
+"87
+[e = *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ( _read_adc (1 -> -> 0 `i `uc ]
+[; ;test1.c: 88: y++;
+"88
+[e ++ _y -> 1 `i ]
+"89
+}
+[e :U 61 ]
+"78
+[e $ < _y _x 62  ]
+[e :U 63 ]
+[; ;test1.c: 89: }
+[; ;test1.c: 91: motorsoff();
+"91
+[e ( _motorsoff ..  ]
+[; ;test1.c: 92: return;
+"92
+[e $UE 60  ]
+[; ;test1.c: 93: }
+"93
+[e :UE 60 ]
+}
+"95
+[v _motorsoff `(v 1 ef ]
+{
+[; ;test1.c: 94: void motorsoff()
+[; ;test1.c: 95: {
+[e :U _motorsoff ]
+[f ]
+[; ;test1.c: 96: output_low('C',0);
+"96
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 97: output_low('C',5);
+"97
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 5 `i `uc ]
+[; ;test1.c: 98: output_low('C',3);
+"98
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 3 `i `uc ]
+[; ;test1.c: 99: output_low('C',4);
+"99
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 100: return;
+"100
+[e $UE 66  ]
+[; ;test1.c: 101: }
+"101
+[e :UE 66 ]
+}
+"104
+[v _forward `(v 1 ef ]
+{
+[; ;test1.c: 103: void forward()
+[; ;test1.c: 104: {
+[e :U _forward ]
+[f ]
+[; ;test1.c: 105: output_low('C',5);
+"105
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 5 `i `uc ]
+[; ;test1.c: 106: output_low('C',3);
+"106
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 3 `i `uc ]
+[; ;test1.c: 107: output_high('C',4);
+"107
+[e ( _output_high (2 , -> -> 67 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 108: output_high('C',0);
+"108
+[e ( _output_high (2 , -> -> 67 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 109: return;
+"109
+[e $UE 67  ]
+[; ;test1.c: 110: }
+"110
+[e :UE 67 ]
+}
+"113
+[v _backward `(v 1 ef ]
+{
+[; ;test1.c: 112: void backward()
+[; ;test1.c: 113: {
+[e :U _backward ]
+[f ]
+[; ;test1.c: 114: output_low('C',0);
+"114
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 115: output_high('C',5);
+"115
+[e ( _output_high (2 , -> -> 67 `ui `uc -> -> 5 `i `uc ]
+[; ;test1.c: 116: output_low('C',4);
+"116
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 117: output_high('C',3);
+"117
+[e ( _output_high (2 , -> -> 67 `ui `uc -> -> 3 `i `uc ]
+[; ;test1.c: 118: return;
+"118
+[e $UE 68  ]
+[; ;test1.c: 119: }
+"119
+[e :UE 68 ]
+}
+"122
+[v _pivotleft `(v 1 ef ]
+{
+[; ;test1.c: 121: void pivotleft()
+[; ;test1.c: 122: {
+[e :U _pivotleft ]
+[f ]
+[; ;test1.c: 123: output_low('C',5);
+"123
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 5 `i `uc ]
+[; ;test1.c: 124: output_low('C',4);
+"124
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 125: output_high('C',3);
+"125
+[e ( _output_high (2 , -> -> 67 `ui `uc -> -> 3 `i `uc ]
+[; ;test1.c: 126: output_high('C',0);
+"126
+[e ( _output_high (2 , -> -> 67 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 128: return;
+"128
+[e $UE 69  ]
+[; ;test1.c: 129: }
+"129
+[e :UE 69 ]
+}
+"132
+[v _pivotright `(v 1 ef ]
+{
+[; ;test1.c: 131: void pivotright()
+[; ;test1.c: 132: {
+[e :U _pivotright ]
+[f ]
+[; ;test1.c: 133: output_low('C',0);
+"133
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 134: output_low('C',3);
+"134
+[e ( _output_low (2 , -> -> 67 `ui `uc -> -> 3 `i `uc ]
+[; ;test1.c: 135: output_high('C',4);
+"135
+[e ( _output_high (2 , -> -> 67 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 136: output_high('C',5);
+"136
+[e ( _output_high (2 , -> -> 67 `ui `uc -> -> 5 `i `uc ]
+[; ;test1.c: 138: return;
+"138
+[e $UE 70  ]
+[; ;test1.c: 139: }
+"139
+[e :UE 70 ]
+}
+"142
+[v _target `(v 1 ef ]
+{
+[; ;test1.c: 141: void target()
+[; ;test1.c: 142: {
+[e :U _target ]
+[f ]
+[; ;test1.c: 143: a=0;
+"143
+[e = _a -> -> 0 `i `ui ]
+[; ;test1.c: 144: sensor3 = read_adc (3);
+"144
+[e = _sensor3 ( _read_adc (1 -> -> 3 `i `uc ]
+[; ;test1.c: 145: sensor5 = read_adc (5);
+"145
+[e = _sensor5 ( _read_adc (1 -> -> 5 `i `uc ]
+[; ;test1.c: 146: sensor0[0]=read_adc(0);
+"146
+[e = *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ( _read_adc (1 -> -> 0 `i `uc ]
+[; ;test1.c: 147: sensor2[0]=read_adc(2);
+"147
+[e = *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux ( _read_adc (1 -> -> 2 `i `uc ]
+[; ;test1.c: 148: sensor=sensor2[0];
+"148
+[e = _sensor *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux ]
+[; ;test1.c: 150: while(sensor>12000||sensor0[0]<12000)
+"150
+[e $U 72  ]
+[e :U 73 ]
+[; ;test1.c: 151: {if(a>23)
+"151
+{
+[e $ ! > _a -> -> 23 `i `ui 75  ]
+[; ;test1.c: 152: {forward();break;}
+"152
+{
+[e ( _forward ..  ]
+[e $U 74  ]
+}
+[e :U 75 ]
+[; ;test1.c: 153: sensor=sensor2[0];
+"153
+[e = _sensor *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux ]
+[; ;test1.c: 154: if(sensor3<sensor5)
+"154
+[e $ ! < _sensor3 _sensor5 76  ]
+[; ;test1.c: 155: pivotleft();
+"155
+[e ( _pivotleft ..  ]
+[e $U 77  ]
+"156
+[e :U 76 ]
+[; ;test1.c: 156: else
+[; ;test1.c: 157: pivotright();
+"157
+[e ( _pivotright ..  ]
+[e :U 77 ]
+[; ;test1.c: 158: pause(90);
+"158
+[e ( _pause (1 -> -> 90 `i `ui ]
+[; ;test1.c: 160: sensor2[0]=read_adc(2);
+"160
+[e = *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux ( _read_adc (1 -> -> 2 `i `uc ]
+[; ;test1.c: 161: a++;
+"161
+[e ++ _a -> -> 1 `i `ui ]
+[; ;test1.c: 162: sensor0[0]=read_adc(0);
+"162
+[e = *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ( _read_adc (1 -> -> 0 `i `uc ]
+"163
+}
+[e :U 72 ]
+"150
+[e $ || > _sensor -> -> 12000 `i `ui < *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux -> -> 12000 `i `ui 73  ]
+[e :U 74 ]
+[; ;test1.c: 163: }
+[; ;test1.c: 164: motorsoff();
+"164
+[e ( _motorsoff ..  ]
+[; ;test1.c: 165: motorspeed(1,50);
+"165
+[e ( _motorspeed (2 , -> -> 1 `i `uc -> -> 50 `i `uc ]
+[; ;test1.c: 166: motorspeed(2,70);
+"166
+[e ( _motorspeed (2 , -> -> 2 `i `uc -> -> 70 `i `uc ]
+[; ;test1.c: 167: for(i=0,sum=0;i<5;i++)
+"167
+{
+[e ; = _i -> -> 0 `i `ui = _sum -> -> 0 `i `ui ]
+[e $U 81  ]
+"168
+[e :U 78 ]
+[; ;test1.c: 168: {
+{
+[; ;test1.c: 169: sensor2[i]=read_adc(2);
+"169
+[e = *U + &U _sensor2 * -> _i `ux -> -> # *U &U _sensor2 `ui `ux ( _read_adc (1 -> -> 2 `i `uc ]
+[; ;test1.c: 170: sum+=sensor2[i];
+"170
+[e =+ _sum *U + &U _sensor2 * -> _i `ux -> -> # *U &U _sensor2 `ui `ux ]
+"171
+}
+"167
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 81 ]
+[e $ < _i -> -> 5 `i `ui 78  ]
+[e :U 79 ]
+"171
+}
+[; ;test1.c: 171: }
+[; ;test1.c: 172: average=sum/5;
+"172
+[e = _average / _sum -> -> 5 `i `ui ]
+[; ;test1.c: 173: sensor2[0]=average;
+"173
+[e = *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux _average ]
+[; ;test1.c: 174: sensor=sensor2[0];
+"174
+[e = _sensor *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux ]
+[; ;test1.c: 176: sensor3 = read_adc (3);
+"176
+[e = _sensor3 ( _read_adc (1 -> -> 3 `i `uc ]
+[; ;test1.c: 177: sensor5 = read_adc (5);
+"177
+[e = _sensor5 ( _read_adc (1 -> -> 5 `i `uc ]
+[; ;test1.c: 179: while(sensor2[0]<=sensor)
+"179
+[e $U 82  ]
+[e :U 83 ]
+[; ;test1.c: 180: {
+"180
+{
+[; ;test1.c: 181: sensor=sensor2[0];
+"181
+[e = _sensor *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux ]
+[; ;test1.c: 182: if(sensor3<sensor5)
+"182
+[e $ ! < _sensor3 _sensor5 85  ]
+[; ;test1.c: 184: pivotleft();
+"184
+[e ( _pivotleft ..  ]
+[e $U 86  ]
+"187
+[e :U 85 ]
+[; ;test1.c: 187: else
+[; ;test1.c: 188: pivotright();
+"188
+[e ( _pivotright ..  ]
+[e :U 86 ]
+[; ;test1.c: 189: pause(90);
+"189
+[e ( _pause (1 -> -> 90 `i `ui ]
+[; ;test1.c: 190: for(i=0,sum=0;i<5;i++)
+"190
+{
+[e ; = _i -> -> 0 `i `ui = _sum -> -> 0 `i `ui ]
+[e $U 90  ]
+"191
+[e :U 87 ]
+[; ;test1.c: 191: {
+{
+[; ;test1.c: 192: sensor2[i]=read_adc(2);
+"192
+[e = *U + &U _sensor2 * -> _i `ux -> -> # *U &U _sensor2 `ui `ux ( _read_adc (1 -> -> 2 `i `uc ]
+[; ;test1.c: 193: sum+=sensor2[i];
+"193
+[e =+ _sum *U + &U _sensor2 * -> _i `ux -> -> # *U &U _sensor2 `ui `ux ]
+"194
+}
+"190
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 90 ]
+[e $ < _i -> -> 5 `i `ui 87  ]
+[e :U 88 ]
+"194
+}
+[; ;test1.c: 194: }
+[; ;test1.c: 195: average=sum/5;
+"195
+[e = _average / _sum -> -> 5 `i `ui ]
+[; ;test1.c: 196: sensor2[0]=average;
+"196
+[e = *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux _average ]
+"197
+}
+[e :U 82 ]
+"179
+[e $ <= *U + &U _sensor2 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor2 `ui `ux _sensor 83  ]
+[e :U 84 ]
+[; ;test1.c: 197: }
+[; ;test1.c: 198: motorsoff();
+"198
+[e ( _motorsoff ..  ]
+[; ;test1.c: 199: pause(100);
+"199
+[e ( _pause (1 -> -> 100 `i `ui ]
+[; ;test1.c: 200: motorspeed(1,93);
+"200
+[e ( _motorspeed (2 , -> -> 1 `i `uc -> -> 93 `i `uc ]
+[; ;test1.c: 201: motorspeed(2,100);
+"201
+[e ( _motorspeed (2 , -> -> 2 `i `uc -> -> 100 `i `uc ]
+[; ;test1.c: 202: forward();
+"202
+[e ( _forward ..  ]
+[; ;test1.c: 203: return;
+"203
+[e $UE 71  ]
+[; ;test1.c: 208: }
+"208
+[e :UE 71 ]
+}
+"211
+[v _navigation `(v 1 ef ]
+{
+[; ;test1.c: 210: void navigation()
+[; ;test1.c: 211: {
+[e :U _navigation ]
+[f ]
+[; ;test1.c: 212: b=0;
+"212
+[e = _b -> -> 0 `i `ui ]
+[; ;test1.c: 213: sensor3 = read_adc (3);
+"213
+[e = _sensor3 ( _read_adc (1 -> -> 3 `i `uc ]
+[; ;test1.c: 214: sensor5 = read_adc (5);
+"214
+[e = _sensor5 ( _read_adc (1 -> -> 5 `i `uc ]
+[; ;test1.c: 216: sensor0[0]=read_adc(0);
+"216
+[e = *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ( _read_adc (1 -> -> 0 `i `uc ]
+[; ;test1.c: 217: sensor=sensor0[0];
+"217
+[e = _sensor *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ]
+[; ;test1.c: 219: while(sensor>10000)
+"219
+[e $U 92  ]
+[e :U 93 ]
+[; ;test1.c: 220: {if(b>23)
+"220
+{
+[e $ ! > _b -> -> 23 `i `ui 95  ]
+[; ;test1.c: 221: {forward();break;}
+"221
+{
+[e ( _forward ..  ]
+[e $U 94  ]
+}
+[e :U 95 ]
+[; ;test1.c: 222: sensor=sensor0[0];
+"222
+[e = _sensor *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ]
+[; ;test1.c: 223: if(sensor3<sensor5)
+"223
+[e $ ! < _sensor3 _sensor5 96  ]
+[; ;test1.c: 224: pivotleft();
+"224
+[e ( _pivotleft ..  ]
+[e $U 97  ]
+"225
+[e :U 96 ]
+[; ;test1.c: 225: else
+[; ;test1.c: 226: pivotright();
+"226
+[e ( _pivotright ..  ]
+[e :U 97 ]
+[; ;test1.c: 227: pause(90);
+"227
+[e ( _pause (1 -> -> 90 `i `ui ]
+[; ;test1.c: 229: sensor0[0]=read_adc(0);
+"229
+[e = *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ( _read_adc (1 -> -> 0 `i `uc ]
+[; ;test1.c: 230: b++;
+"230
+[e ++ _b -> -> 1 `i `ui ]
+"231
+}
+[e :U 92 ]
+"219
+[e $ > _sensor -> -> 10000 `i `ui 93  ]
+[e :U 94 ]
+[; ;test1.c: 231: }
+[; ;test1.c: 232: motorsoff();
+"232
+[e ( _motorsoff ..  ]
+[; ;test1.c: 233: pause(500);
+"233
+[e ( _pause (1 -> -> 500 `i `ui ]
+[; ;test1.c: 234: motorspeed(1,50);
+"234
+[e ( _motorspeed (2 , -> -> 1 `i `uc -> -> 50 `i `uc ]
+[; ;test1.c: 235: motorspeed(2,70);
+"235
+[e ( _motorspeed (2 , -> -> 2 `i `uc -> -> 70 `i `uc ]
+[; ;test1.c: 236: for(i=0,sum=0;i<5;i++)
+"236
+{
+[e ; = _i -> -> 0 `i `ui = _sum -> -> 0 `i `ui ]
+[e $U 101  ]
+"237
+[e :U 98 ]
+[; ;test1.c: 237: {
+{
+[; ;test1.c: 238: sensor0[i]=read_adc(0);
+"238
+[e = *U + &U _sensor0 * -> _i `ux -> -> # *U &U _sensor0 `ui `ux ( _read_adc (1 -> -> 0 `i `uc ]
+[; ;test1.c: 239: sum+=sensor0[i];
+"239
+[e =+ _sum *U + &U _sensor0 * -> _i `ux -> -> # *U &U _sensor0 `ui `ux ]
+"240
+}
+"236
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 101 ]
+[e $ < _i -> -> 5 `i `ui 98  ]
+[e :U 99 ]
+"240
+}
+[; ;test1.c: 240: }
+[; ;test1.c: 241: average=sum/5;
+"241
+[e = _average / _sum -> -> 5 `i `ui ]
+[; ;test1.c: 242: sensor0[0]=average;
+"242
+[e = *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux _average ]
+[; ;test1.c: 243: sensor=sensor0[0];
+"243
+[e = _sensor *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ]
+[; ;test1.c: 245: sensor3 = read_adc (3);
+"245
+[e = _sensor3 ( _read_adc (1 -> -> 3 `i `uc ]
+[; ;test1.c: 246: sensor5 = read_adc (5);
+"246
+[e = _sensor5 ( _read_adc (1 -> -> 5 `i `uc ]
+[; ;test1.c: 248: while(sensor0[0]<=sensor)
+"248
+[e $U 102  ]
+[e :U 103 ]
+[; ;test1.c: 249: {
+"249
+{
+[; ;test1.c: 250: sensor=sensor0[0];
+"250
+[e = _sensor *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux ]
+[; ;test1.c: 251: if(sensor3<sensor5)
+"251
+[e $ ! < _sensor3 _sensor5 105  ]
+[; ;test1.c: 253: pivotleft();
+"253
+[e ( _pivotleft ..  ]
+[e $U 106  ]
+"256
+[e :U 105 ]
+[; ;test1.c: 256: else
+[; ;test1.c: 257: pivotright();
+"257
+[e ( _pivotright ..  ]
+[e :U 106 ]
+[; ;test1.c: 258: pause(90);
+"258
+[e ( _pause (1 -> -> 90 `i `ui ]
+[; ;test1.c: 259: for(i=0,sum=0;i<5;i++)
+"259
+{
+[e ; = _i -> -> 0 `i `ui = _sum -> -> 0 `i `ui ]
+[e $U 110  ]
+"260
+[e :U 107 ]
+[; ;test1.c: 260: {
+{
+[; ;test1.c: 261: sensor0[i]=read_adc(0);
+"261
+[e = *U + &U _sensor0 * -> _i `ux -> -> # *U &U _sensor0 `ui `ux ( _read_adc (1 -> -> 0 `i `uc ]
+[; ;test1.c: 262: sum+=sensor0[i];
+"262
+[e =+ _sum *U + &U _sensor0 * -> _i `ux -> -> # *U &U _sensor0 `ui `ux ]
+"263
+}
+"259
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 110 ]
+[e $ < _i -> -> 5 `i `ui 107  ]
+[e :U 108 ]
+"263
+}
+[; ;test1.c: 263: }
+[; ;test1.c: 264: average=sum/5;
+"264
+[e = _average / _sum -> -> 5 `i `ui ]
+[; ;test1.c: 265: sensor0[0]=average;
+"265
+[e = *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux _average ]
+"267
+}
+[e :U 102 ]
+"248
+[e $ <= *U + &U _sensor0 * -> -> -> 0 `i `ui `ux -> -> # *U &U _sensor0 `ui `ux _sensor 103  ]
+[e :U 104 ]
+[; ;test1.c: 267: }
+[; ;test1.c: 268: motorsoff();
+"268
+[e ( _motorsoff ..  ]
+[; ;test1.c: 269: pause(500);
+"269
+[e ( _pause (1 -> -> 500 `i `ui ]
+[; ;test1.c: 270: motorspeed(1,93);
+"270
+[e ( _motorspeed (2 , -> -> 1 `i `uc -> -> 93 `i `uc ]
+[; ;test1.c: 271: motorspeed(2,100);
+"271
+[e ( _motorspeed (2 , -> -> 2 `i `uc -> -> 100 `i `uc ]
+[; ;test1.c: 272: forward();
+"272
+[e ( _forward ..  ]
+[; ;test1.c: 273: return;
+"273
+[e $UE 91  ]
+[; ;test1.c: 277: }
+"277
+[e :UE 91 ]
+}
+"280
+[v F614 `(v 1 tf ]
+[v _isr `IF614 1 e ]
+{
+[; ;test1.c: 279: void interrupt isr (void)
+[; ;test1.c: 280: {
+[e :U _isr ]
+[f ]
+[; ;test1.c: 281: if (save_data ( ) ==0)
+"281
+[e $ ! == -> ( _save_data ..  `i -> 0 `i 112  ]
+[; ;test1.c: 282: {return;}
+"282
+{
+[e $UE 111  ]
+}
+[e :U 112 ]
+[; ;test1.c: 285: pause (5);
+"285
+[e ( _pause (1 -> -> 5 `i `ui ]
+[; ;test1.c: 286: if ((PORTB & 0x01) == 1)
+"286
+[e $ ! == & -> _PORTB `i -> 1 `i -> 1 `i 113  ]
+[; ;test1.c: 287: {
+"287
+{
+[; ;test1.c: 288: INTF = 0;
+"288
+[e = _INTF -> -> 0 `i `b ]
+[; ;test1.c: 289: restore_data ( );
+"289
+[e ( _restore_data ..  ]
+[; ;test1.c: 290: return;
+"290
+[e $UE 111  ]
+"291
+}
+[e :U 113 ]
+[; ;test1.c: 291: }
+[; ;test1.c: 292: output_low ('c', 0);
+"292
+[e ( _output_low (2 , -> -> 99 `ui `uc -> -> 0 `i `uc ]
+[; ;test1.c: 293: output_low ('c', 5);
+"293
+[e ( _output_low (2 , -> -> 99 `ui `uc -> -> 5 `i `uc ]
+[; ;test1.c: 294: output_low ('c', 3);
+"294
+[e ( _output_low (2 , -> -> 99 `ui `uc -> -> 3 `i `uc ]
+[; ;test1.c: 295: output_low ('c', 4);
+"295
+[e ( _output_low (2 , -> -> 99 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 296: pause (50);
+"296
+[e ( _pause (1 -> -> 50 `i `ui ]
+[; ;test1.c: 298: if ((read_input ('E', 0)) == 0&&read_input('E',1)!=0)
+"298
+[e $ ! && == -> ( _read_input (2 , -> -> 69 `ui `uc -> -> 0 `i `uc `i -> 0 `i != -> ( _read_input (2 , -> -> 69 `ui `uc -> -> 1 `i `uc `i -> 0 `i 114  ]
+[; ;test1.c: 299: {
+"299
+{
+[; ;test1.c: 300: output_high ('E', 2);
+"300
+[e ( _output_high (2 , -> -> 69 `ui `uc -> -> 2 `i `uc ]
+[; ;test1.c: 301: output_low ('A', 4);
+"301
+[e ( _output_low (2 , -> -> 65 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 303: backward();
+"303
+[e ( _backward ..  ]
+[; ;test1.c: 304: pause(425);
+"304
+[e ( _pause (1 -> -> 425 `i `ui ]
+[; ;test1.c: 305: motorsoff();
+"305
+[e ( _motorsoff ..  ]
+[; ;test1.c: 306: pivotleft();
+"306
+[e ( _pivotleft ..  ]
+[; ;test1.c: 307: pause(125);
+"307
+[e ( _pause (1 -> -> 125 `i `ui ]
+[; ;test1.c: 308: motorsoff();
+"308
+[e ( _motorsoff ..  ]
+[; ;test1.c: 309: forward();
+"309
+[e ( _forward ..  ]
+"310
+}
+[; ;test1.c: 310: }
+[e $U 115  ]
+"311
+[e :U 114 ]
+[; ;test1.c: 311: else if ((read_input ('E', 1)) == 0&&read_input('E',0)!=0)
+[e $ ! && == -> ( _read_input (2 , -> -> 69 `ui `uc -> -> 1 `i `uc `i -> 0 `i != -> ( _read_input (2 , -> -> 69 `ui `uc -> -> 0 `i `uc `i -> 0 `i 116  ]
+[; ;test1.c: 312: {
+"312
+{
+[; ;test1.c: 313: output_high ('A', 4);
+"313
+[e ( _output_high (2 , -> -> 65 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 314: output_low ('E', 2);
+"314
+[e ( _output_low (2 , -> -> 69 `ui `uc -> -> 2 `i `uc ]
+[; ;test1.c: 316: backward();
+"316
+[e ( _backward ..  ]
+[; ;test1.c: 317: pause(425);
+"317
+[e ( _pause (1 -> -> 425 `i `ui ]
+[; ;test1.c: 318: motorsoff();
+"318
+[e ( _motorsoff ..  ]
+[; ;test1.c: 319: pivotright();
+"319
+[e ( _pivotright ..  ]
+[; ;test1.c: 320: pause(125);
+"320
+[e ( _pause (1 -> -> 125 `i `ui ]
+[; ;test1.c: 321: motorsoff();
+"321
+[e ( _motorsoff ..  ]
+[; ;test1.c: 322: forward();
+"322
+[e ( _forward ..  ]
+"323
+}
+[; ;test1.c: 323: }
+[e $U 117  ]
+"324
+[e :U 116 ]
+[; ;test1.c: 324: else if ((read_input ('E', 1)) == 0&&read_input('E',0)==0)
+[e $ ! && == -> ( _read_input (2 , -> -> 69 `ui `uc -> -> 1 `i `uc `i -> 0 `i == -> ( _read_input (2 , -> -> 69 `ui `uc -> -> 0 `i `uc `i -> 0 `i 118  ]
+[; ;test1.c: 325: {
+"325
+{
+[; ;test1.c: 326: output_low ('A', 4);
+"326
+[e ( _output_low (2 , -> -> 65 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 327: output_low ('E', 2);
+"327
+[e ( _output_low (2 , -> -> 69 `ui `uc -> -> 2 `i `uc ]
+[; ;test1.c: 330: sensor3=read_adc(3);
+"330
+[e = _sensor3 ( _read_adc (1 -> -> 3 `i `uc ]
+[; ;test1.c: 331: sensor5=read_adc(5);
+"331
+[e = _sensor5 ( _read_adc (1 -> -> 5 `i `uc ]
+[; ;test1.c: 332: backward();
+"332
+[e ( _backward ..  ]
+[; ;test1.c: 333: pause(425);
+"333
+[e ( _pause (1 -> -> 425 `i `ui ]
+[; ;test1.c: 334: motorsoff();
+"334
+[e ( _motorsoff ..  ]
+[; ;test1.c: 335: if(sensor3<sensor5)
+"335
+[e $ ! < _sensor3 _sensor5 119  ]
+[; ;test1.c: 336: {
+"336
+{
+[; ;test1.c: 337: pivotleft();
+"337
+[e ( _pivotleft ..  ]
+[; ;test1.c: 338: pause(125);
+"338
+[e ( _pause (1 -> -> 125 `i `ui ]
+[; ;test1.c: 339: motorsoff();
+"339
+[e ( _motorsoff ..  ]
+"341
+}
+[; ;test1.c: 341: }
+[e $U 120  ]
+"342
+[e :U 119 ]
+[; ;test1.c: 342: else
+[; ;test1.c: 343: {
+"343
+{
+[; ;test1.c: 344: pivotright();
+"344
+[e ( _pivotright ..  ]
+[; ;test1.c: 345: pause(125);
+"345
+[e ( _pause (1 -> -> 125 `i `ui ]
+[; ;test1.c: 346: motorsoff();
+"346
+[e ( _motorsoff ..  ]
+"347
+}
+[e :U 120 ]
+[; ;test1.c: 347: }
+[; ;test1.c: 348: forward();
+"348
+[e ( _forward ..  ]
+"349
+}
+[e :U 118 ]
+"352
+[e :U 117 ]
+[e :U 115 ]
+[; ;test1.c: 349: }
+[; ;test1.c: 352: if ((PORTB & 0x01) == 1)
+[e $ ! == & -> _PORTB `i -> 1 `i -> 1 `i 121  ]
+[; ;test1.c: 353: {
+"353
+{
+[; ;test1.c: 354: INTF = 0;
+"354
+[e = _INTF -> -> 0 `i `b ]
+[; ;test1.c: 355: output_high ('A', 4);
+"355
+[e ( _output_high (2 , -> -> 65 `ui `uc -> -> 4 `i `uc ]
+[; ;test1.c: 356: output_high ('E', 2);
+"356
+[e ( _output_high (2 , -> -> 69 `ui `uc -> -> 2 `i `uc ]
+"357
+}
+[e :U 121 ]
+[; ;test1.c: 357: }
+[; ;test1.c: 358: restore_data ( );
+"358
+[e ( _restore_data ..  ]
+[; ;test1.c: 359: return;
+"359
+[e $UE 111  ]
+[; ;test1.c: 360: }
+"360
+[e :UE 111 ]
+}
+[a 1C 118 49 49 70 45 48 49 32 84 105 109 101 114 45 98 101 116 97 0 ]
+
